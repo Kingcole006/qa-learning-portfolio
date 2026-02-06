@@ -19,7 +19,7 @@ Common methods include:
   > POST: Create a new resource or submit data
 
   > PUT/PATCH: Update or replace an existing resource
-  
+
   > DELETE: Remove a resource
 
 - URL (endpoint): The unique address (URL) that specifies the location of the resource the client wants to interact with, such as (https://api.example.com/users).
@@ -32,8 +32,11 @@ JSON is a lightweight data format used by APIs to return structured data in key-
 JSON is a structured way for systems to send data to each other.
  - It's:
     > Human-readable
+
     > Machine-readable
+
     > Consistent
+    
     > Lightweight
 
 ## How to recongize JSON immediately
