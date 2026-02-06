@@ -18,3 +18,27 @@ An edge case tests how the system behaves at limits or unusual conditions.
 - Test scenario: high-level feature or user flow to test
 - Test case: detailed steps and expected result
 - One scenario can have many test cases
+
+## Find Your FIRST BUGS (this is big)
+Now we intentionally try to break OpenCart.
+
+## How to hunt for bugs (QA mindset)
+Try things like:
+- Submit forms with empty fields
+- Enter very long text
+- Click buttons repeatedly
+- Refresh during actions
+- Use browser back/forward buttons
+
+You’re looking for:
+- Confusing behavior
+- Incorrect messages
+- UI glitches
+- Missing validation
+
+## How to THINK before writing the title (simple process)
+Ask yourself:
+- What was I testing? (search, cart, login)
+- What did I expect?
+- What actually happened?
+- What makes this wrong or confusing?
