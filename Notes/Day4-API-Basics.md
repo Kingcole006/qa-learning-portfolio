@@ -14,11 +14,14 @@ Testing them ensures reliablility, secuirty, & performance, preventing costly is
 - Method (GET, POST, etc.): Indicates the type of action to be performed on the resource.
 
 Common methods include:
-  - GET: Retrieve data
-  - POST: Create a new resource or submit data
-  - PUT/PATCH: Update or replace an existing resource
-  - DELETE: Remove a resource
+  > GET: Retrieve data
+
+  > POST: Create a new resource or submit data
+
+  > PUT/PATCH: Update or replace an existing resource
   
+  > DELETE: Remove a resource
+
 - URL (endpoint): The unique address (URL) that specifies the location of the resource the client wants to interact with, such as (https://api.example.com/users).
 - Request body (optional): contains the payload(the actual data), typically formatted as JSON or XML.
 - Response (status + data)
