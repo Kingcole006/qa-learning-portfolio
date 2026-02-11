@@ -1,11 +1,15 @@
 ## HTTP Status Codes — What QA Must Know
 Status codes are grouped into 5 categories:
-- Range	            Meaning
-  > 1xx	          Informational
-  > 2xx	            Success
-  > 3xx	          Redirection
-  > 4xx	         Client Errors
-  > 5xx	         Server Errors
+- Range	     &       Meaning
+  > 1xx	    =     Informational
+
+  > 2xx	    =       Success
+
+  > 3xx	    =     Redirection
+
+  > 4xx	    =    Client Errors
+
+  > 5xx	    =    Server Errors
 
 You mainly care about 2xx, 4xx, and 5xx
 
@@ -127,3 +131,15 @@ Serious bug.
 
 QA meaning:
 Infrastructure or performance problem.
+
+## How a QA Thinks About Status Codes
+Instead of:
+- “Did I get 200?”
+
+You should think:
+- Is this the correct code for this scenario?
+- If I send bad data, do I get 400?
+- If I use wrong method, do I get 405?
+- If auth missing, do I get 401?
+
+Status codes must match behavior.
