@@ -47,7 +47,6 @@ Post CRUD Workflow/
 - **Passed:** 9 ✅
 - **Failed:** 0
 - **Execution Time:** 1.5 seconds
-![Collection Runner Results](../Screenshots/Day7-Test-Results.png)
 
 ### Workflow Logic
 1. **POST /posts** → Creates new post → Stores `newPostId`
