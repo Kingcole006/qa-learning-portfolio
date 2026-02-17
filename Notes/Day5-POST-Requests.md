@@ -113,5 +113,4 @@ This mock API doesn not enforce strict validations
 - Notes: Response structure is consistent; only values differ
 
 ### Day 5 Summary
-
 Tested POST, PUT, PATCH, DELETE, filtering, negative scenarios, and method misuse. Observed that JSONPlaceholder is a mock API that does not enforce validation rules or strict header/method controls. Practiced interpreting API behavior vs. true defects.
