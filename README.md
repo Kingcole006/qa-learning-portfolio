@@ -13,10 +13,23 @@ This repository documents my structured journey from manual QA fundamentals to p
 
 ---
 
+## ⭐ Key Highlights
+
+- 🔒 **Security Testing:** SQL injection, XSS, buffer overflow validation
+- 🤖 **Test Automation:** 42 automated API tests (100% passing)
+- 🔄 **Workflow Orchestration:** Multi-step request chaining
+- 📊 **Advanced Assertions:** Array validation, business logic, performance
+- 🎯 **Negative Testing:** Edge cases, type safety, input validation
+- 💻 **Technical Skills:** JavaScript, Postman, Git, API testing
+
+---
+
 ## 🛠️ Tech Stack
 
 **Testing & Automation:**
 - Postman (API Testing & Automation)
+- Security Testing (SQL Injection, XSS, Input Validation)
+- Negative Testing & Edge Cases
 - JavaScript (Test Scripting)
 - Git & GitHub (Version Control)
 
@@ -78,11 +91,12 @@ This repository documents my structured journey from manual QA fundamentals to p
     > 33/33 tests passing
 - [Detailed Notes](Notes/Day8-Advanced-Postman.md)
 
-**Current Project:** Post CRUD Workflow
-- 4 automated requests (Create, Read, Update, Delete)
-- 9 test assertions (100% passing)
-- Dynamic variable management
-- Complete workflow automation
+**Latest Project:** API Negative Testing Suite ⭐
+- 7 security and edge case tests (15/15 passing)
+- SQL injection & XSS attack validation
+- Buffer overflow testing (10,000 character inputs)
+- Type safety and input validation
+- Professional security documentation
 
 **Next:**
 - Day 9: Data-driven testing
@@ -110,15 +124,73 @@ This repository documents my structured journey from manual QA fundamentals to p
 
 ---
 
+### 2. Advanced Postman Automation Suite
+**Status:** ✅ Complete  
+**Tech:** Postman, JavaScript, JSONPlaceholder API
+
+**Features:**
+- Pre-request scripts for dynamic data generation
+- Postman built-in random variables
+- Advanced assertions (11/11 tests passing)
+- Array and collection validation
+- Business logic testing
+- Response time performance checks
+
+**Key Learning:**
+- Dynamic timestamp generation with `Date.now()`
+- Using `{{$randomX}}` variables
+- Iterating through arrays with `forEach()`
+- Conditional testing logic
+- Professional console logging
+
+---
+
+### 3. API Negative Testing Suite ⭐ NEW
+**Status:** ✅ Complete  
+**Tech:** Postman, JavaScript, Security Testing
+
+**Features:**
+- 7 security and edge case tests (15/15 passing)
+- SQL injection prevention testing
+- XSS attack validation
+- Buffer overflow testing (10,000 character inputs)
+- Type safety validation
+- Input sanitization checks
+- Unicode and special character handling
+
+**Test Coverage:**
+- ✅ Missing required fields
+- ✅ Invalid email formats (6 patterns tested)
+- ✅ Extremely long inputs (buffer overflow)
+- ✅ SQL injection attempts (`DROP TABLE`)
+- ✅ XSS attacks (`<script>` tags)
+- ✅ Null and empty values
+- ✅ Wrong data types (type mismatch)
+
+**Key Learning:**
+- OWASP security testing principles
+- Difference between mock API and production validation
+- Professional security documentation
+- Edge case discovery techniques
+
+**Interview Value:**
+- Can discuss SQL injection prevention
+- Understands XSS mitigation
+- Knows input validation best practices
+- Documents security vulnerabilities clearly
+
+---
+
 ## 📊 Current Stats
 
 | Metric | Count |
 |--------|-------|
-| Days Completed | 8 |
+| Days Completed | 8 ✅ |
 | Test Cases Written | 10+ |
 | Bug Reports Created | 5+ |
-| API Tests Automated | 42 |
-| Collections Built | 5+ |
+| API Tests Automated | 42 🚀 |
+| Collections Built | 3 |
+| Security Tests | 7 🔒 |
 | Git Commits | 24+ |
 
 ---
