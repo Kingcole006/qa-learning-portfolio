@@ -62,6 +62,21 @@ This repository documents my structured journey from manual QA fundamentals to p
 **Focus:** Automated API testing, request chaining, collections
 
 - [Day 7: Environment Variables & Collection Runner](Notes/Day7-Postman-Automation.md) ✅
+- [Day 8: Advanced Postman Automation] ✅
+    > Pre-request scripts for dynamic data generation
+    
+    > Postman built-in random variables
+
+    > Advanced assertions (arrays, collections, business logic)
+
+    > Response time validation
+   
+    > Negative testing suite (security & edge cases)
+
+    > SQL injection & XSS testing
+
+    > 33/33 tests passing
+- [Detailed Notes](Notes/Day8-Advanced-Postman.md)
 
 **Current Project:** Post CRUD Workflow
 - 4 automated requests (Create, Read, Update, Delete)
@@ -70,7 +85,6 @@ This repository documents my structured journey from manual QA fundamentals to p
 - Complete workflow automation
 
 **Next:**
-- Day 8: Pre-request scripts & dynamic data
 - Day 9: Data-driven testing
 - Day 10: Real API with authentication
 
@@ -100,12 +114,12 @@ This repository documents my structured journey from manual QA fundamentals to p
 
 | Metric | Count |
 |--------|-------|
-| Days Completed | 7 |
+| Days Completed | 8 |
 | Test Cases Written | 10+ |
 | Bug Reports Created | 5+ |
-| API Tests Automated | 9 |
-| Collections Built | 1 |
-| Git Commits | 15+ |
+| API Tests Automated | 42 |
+| Collections Built | 5+ |
+| Git Commits | 24+ |
 
 ---
 
