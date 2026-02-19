@@ -39,6 +39,13 @@ This repository documents my structured journey from manual QA fundamentals to p
 - Mocha/Jest (Testing Frameworks)
 - CI/CD Integration
 
+**Automation Tools:**
+- Newman CLI (Command-line test execution)
+- newman-reporter-htmlextra (Professional HTML reports)
+- npm scripts (Automated test workflows)
+- CSV-based data-driven testing
+- CI/CD ready (GitHub Actions, Jenkins, GitLab)
+
 ---
 
 ## 📖 Learning Path
@@ -75,6 +82,7 @@ This repository documents my structured journey from manual QA fundamentals to p
 **Focus:** Automated API testing, request chaining, collections
 
 - [Day 7: Environment Variables & Collection Runner](Notes/Day7-Postman-Automation.md) ✅
+
 - [Day 8: Advanced Postman Automation] ✅
     > Pre-request scripts for dynamic data generation
     
@@ -91,6 +99,24 @@ This repository documents my structured journey from manual QA fundamentals to p
     > 33/33 tests passing
 - [Detailed Notes](Notes/Day8-Advanced-Postman.md)
 
+- Day 9: Data-Driven Testing & Newman CLI ✅
+    > CSV-based test data with 10 user scenarios
+
+    > Newman CLI installation and configuration
+
+    > Command-line test execution (no GUI needed)
+
+    > Professional HTML report generation
+
+    > npm scripts for automated execution
+
+    > CI/CD integration ready
+
+    > 30/30 tests passing (100% pass rate)
+    
+    > **Execution time:** 1.4 seconds
+- [Detailed Notes](Notes/Day9-Newman-CLI.md)
+
 **Latest Project:** API Negative Testing Suite ⭐
 - 7 security and edge case tests (15/15 passing)
 - SQL injection & XSS attack validation
@@ -99,7 +125,6 @@ This repository documents my structured journey from manual QA fundamentals to p
 - Professional security documentation
 
 **Next:**
-- Day 9: Data-driven testing
 - Day 10: Real API with authentication
 
 ---
@@ -185,13 +210,15 @@ This repository documents my structured journey from manual QA fundamentals to p
 
 | Metric | Count |
 |--------|-------|
-| Days Completed | 8 ✅ |
-| Test Cases Written | 10+ |
-| Bug Reports Created | 5+ |
-| API Tests Automated | 42 🚀 |
-| Collections Built | 3 |
-| Security Tests | 7 🔒 |
-| Git Commits | 24+ |
+| **Days Completed** | 9 ✅ |
+| **Test Cases Written** | 10+ |
+| **Bug Reports Created** | 5+ |
+| **API Tests Automated** | 72 🚀 |
+| **Collections Built** | 4 |
+| **Security Tests** | 7 🔒 |
+| **Data-Driven Tests** | 30 📊 |
+| **Git Commits** | 26+ |
+| **Newman CLI Reports** | Generated ✅ |
 
 ---
 
