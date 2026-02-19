@@ -1,0 +1,11 @@
+firstName,lastName,email,username,job,expectedStatus
+John,Doe,john.doe@testmail.com,johndoe,Software Engineer,201
+Jane,Smith,jane.smith@testmail.com,janesmith,Product Manager,201
+Michael,Johnson,michael.j@testmail.com,mikej,Data Analyst,201
+Emily,Brown,emily.brown@testmail.com,emilybrown,QA Engineer,201
+David,Wilson,david.wilson@testmail.com,davidw,DevOps Engineer,201
+Sarah,Davis,sarah.davis@testmail.com,sarahd,UX Designer,201
+James,Miller,james.miller@testmail.com,jamesm,Backend Developer,201
+Lisa,Garcia,lisa.garcia@testmail.com,lisag,Frontend Developer,201
+Robert,Martinez,robert.m@testmail.com,robertm,Security Analyst,201
+Maria,Rodriguez,maria.r@testmail.com,mariar,Automation Engineer,201

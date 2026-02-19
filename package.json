@@ -1,0 +1,26 @@
+{
+  "name": "qa-automation-portfolio",
+  "version": "1.0.0",
+  "description": "QA Automation learning portfolio with Postman/Newman data-driven testing",
+  "scripts": {
+    "test": "newman run data-driven-testing.json -e qa-env.json -d test-users.csv",
+    "test:report": "newman run data-driven-testing.json -e qa-env.json -d test-users.csv -r htmlextra --reporter-htmlextra-export ./reports/test-report-$(date +%Y%m%d-%H%M%S).html",
+    "test:verbose": "newman run data-driven-testing.json -e qa-env.json -d test-users.csv --verbose",
+    "clean": "rm -rf reports/*.html",
+    "test:clean": "npm run clean && npm run test:report"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "testing",
+    "newman",
+    "postman",
+    "api-testing"
+  ],
+  "author": "Cole Brown",
+  "license": "MIT",
+  "devDependencies": {
+    "newman": "^6.2.2",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}

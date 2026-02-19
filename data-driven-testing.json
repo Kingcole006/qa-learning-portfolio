@@ -1,0 +1,69 @@
+{
+  "info": {
+    "name": "Data-Driven Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create User - Data Driven",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const expectedStatus = parseInt(pm.iterationData.get(\"expectedStatus\"));",
+              "",
+              "pm.test(`Status is ${expectedStatus}`, () => {",
+              "    pm.response.to.have.status(expectedStatus);",
+              "});",
+              "",
+              "const response = pm.response.json();",
+              "",
+              "pm.test(\"Response contains ID\", () => {",
+              "    pm.expect(response).to.have.property(\"id\");",
+              "    pm.expect(response.id).to.be.a('number');",
+              "});",
+              "",
+              "pm.test(\"Mock API acknowledged request\", () => {",
+              "    pm.expect(response.id).to.exist;",
+              "});",
+              "",
+              "const firstName = pm.iterationData.get(\"firstName\");",
+              "const lastName = pm.iterationData.get(\"lastName\");",
+              "const email = pm.iterationData.get(\"email\");",
+              "const job = pm.iterationData.get(\"job\");",
+              "",
+              "console.log(`✅ Test iteration for: ${firstName} ${lastName}`);",
+              "console.log(`   Email: ${email}`);",
+              "console.log(`   Job: ${job}`);",
+              "console.log(`   API returned ID: ${response.id}`);"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"{{firstName}} {{lastName}}\",\n    \"email\": \"{{email}}\",\n    \"username\": \"{{username}}\",\n    \"job\": \"{{job}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/users",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      }
+    }
+  ]
+}
