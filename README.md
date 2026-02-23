@@ -219,7 +219,7 @@ newman run data-driven-testing.json -e qa-env.json -d test-users.csv -r htmlextr
 
 ## 📧 Contact
 
-- **LinkedIn:** [Your LinkedIn URL]
+- **LinkedIn:** [https://www.linkedin.com/in/cole-brown-4aba86243/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BH3A14yNWRRuWm4ayRkbt%2BA%3D%3D]
 - **GitHub:** [github.com/Kingcole006](https://github.com/Kingcole006)
 - **Email:** Cole.Brown72@gmail.com
 
