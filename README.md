@@ -30,13 +30,13 @@ I'm **Cole Brown**, transitioning into QA Automation Engineering through a struc
 
 ## 🚀 Featured Projects
 
-### [API Negative Testing Suite](Notes/Day8-Advanced-Postman.md) ⭐
+### [API Negative Testing Suite](Notes/Day08-Advanced-Postman.md) ⭐
 Security-focused test automation covering 7 attack vectors
 - SQL injection & XSS validation
 - Buffer overflow testing (10K characters)
 - 15/15 tests passing
 
-### [Data-Driven Testing Framework](Notes/Day9-Newman-CLI.md) 📊
+### [Data-Driven Testing Framework](Notes/Day09-Newman-CLI.md) 📊
 Scalable automation with CSV data management
 - 99.92% time savings (30 min → 1.4s)
 - Newman CLI execution
@@ -70,7 +70,7 @@ Comprehensive security and auth testing knowledge
 - Request chaining with `pm.environment.set()` and `.get()`
 - Collection Runner automation
 - 9/9 tests passing (100% pass rate)
-- [Detailed Notes](Notes/Day7-Postman-Automation.md)
+- [Detailed Notes](Notes/Day07-Postman-Automation.md)
 
 #### Day 8: Advanced Postman Automation ✅
 - Pre-request scripts for dynamic data generation
@@ -80,8 +80,8 @@ Comprehensive security and auth testing knowledge
 - **Negative Testing Suite:** SQL injection, XSS, buffer overflow
 - Security testing (OWASP principles)
 - 33/33 tests passing (100% pass rate)
-- [Detailed Notes](Notes/Day8-Advanced-Postman.md)
-- [Test Types Documentation](Notes/Day8-Test-Types.md)
+- [Detailed Notes](Notes/Day08-Advanced-Postman.md)
+- [Test Types Documentation](Notes/Day08-Test-Types.md)
 
 #### Day 9: Data-Driven Testing & Newman CLI ✅
 - CSV-based data-driven testing (10 user scenarios)
@@ -91,7 +91,7 @@ Comprehensive security and auth testing knowledge
 - npm scripts for automation workflows
 - CI/CD integration ready
 - **30/30 tests passing** (1.4s execution, 99.92% time savings)
-- [Detailed Notes](Notes/Day9-Newman-CLI.md)
+- [Detailed Notes](Notes/Day09-Newman-CLI.md)
 
 #### Day 10: Week 3 Wrap-Up & Portfolio Polish ✅
 - **Authentication Best Practices** documentation
@@ -268,21 +268,21 @@ Comprehensive security and auth testing knowledge
 Every project includes comprehensive documentation:
 
 **Week 1:**
-- [Day 1: QA Basics](Notes/Day1-QA-Basics.md)
-- [Day 2: QA Concepts](Notes/Day2-QA-Concepts.md)
-- [Day 3: Edge Cases](Notes/Day3-Edge-Cases.md)
+- [Day 1: QA Basics](Notes/Day01-QA-Basics.md)
+- [Day 2: QA Concepts](Notes/Day02-QA-Concepts.md)
+- [Day 3: Edge Cases](Notes/Day03-Edge-Cases.md)
 - [Week 1 Reflection](Notes/Week1-Reflection.md)
 
 **Week 2:**
-- [Day 4: API Basics](Notes/Day4-API-Basics.md)
-- [Day 5: POST Requests](Notes/Day5-POST-Requests.md)
+- [Day 4: API Basics](Notes/Day04-API-Basics.md)
+- [Day 5: POST Requests](Notes/Day05-POST-Requests.md)
 - [Week 2 Reflection](Notes/Week2-Reflection.md)
 
 **Week 3:**
-- [Day 6: Postman Automation](Notes/Day6-Postman-Automation.md)
-- [Day 7: Environment Variables & Collection Runner](Notes/Day7-Postman-Automation.md)
-- [Day 8: Advanced Postman & Negative Testing](Notes/Day8-Advanced-Postman.md)
-- [Day 9: Data-Driven Testing & Newman CLI](Notes/Day9-Newman-CLI.md)
+- [Day 6: Postman Automation](Notes/Day06-Postman-Automation.md)
+- [Day 7: Environment Variables & Collection Runner](Notes/Day07-Postman-Automation.md)
+- [Day 8: Advanced Postman & Negative Testing](Notes/Day08-Advanced-Postman.md)
+- [Day 9: Data-Driven Testing & Newman CLI](Notes/Day09-Newman-CLI.md)
 - [Day 10: Week 3 Wrap-Up & Portfolio Polish](Notes/Day10-Week3-Wrap.md)
 - [Authentication Best Practices](Notes/Authentication-Best-Practices.md)
 - [Week 3 Retrospective](Notes/Week3-Retrospective.md)
