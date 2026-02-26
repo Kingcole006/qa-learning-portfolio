@@ -152,8 +152,49 @@ Comprehensive security and auth testing knowledge
 - ✅ Building reusable test utilities
 - ✅ Validation logic implementation
 
+#### Day 12: Arrays, Objects & Data Manipulation ✅
+**Array Methods - The Power Tools:**
+- forEach() - Execute code for each item
+- map() - Transform each item into new array
+- filter() - Keep only matching items
+- find() - Find first matching item
+- reduce() - Combine items into single value
+
+**Object Manipulation:**
+- Destructuring for extracting nested data
+- Spread operator for combining objects
+- Object.keys/values/entries methods
+- Working with nested API responses
+- JSON parse and stringify operations
+
+**Real QA Scenarios:**
+- Processing test execution results
+- Validating API response structure
+- Filtering and transforming test data
+- Building test reports from data
+- Data transformation pipelines
+
+**Practice Challenge:**
+- Built complete test result analyzer
+- 10 tasks completed successfully:
+  * Filtered passing/failing tests
+  * Calculated pass rates (75%)
+  * Found slowest tests
+  * Calculated averages (200.625ms)
+  * Built comprehensive summary objects
+
+**Skills Acquired:**
+- ✅ All 5 core array methods
+- ✅ Method chaining for complex operations
+- ✅ Object destructuring and spread
+- ✅ Data transformation patterns
+- ✅ Building test reports programmatically
+
+**Code Written:** 500+ lines across 4 files
+
+[Detailed Notes](Notes/Day12-Arrays-Objects.md)
+
 **Next:**
-- Day 12: Arrays, Objects & Data Manipulation
 - Day 13: Async/Await & Promises (API calls)
 - Day 14: Building Custom Test Utilities
 - Day 15: Code-Based API Testing with Axios
@@ -203,20 +244,20 @@ Comprehensive security and auth testing knowledge
 
 | Metric | Value |
 |--------|-------|
-| **Days Completed** | 11 ✅ |
+| **Days Completed** | 12 ✅ |
 | **Weeks Completed** | 3 complete, 1 in progress ✅ |
 | **Total Automated Tests** | 72 |
 | **Test Collections (Postman)** | 4 |
 | **Security Tests** | 7 |
 | **Data-Driven Tests** | 30 |
-| **JavaScript Programs** | 8 📝 |
-| **JavaScript Functions** | 11 |
+| **JavaScript Programs** | 12 📝 |
+| **JavaScript Functions** | 15+ |
 | **Pass Rate** | 100% |
-| **Learning Hours** | ~38 |
+| **Learning Hours** | ~42 |
 | **CI/CD Integration** | ✅ Ready |
 | **Portfolio Status** | ✅ Professional |
-| **Documentation Files** | 20+ |
-| **GitHub Commits** | 30+ |
+| **Documentation Files** | 21+ |
+| **GitHub Commits** | 35+ |
 
 ---
 
@@ -290,6 +331,7 @@ Every project includes comprehensive documentation:
 **Week 4:**
 - [Day 11: JavaScript Basics - Variables & Functions](Notes/Day11-JavaScript-Basics.md)
 - [JavaScript Reference Guide](Notes/JavaScript-Reference.md)
+- [Day 12: Arrays & Objects](Notes/Day12-Arrays-Objects.md)
 
 **Portfolio:**
 - [Portfolio Showcase](PORTFOLIO.md)
@@ -364,4 +406,4 @@ newman run data-driven-testing.json -e qa-env.json -d test-users.csv -r htmlextr
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** February 25, 2026
+**Last Updated:** February 26, 2026
