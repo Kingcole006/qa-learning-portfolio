@@ -194,8 +194,42 @@ Comprehensive security and auth testing knowledge
 
 [Detailed Notes](Notes/Day12-Arrays-Objects.md)
 
+#### Day 13: Async/Await & Promises ✅
+**Asynchronous JavaScript:**
+- Understanding async vs sync code execution
+- Callbacks, Promises, and Async/Await evolution
+- Modern async/await syntax
+- Try/catch error handling
+- Sequential async operations
+
+**Making Real API Calls:**
+- Using fetch() API
+- Parsing JSON responses  
+- Handling HTTP status codes (200, 404, 500)
+- Processing response data
+- Measuring response times
+- Error handling for network failures
+
+**Building Test Utilities:**
+- Generic API endpoint tester
+- Data validation functions
+- Batch testing multiple items
+- Complete test suite with reporting
+- Test result aggregation
+- Pass/fail rate calculation
+
+**Real APIs Tested:**
+- JSONPlaceholder REST API
+- GET requests for users, posts
+- Validated 10+ endpoints
+- Processed real JSON data
+- Built automated test reports
+
+**Code Written:** 600+ lines across 3 files
+
+[Detailed Notes](Notes/Day13-Async-Await.md)
+
 **Next:**
-- Day 13: Async/Await & Promises (API calls)
 - Day 14: Building Custom Test Utilities
 - Day 15: Code-Based API Testing with Axios
 
@@ -244,20 +278,17 @@ Comprehensive security and auth testing knowledge
 
 | Metric | Value |
 |--------|-------|
-| **Days Completed** | 12 ✅ |
+| **Days Completed** | 13 ✅ |
 | **Weeks Completed** | 3 complete, 1 in progress ✅ |
-| **Total Automated Tests** | 72 |
-| **Test Collections (Postman)** | 4 |
-| **Security Tests** | 7 |
-| **Data-Driven Tests** | 30 |
-| **JavaScript Programs** | 12 📝 |
-| **JavaScript Functions** | 15+ |
+| **Total Automated Tests** | 72 Postman + 10+ JavaScript |
+| **Test Collections** | 4 |
+| **JavaScript Programs** | 15 📝 |
+| **JavaScript Functions** | 20+ |
+| **API Calls Made** | 20+ real calls |
 | **Pass Rate** | 100% |
-| **Learning Hours** | ~42 |
-| **CI/CD Integration** | ✅ Ready |
+| **Learning Hours** | ~46 |
 | **Portfolio Status** | ✅ Professional |
-| **Documentation Files** | 21+ |
-| **GitHub Commits** | 35+ |
+| **Documentation Files** | 22+ |
 
 ---
 
@@ -332,6 +363,7 @@ Every project includes comprehensive documentation:
 - [Day 11: JavaScript Basics - Variables & Functions](Notes/Day11-JavaScript-Basics.md)
 - [JavaScript Reference Guide](Notes/JavaScript-Reference.md)
 - [Day 12: Arrays & Objects](Notes/Day12-Arrays-Objects.md)
+- [Day 13: Async Await](Notes/Day13-Async-Await.md)
 
 **Portfolio:**
 - [Portfolio Showcase](PORTFOLIO.md)
