@@ -229,8 +229,35 @@ Comprehensive security and auth testing knowledge
 
 [Detailed Notes](Notes/Day13-Async-Await.md)
 
+#### Day 14: Building Custom Test Utilities ✅
+**Custom Assertion Library:**
+- Built fluent interface expect() function
+- Multiple assertion types (toBe, toContain, toBeGreaterThan)
+- API-specific assertions (status, properties, response time)
+- Test result tracking system
+- Beautiful pass/fail reporting with ✓/✗
+
+**Test Data Generators:**
+- Random data generation (numbers, strings, emails, dates)
+- User generator with realistic data
+- API payload builders (registration, login, posts)
+- Test scenario factory (valid, invalid, edge cases)
+- Complete dataset generation
+
+**Mini Test Framework:**
+- Test runner with suite organization
+- beforeEach/afterEach hooks
+- Skip functionality (⊘)
+- Async test support
+- Beautiful formatted output with box drawing
+- Summary reports with pass rates
+- 9 tests run with 100% pass rate
+
+**Code Written:** 750+ lines across 3 files
+
+[Detailed Notes](Notes/Day14-Test-Utilities.md)
+
 **Next:**
-- Day 14: Building Custom Test Utilities
 - Day 15: Code-Based API Testing with Axios
 
 ### 📅 Week 6-12: Advanced Automation & Job Prep
@@ -278,17 +305,14 @@ Comprehensive security and auth testing knowledge
 
 | Metric | Value |
 |--------|-------|
-| **Days Completed** | 13 ✅ |
+| **Days Completed** | 14 ✅ |
 | **Weeks Completed** | 3 complete, 1 in progress ✅ |
-| **Total Automated Tests** | 72 Postman + 10+ JavaScript |
-| **Test Collections** | 4 |
-| **JavaScript Programs** | 15 📝 |
-| **JavaScript Functions** | 20+ |
-| **API Calls Made** | 20+ real calls |
+| **JavaScript Programs** | 18 📝 |
+| **Test Frameworks Built** | 1 (mini framework) |
+| **Tests Written** | 82+ |
 | **Pass Rate** | 100% |
-| **Learning Hours** | ~46 |
-| **Portfolio Status** | ✅ Professional |
-| **Documentation Files** | 22+ |
+| **Learning Hours** | ~50 |
+| **Lines of Code** | 2000+ |
 
 ---
 
@@ -364,6 +388,7 @@ Every project includes comprehensive documentation:
 - [JavaScript Reference Guide](Notes/JavaScript-Reference.md)
 - [Day 12: Arrays & Objects](Notes/Day12-Arrays-Objects.md)
 - [Day 13: Async Await](Notes/Day13-Async-Await.md)
+- [Day 14: Test Utilities](Notes/Day14-Test-Utilities.md)
 
 **Portfolio:**
 - [Portfolio Showcase](PORTFOLIO.md)
@@ -438,4 +463,4 @@ newman run data-driven-testing.json -e qa-env.json -d test-users.csv -r htmlextr
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** March 02, 2026
+**Last Updated:** March 04, 2026
