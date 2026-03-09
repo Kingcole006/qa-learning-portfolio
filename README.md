@@ -257,8 +257,31 @@ Comprehensive security and auth testing knowledge
 
 [Detailed Notes](Notes/Day14-Test-Utilities.md)
 
-**Next:**
-- Day 15: Code-Based API Testing with Axios
+#### Day 15: Code-Based API Testing ✅
+**Complete API Test Suite:**
+- Built production-ready test framework
+- Custom expect() assertions (toBe, toBeGreaterThan, toContain)
+- APITester class for GET/POST requests
+- TestSuite class with reporting
+- 6 comprehensive tests with 100% pass rate
+
+**Advanced Testing Patterns:**
+1. **Data Relationships** - Verify posts belong to correct user using .every()
+2. **Data Consistency** - Check all users have required fields  
+3. **Error Handling** - Test non-existent resources
+4. **Request Chaining** - Sequential requests (user → posts → comments)
+
+**Real-World Testing:**
+- Validated 10+ users for email format
+- Tested performance (all endpoints < 1000ms)
+- Chained 3 sequential API requests
+- Built reusable test utilities
+
+**Code Written:** 750+ lines across 4 files
+
+[Detailed Notes](Notes/Day15-API-Testing.md)
+
+**Status:** Week 4 COMPLETE! 🎉
 
 ### 📅 Week 6-12: Advanced Automation & Job Prep
 - Playwright/Selenium UI testing
@@ -305,14 +328,14 @@ Comprehensive security and auth testing knowledge
 
 | Metric | Value |
 |--------|-------|
-| **Days Completed** | 14 ✅ |
-| **Weeks Completed** | 3 complete, 1 in progress ✅ |
-| **JavaScript Programs** | 18 📝 |
-| **Test Frameworks Built** | 1 (mini framework) |
-| **Tests Written** | 82+ |
+| **Days Completed** | 15 ✅ |
+| **Weeks Completed** | 4 COMPLETE ✅ |
+| **Total Tests Written** | 92+ |
+| **JavaScript Programs** | 22 📝 |
+| **Lines of Code** | 2750+ |
 | **Pass Rate** | 100% |
-| **Learning Hours** | ~50 |
-| **Lines of Code** | 2000+ |
+| **Learning Hours** | ~54 |
+| **Portfolio Status** | ✅ Professional |
 
 ---
 
@@ -389,6 +412,7 @@ Every project includes comprehensive documentation:
 - [Day 12: Arrays & Objects](Notes/Day12-Arrays-Objects.md)
 - [Day 13: Async Await](Notes/Day13-Async-Await.md)
 - [Day 14: Test Utilities](Notes/Day14-Test-Utilities.md)
+- [Day 15: Code-based API Testing](Notes/Day15-API-Testing.md)
 
 **Portfolio:**
 - [Portfolio Showcase](PORTFOLIO.md)
@@ -463,4 +487,4 @@ newman run data-driven-testing.json -e qa-env.json -d test-users.csv -r htmlextr
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** March 04, 2026
+**Last Updated:** March 09, 2026
