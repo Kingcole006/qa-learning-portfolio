@@ -354,7 +354,7 @@ Built from scratch in JavaScript
 
 [Detailed Notes](Notes/Day16-Playwright.md)
 
-**Status:** Ready for QA Wolf application! 🎯
+**Status:** Ready for Day 17
 
 ---
 
