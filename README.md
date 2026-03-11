@@ -419,7 +419,6 @@ Built from scratch in JavaScript
 | **Pass Rate** | 100% |
 | **Learning Hours** | ~58 |
 | **Portfolio Status** | ✅ Professional |
-| **QA Wolf Ready** | ✅ YES |
 
 ---
 
