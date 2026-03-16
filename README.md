@@ -299,10 +299,10 @@ Built from scratch in JavaScript
 
 ---
 
-### ✅ Week 5: Browser Automation (Day 1/5)
+### ✅ Week 5: Browser Automation (Days 2/5)
 **Focus:** Playwright for UI testing
 
-#### Day 16: Playwright Fundamentals ✅
+#### Day 16: Playwright Fundamentals & QA Wolf Assignment ✅
 **Playwright Basics:**
 - Browser automation with Chromium
 - Page navigation and interaction
@@ -354,7 +354,63 @@ Built from scratch in JavaScript
 
 [Detailed Notes](Notes/Day16-Playwright.md)
 
-**Status:** Ready for Day 17
+**Status:** QA Wolf Assignment Complete! 🎯
+
+#### Day 17: Advanced Playwright - Forms & Waiting Strategies ✅
+**Advanced Form Interactions:**
+- Form filling: .fill() vs .type()
+- Button clicking and interaction
+- Scrolling elements into view
+- Element visibility checking
+- Text extraction and validation
+- SSL error handling
+
+**Advanced Form Elements:**
+- Checkboxes (.check(), .uncheck(), .isChecked())
+- Radio buttons (single selection)
+- Dropdowns (.selectOption())
+- Multi-select with arrays
+- Label clicking for reliability
+- State verification before actions
+
+**Waiting Strategies (CRITICAL SKILL):**
+- Smart waits vs dumb waits
+- Element states (visible, hidden, attached, detached)
+- .waitFor({ state: 'visible' })
+- Network activity waiting
+- Time measurement and optimization
+- Professional timeout handling
+
+**Real-World Testing:**
+- Used the-internet.herokuapp.com for reliability
+- Created custom HTML test pages
+- Made real API calls (JSONPlaceholder)
+- Measured and proved efficiency (40% faster with smart waits!)
+- Handled SSL certificate errors
+
+**Performance Proof:**
+- Dumb wait: 5.0 seconds (wasted 2 seconds)
+- Smart wait: 2.9 seconds (perfect timing!)
+- **40% improvement with professional patterns**
+
+**Code Written:** 1,000+ lines across 3 files
+
+**Files Created:**
+- 01-form-interactions.js - Form filling methods
+- 02-dropdowns-checkboxes.js - Complete form elements
+- 03-waiting-strategies.js - Smart waiting patterns
+
+[Detailed Notes](Notes/Day17-Advanced-Playwright.md)
+
+**Skills Acquired:**
+- ✅ Complete form automation (all element types)
+- ✅ Professional waiting strategies
+- ✅ Element state management
+- ✅ Custom test page creation
+- ✅ Network activity handling
+- ✅ Performance optimization
+
+**Status:** Advanced Playwright Mastered! 🎭
 
 ---
 
@@ -407,17 +463,15 @@ Built from scratch in JavaScript
 
 ---
 
-## 📊 Current Stats
-
 | Metric | Value |
 |--------|-------|
-| **Days Completed** | 16 ✅ |
-| **Weeks Completed** | 4 complete, Week 5 started ✅ |
+| **Days Completed** | 17 ✅ |
+| **Weeks Completed** | 4 complete, Week 5 in progress ✅ |
 | **Total Tests Written** | 100+ |
-| **JavaScript Programs** | 31 📝 |
-| **Lines of Code** | 3150+ |
+| **JavaScript Programs** | 34 📝 |
+| **Lines of Code** | 4,150+ |
 | **Pass Rate** | 100% |
-| **Learning Hours** | ~58 |
+| **Learning Hours** | ~61 |
 | **Portfolio Status** | ✅ Professional |
 
 ---
@@ -441,13 +495,14 @@ Built from scratch in JavaScript
 - **Data-driven testing with CSV**
 - **Browser automation with Playwright**
 
-### Browser Automation
-- **Playwright fundamentals**
-- **Element selection** (CSS, Role, Text)
-- **Data extraction** from web pages
+**Browser Automation:**
+- **Playwright** (Cross-browser testing)
+- **Element selection** (CSS, Role, Text, Attributes)
+- **Data extraction** and validation
 - **Pagination** and navigation
-- **Timestamp parsing** and validation
-- **Multi-page data collection**
+- **Form automation** (all element types)
+- **Smart waiting strategies** (element states)
+- **Custom page creation** (.setContent())
 
 ### Security Testing
 - OWASP vulnerability testing
@@ -512,7 +567,8 @@ Every project includes comprehensive documentation:
 - [Day 15: Code-based API Testing](Notes/Day15-API-Testing.md)
 
 **Week 5:**
-- [Day 16: Playwright Fundamentals](Notes/Day16-Playwright.md) 🆕
+- [Day 16: Playwright Fundamentals](Notes/Day16-Playwright.md)
+- [Day 17: Advanced Playwright - Forms & Waiting](Notes/Day17-Advanced-Playwright.md) 🆕
 
 **Portfolio:**
 - [Portfolio Showcase](PORTFOLIO.md)
@@ -583,6 +639,8 @@ node 08-qawolf-solution.js
 
 ✅ **Found and debugged production data format issues, implementing fixes that enabled successful validation of large datasets**
 
+✅ **Mastered advanced Playwright form automation and smart waiting strategies, achieving 40% performance improvement (5s → 2.9s) through professional element state waiting patterns instead of fixed timeouts**
+
 ---
 
 ## 📧 Contact
@@ -603,4 +661,4 @@ node 08-qawolf-solution.js
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** March 11, 2026
+**Last Updated:** March 16, 2026
