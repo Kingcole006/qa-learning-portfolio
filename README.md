@@ -299,7 +299,7 @@ Built from scratch in JavaScript
 
 ---
 
-### ✅ Week 5: Browser Automation (Days 2/5)
+### ✅ Week 5: Browser Automation (Days 3/5)
 **Focus:** Playwright for UI testing
 
 #### Day 16: Playwright Fundamentals & QA Wolf Assignment ✅
@@ -340,17 +340,6 @@ Built from scratch in JavaScript
 - Validated solution across 100 items
 
 **Code Written:** 400+ lines across 9 files
-
-**Files Created:**
-- 01-basics.js - Browser launch and navigation
-- 02-finding-elements.js - Selector methods
-- 03-extracting-data.js - Data extraction from Hacker News
-- 04-validating-sorting.js - Initial sorting validation
-- 05-debug-timestamps.js - Debugging tool
-- 06-fixed-validation.js - Fixed validation logic
-- 07-working-validation.js - Working timestamp parsing
-- 08-qawolf-solution.js - Complete 100-article solution
-- 09-qawolf-fixed.js - Final polished version
 
 [Detailed Notes](Notes/Day16-Playwright.md)
 
@@ -395,11 +384,6 @@ Built from scratch in JavaScript
 
 **Code Written:** 1,000+ lines across 3 files
 
-**Files Created:**
-- 01-form-interactions.js - Form filling methods
-- 02-dropdowns-checkboxes.js - Complete form elements
-- 03-waiting-strategies.js - Smart waiting patterns
-
 [Detailed Notes](Notes/Day17-Advanced-Playwright.md)
 
 **Skills Acquired:**
@@ -411,6 +395,84 @@ Built from scratch in JavaScript
 - ✅ Performance optimization
 
 **Status:** Advanced Playwright Mastered! 🎭
+
+#### Day 18: Page Object Model (POM) - Industry Standard ✅
+**The #1 Most Asked Interview Pattern:**
+
+**Problem Solved:**
+- Eliminated code repetition (75% reduction)
+- Centralized selector management
+- Improved test maintainability
+- Professional code organization
+
+**Basic POM:**
+- Created page object classes
+- Encapsulated selectors and actions
+- Reusable methods (login, navigate, verify)
+- Single source of truth for page elements
+
+**Multi-Page POM:**
+- Multiple page objects (HomePage, LoginPage, DashboardPage)
+- Page navigation methods
+- Complete user journey automation
+- Specific selector strategies (#homePage h1)
+
+**Best Practices (Production-Ready):**
+- Base page class with shared methods
+- Class inheritance (extends keyword)
+- DRY principle (Don't Repeat Yourself)
+- Test configuration objects
+- Test data separation
+- Smart waiting built-in
+
+**JavaScript Concepts Mastered:**
+- Classes and objects
+- Constructor methods
+- The `this` keyword
+- Class inheritance (extends)
+- Super keyword
+- Method encapsulation
+
+**Code Organization:**
+```javascript
+class BasePage {
+    async waitForElement() { ... }
+    async clickElement() { ... }
+}
+
+class LoginPage extends BasePage {
+    async login(username, password) {
+        // Uses inherited BasePage methods
+    }
+}
+```
+
+**Results:**
+- Before POM: 12 lines per login test
+- After POM: 3 lines per login test
+- **75% code reduction**
+- Single point of maintenance
+
+**Code Written:** 1,270+ lines across 4 files
+
+**Files Created:**
+- 01-without-pom.js (the problem)
+- 02-with-pom.js (basic solution)
+- 03-multi-page-pom.js (real-world scenario)
+- 04-pom-best-practices.js (production-ready)
+
+[Detailed Notes](Notes/Day18-Page-Object-Model.md)
+
+**Skills Acquired:**
+- ✅ Page Object Model pattern (industry standard)
+- ✅ JavaScript classes and objects
+- ✅ Class inheritance (extends, super)
+- ✅ DRY principle implementation
+- ✅ Professional code organization
+- ✅ Scalable test architecture
+- ✅ **#1 interview skill!**
+
+**Status:** POM Mastered - Massively Interview-Ready! 🏗️
 
 ---
 
@@ -465,14 +527,16 @@ Built from scratch in JavaScript
 
 | Metric | Value |
 |--------|-------|
-| **Days Completed** | 17 ✅ |
+| **Days Completed** | 18 ✅ |
 | **Weeks Completed** | 4 complete, Week 5 in progress ✅ |
 | **Total Tests Written** | 100+ |
-| **JavaScript Programs** | 34 📝 |
-| **Lines of Code** | 4,150+ |
+| **JavaScript Programs** | 38 📝 |
+| **Lines of Code** | 5,620+ |
 | **Pass Rate** | 100% |
-| **Learning Hours** | ~61 |
+| **Learning Hours** | ~64 |
 | **Portfolio Status** | ✅ Professional |
+| **QA Wolf Ready** | ✅ YES |
+| **POM Mastery** | ✅ Industry Standard |
 
 ---
 
@@ -494,6 +558,7 @@ Built from scratch in JavaScript
 - **Newman CLI automation**
 - **Data-driven testing with CSV**
 - **Browser automation with Playwright**
+- **Page Object Model (POM)** - Industry standard pattern
 
 **Browser Automation:**
 - **Playwright** (Cross-browser testing)
@@ -521,6 +586,15 @@ Built from scratch in JavaScript
 - **Async/await** and promises
 - **Array methods** (map, filter, reduce, every, forEach)
 - **Error handling** (try/catch)
+
+### Design Patterns
+- **Page Object Model (POM)**
+  - Code organization and maintainability
+  - 75% code reduction achieved
+  - Base page class with inheritance
+  - DRY principle implementation
+  - Separation of concerns
+  - Single source of truth for selectors
 
 ### Advanced Automation
 - Data-driven testing with CSV
@@ -568,7 +642,8 @@ Every project includes comprehensive documentation:
 
 **Week 5:**
 - [Day 16: Playwright Fundamentals](Notes/Day16-Playwright.md)
-- [Day 17: Advanced Playwright - Forms & Waiting](Notes/Day17-Advanced-Playwright.md) 🆕
+- [Day 17: Advanced Playwright - Forms & Waiting](Notes/Day17-Advanced-Playwright.md)
+- [Day 18: Page Object Model (POM)](Notes/Day18-Page-Object-Model.md) 🆕
 
 **Portfolio:**
 - [Portfolio Showcase](PORTFOLIO.md)
@@ -641,6 +716,8 @@ node 08-qawolf-solution.js
 
 ✅ **Mastered advanced Playwright form automation and smart waiting strategies, achieving 40% performance improvement (5s → 2.9s) through professional element state waiting patterns instead of fixed timeouts**
 
+✅ **Implemented Page Object Model design pattern achieving 75% code reduction (12 lines → 3 lines per test), using JavaScript class inheritance and base page patterns for maintainable, scalable test automation**
+
 ---
 
 ## 📧 Contact
@@ -661,4 +738,4 @@ node 08-qawolf-solution.js
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** March 16, 2026
+**Last Updated:** March 18, 2026
