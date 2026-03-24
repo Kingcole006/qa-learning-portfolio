@@ -9,6 +9,23 @@
 
 ---
 
+## 🎉 WEEK 5 COMPLETE - 19 CONSECUTIVE DAYS! 🎉    ← PUT IT HERE!
+
+**Latest Milestone:** Browser Automation Mastery with Playwright  
+**Status:** Production-ready QA Automation Engineer  
+**Ready For:** Mid-level QA roles
+
+**Week 5 Highlights:**
+- ✅ Page Object Model (75% code reduction)
+- ✅ Visual testing with automatic screenshots
+- ✅ Professional HTML reports
+- ✅ 100+ tests validated (100% pass rate)
+- ✅ QA Wolf assignment completed
+
+[View Week 5 Summary](Notes/Week5-Summary.md)
+
+---
+
 ## 👋 Welcome
 
 I'm **Cole Brown**, transitioning into QA Automation Engineering through a structured, hands-on learning program. This repository documents my journey from manual QA fundamentals to professional automation engineering.
