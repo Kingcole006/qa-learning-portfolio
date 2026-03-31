@@ -20,10 +20,11 @@
   "author": "Cole Brown",
   "license": "MIT",
   "devDependencies": {
-    "newman": "^6.2.2",
-    "newman-reporter-htmlextra": "^1.23.1"
+    "newman": "^2.1.2",
+    "newman-reporter-htmlextra": "^1.22.5"
   },
   "dependencies": {
+    "chalk": "^5.6.2",
     "playwright": "^1.58.2"
   }
 }
