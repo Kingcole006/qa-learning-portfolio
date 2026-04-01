@@ -1,13 +1,13 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 22 days.
+> From zero to building production-ready automation frameworks in 23 days.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
-[![Tests](https://img.shields.io/badge/Tests-110%20Passing-brightgreen)]()
+[![Tests](https://img.shields.io/badge/Tests-114%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-22%20Consecutive%20Days-orange)]()
+[![Days](https://img.shields.io/badge/Streak-23%20Consecutive%20Days-orange)]()
 
 ---
 
@@ -15,9 +15,9 @@
 
 I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 22 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, and CI/CD pipeline integration.
+In 23 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, and CI/CD pipeline integration.
 
-- 📧 Cole.Brown72@gmail.com
+- 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
 - 🐙 [GitHub](https://github.com/Kingcole006)
 
@@ -27,8 +27,8 @@ In 22 consecutive days I've gone from writing my first test case to building a c
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 22 ✅ |
-| **Automated Tests** | 110+ |
+| **Consecutive Days** | 23 ✅ |
+| **Automated Tests** | 114+ |
 | **Pass Rate** | 100% |
 | **Lines of Code** | 7,200+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
@@ -39,13 +39,13 @@ In 22 consecutive days I've gone from writing my first test case to building a c
 ## 🚀 Featured Projects
 
 ### [Week 6 Framework](week6-framework/) — TypeScript/Playwright 🆕
-> Built a complete professional QA framework from a blank folder in 2 days
+> Built a complete professional QA framework from a blank folder in 3 days
 
 - ✅ Page Object Model (LoginPage + InventoryPage)
 - ✅ Data-driven testing via centralized users.json
+- ✅ API + UI tests in one framework
 - ✅ Environment variables with dotenv
-- ✅ GitHub Actions CI/CD pipeline configured
-- ✅ **10 tests | 100% pass rate | TypeScript**
+- ✅ **14 tests | 100% pass rate | TypeScript**
 
 ---
 
@@ -134,8 +134,13 @@ Understanding what we're automating before we automate it.
 - playwright.config.ts fully documented
 - **10 tests | 100% pass rate**
 
+#### Day 23 — API Testing Inside the Framework ✅
+- API tests using Playwright's built-in request context
+- GET all users, GET single user, GET 404, POST create user
+- Framework now tests both UI and API in one place
+- **14 tests | 100% pass rate**
+
 **Up next:**
-- 🔄 Day 23: API tests inside the framework
 - 🔄 Day 24: Live CI/CD pipeline with GitHub Actions
 - 🔄 Day 25: Framework polish and full documentation
 
@@ -147,7 +152,7 @@ Understanding what we're automating before we automate it.
 |----------|---------------|
 | **Automation** | Playwright, Newman CLI |
 | **Languages** | TypeScript, JavaScript |
-| **API Testing** | Postman, fetch(), custom frameworks |
+| **API Testing** | Postman, fetch(), Playwright request |
 | **Design Patterns** | Page Object Model, Data-Driven Testing |
 | **Reporting** | HTML reports, automatic screenshots |
 | **CI/CD** | GitHub Actions (configuring) |
@@ -174,13 +179,15 @@ Understanding what we're automating before we automate it.
 [Playwright Fundamentals](Notes/Day16-Playwright.md) | [Advanced Playwright](Notes/Day17-Advanced-Playwright.md) | [Page Object Model](Notes/Day18-Page-Object-Model.md) | [Screenshots & Visual Testing](Notes/Day19-Screenshots-Visual-Testing.md) | [Week 5 Summary](Notes/Week5-Summary.md)
 
 **Week 6:**
-[Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md)
+[Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md) | [Day 23: API Testing](Notes/Day23-API-Testing-Framework.md)
 
 ---
 
 ## 💼 Resume-Ready Highlights
 
 ✅ Built complete TypeScript/Playwright automation framework from scratch including Page Object Model architecture, data-driven testing, environment configuration, and GitHub Actions CI/CD pipeline
+
+✅ Implemented full-stack test coverage with both UI and API tests inside a single professional framework — 14 tests, 100% pass rate
 
 ✅ Implemented Page Object Model design pattern reducing test code by 75% (12 lines → 3 lines per test) through JavaScript class inheritance and DRY principles
 
@@ -198,7 +205,7 @@ Understanding what we're automating before we automate it.
 
 ## 🎯 What's Next
 
-- 🔄 **Week 6 (Now):** Complete CI/CD pipeline and API tests in framework
+- 🔄 **Week 6 (Now):** Complete CI/CD pipeline with GitHub Actions (Day 24)
 - 📋 **Weeks 7-8:** Advanced automation patterns
 - 💼 **Week 9+:** Active job applications and interview prep
 
@@ -206,4 +213,4 @@ Understanding what we're automating before we automate it.
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** March 31, 2026
+**Last Updated:** April 1, 2026
