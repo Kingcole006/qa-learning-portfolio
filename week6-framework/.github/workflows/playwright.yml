@@ -1,27 +1,53 @@
 name: Playwright Tests
+
 on:
+  # Run automatically when code is pushed to these branches
   push:
     branches: [ main, master ]
+  # Run automatically when a pull request is opened
   pull_request:
     branches: [ main, master ]
+
 jobs:
   test:
-    timeout-minutes: 60
+    # Use the latest Ubuntu server (free on GitHub)
     runs-on: ubuntu-latest
+    
+    # Stop the job if it runs longer than 60 minutes
+    timeout-minutes: 60
+
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-    - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-    - name: Run Playwright tests
-      run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+      # Step 1: Download your code onto the server
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Install Node.js on the server
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      # Step 3: Install your npm packages
+      - name: Install dependencies
+        run: npm ci
+
+      # Step 4: Install Playwright browsers on the server
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      # Step 5: Run all your tests
+      - name: Run Playwright tests
+        run: npx playwright test
+        env:
+          # Pass environment variables to the server
+          BASE_URL: https://www.saucedemo.com
+          TEST_TIMEOUT: 30000
+
+      # Step 6: Upload the HTML report so you can view it on GitHub
+      - name: Upload test report
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
