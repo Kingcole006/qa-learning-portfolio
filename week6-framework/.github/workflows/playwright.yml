@@ -29,7 +29,7 @@ jobs:
 
       # Step 3: Install your npm packages
       - name: Install dependencies
-        run: npm ci
+        run: npm install
         working-directory: week6-framework
 
       # Step 4: Install Playwright browsers on the server
