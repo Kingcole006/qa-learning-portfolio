@@ -1,288 +1,179 @@
-COLE BROWN - QA AUTOMATION ENGINEER
-Location: Sugar Hill, GA
-Email: Cole.Brown72@gmail.com
-LinkedIn: linkedin.com/in/cole-brown-4aba86243
-GitHub: github.com/Kingcole006
-Portfolio: github.com/Kingcole006/qa-learning-portfolio
-
-PROFESSIONAL SUMMARY
-Results-driven QA Automation Engineer with expertise in building scalable test automation frameworks using industry-standard design patterns. Proven ability to reduce code maintenance by 75% through Page Object Model implementation. Experienced in full-stack test automation including API testing (Postman/Newman), browser automation (Playwright), and JavaScript-based test frameworks. Strong track record of 100% test pass rates across 100+ automated tests. Skilled in debugging production issues, optimizing test performance by 40%, and implementing professional patterns used by enterprise QA teams.
-
-TECHNICAL SKILLS
-Test Automation & Tools:
-
-Playwright (Browser Automation)
-Postman / Newman CLI (API Testing)
-JavaScript / Node.js
-Git / GitHub (Version Control)
-HTML / CSS / DOM Manipulation
-
-Design Patterns & Architecture:
-
-Page Object Model (POM) - Industry Standard
-Base Page Pattern (DRY Principle)
-Class Inheritance & Object-Oriented Design
-Test Configuration Management
-Data-Driven Testing
-
-Testing Methodologies:
-
-Functional Testing
-API Testing (REST)
-UI/Browser Automation
-Security Testing (SQL Injection, XSS, Buffer Overflow)
-Data-Driven Testing
-Regression Testing
-Integration Testing
-
-Programming Concepts:
-
-JavaScript (ES6+): Classes, Inheritance, Async/Await
-Object-Oriented Programming
-Design Patterns
-Test Framework Development
-Smart Waiting Strategies
-Element State Management
-
-CI/CD & DevOps:
-
-Command-Line Automation
-npm Scripts & Package Management
-Professional HTML Reporting
-Version Control (Git/GitHub)
-Ready for: GitHub Actions, Jenkins, GitLab CI
-
-
-KEY ACHIEVEMENTS
-✅ Implemented Page Object Model (POM) design pattern achieving 75% code reduction (12 lines → 3 lines per test), using JavaScript class inheritance and base page patterns for maintainable, scalable test automation across multiple page objects
-✅ Mastered advanced Playwright form automation and smart waiting strategies, achieving 40% performance improvement (5s → 2.9s) through professional element state waiting patterns instead of fixed timeouts
-✅ Automated browser testing with Playwright to validate 100 articles across multiple pages with timestamp parsing, sorting verification, and pagination handling, achieving 99/99 comparisons passing (100% success rate)
-✅ Built custom JavaScript test framework from scratch with assertion library (expect() with multiple assertion types), test runners with hooks (beforeEach/afterEach), data generators, and professional reporting (750+ lines of production-quality code)
-✅ Developed comprehensive API test automation framework with 92+ automated tests achieving 100% pass rates using Postman collections, Newman CLI, and JavaScript test scripting
-✅ Built data-driven testing framework using CSV files and Newman CLI, reducing test execution time from 30 minutes to 1.4 seconds (99.92% efficiency gain) with professional HTML reporting
-✅ Implemented security testing suite covering SQL injection, XSS attacks, and input validation vulnerabilities with OWASP-compliant testing patterns and professional documentation
-✅ Created CI/CD-ready test suites with Newman CLI and npm scripts for automated execution in GitHub Actions, Jenkins, and GitLab CI pipelines
-✅ Found and debugged production data format issues (Invalid Date parsing), implementing fixes that enabled successful validation of large datasets through systematic debugging
-✅ Generated professional HTML test reports using newman-reporter-htmlextra suitable for stakeholder review and compliance documentation
-
-PROFESSIONAL EXPERIENCE
-Self-Directed QA Automation Engineer Training
-Intensive 18-Day Learning Program | March 2026
-Structured hands-on program building production-ready test automation skills
-Page Object Model & Design Patterns:
-
-Implemented Page Object Model achieving 75% code reduction (industry standard pattern)
-Built base page class with inheritance for reusable methods across all page objects
-Applied DRY principle eliminating code duplication across test suite
-Created multi-page automation flows (HomePage, LoginPage, DashboardPage)
-Organized test code professionally with separation of concerns
-
-Browser Automation (Playwright):
-
-Automated complete user journeys including form filling, navigation, and validation
-Implemented smart waiting strategies (element states: visible, hidden, attached, detached)
-Achieved 40% performance improvement through professional waiting patterns
-Handled all form elements (checkboxes, radio buttons, dropdowns, multi-select)
-Created custom HTML test pages for reliable testing
-Debugged and fixed timestamp parsing issues in production data
-
-API Testing (Postman/Newman):
-
-Built 92+ automated API tests with 100% pass rate
-Implemented security testing (SQL injection, XSS, buffer overflow)
-Created data-driven tests reducing execution time by 99.92% (30 min → 1.4s)
-Developed request chaining and authentication workflows
-Generated professional HTML reports with newman-reporter-htmlextra
-
-JavaScript & Framework Development:
-
-Developed custom test framework with assertion library and test runners
-Mastered JavaScript: classes, inheritance (extends/super), async/await
-Built reusable test utilities and data generators
-Implemented array methods (map, filter, reduce, every) for data processing
-Created 38+ JavaScript programs demonstrating automation concepts
+# COLE BROWN
+## QA Automation Engineer
 
-Project Highlights:
+📍 Sugar Hill, GA | 📧 cole.brown272@gmail.com
+💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/) | 🐙 [GitHub](https://github.com/Kingcole006)
 
-QA Wolf Technical Assignment: Validated 100 articles across 4 pages with pagination
-Security Test Suite: 15 tests covering OWASP vulnerabilities
-Custom Test Framework: Built from scratch with 750+ lines of code
-POM Implementation: Reduced test code by 75% through professional patterns
+---
 
+## PROFESSIONAL SUMMARY
 
-PROJECTS
-Page Object Model Test Framework | GitHub
-Playwright, JavaScript, OOP Design Patterns
+QA Automation Engineer with hands-on experience building production-ready
+test automation frameworks from scratch. Proven ability to design and
+implement complete testing solutions including UI automation, API testing,
+data-driven frameworks, and live CI/CD pipelines. Achieved 100% test pass
+rates across 114+ automated tests. Proficient in TypeScript, JavaScript,
+Playwright, and GitHub Actions. Self-directed learner with 25 consecutive
+days of intensive hands-on training.
 
-Implemented industry-standard Page Object Model achieving 75% code reduction
-Built base page class with shared methods (waitForElement, clickElement, fillField)
-Created multiple page objects using JavaScript inheritance (extends BasePage)
-Organized test configuration and data separation for maintainability
-Automated complete user flows (login → dashboard → logout) with clean, readable code
+---
 
-Technical Implementation:
+## TECHNICAL SKILLS
 
-Base page pattern with DRY principle
-Class inheritance using extends and super keywords
-Smart waiting built into base methods
-Configuration objects for environment management
-Single source of truth for all page selectors
+**Automation & Frameworks:**
+- Playwright (TypeScript) — UI & API automation
+- Postman / Newman CLI — API testing
+- GitHub Actions — CI/CD pipeline configuration
+- Custom JavaScript test framework (built from scratch)
 
+**Languages & Tools:**
+- TypeScript, JavaScript (ES6+)
+- Node.js, npm
+- Git, GitHub (daily commits)
+- dotenv, environment variable management
 
-Hacker News Sorting Validator | GitHub
-Playwright, JavaScript, Data Validation
+**Design Patterns:**
+- Page Object Model (POM) — 75% code reduction achieved
+- Data-Driven Testing (JSON + CSV)
+- Base page inheritance pattern
+- DRY principle implementation
 
-Validated sorting of 100 articles across 4 pages with automated pagination
-Implemented timestamp parsing to fix production data format issues
-Achieved 99/99 consecutive comparisons passing (100% success rate)
-Built debugging scripts to systematically identify and resolve issues
-Demonstrated real-world problem-solving and production debugging skills
+**Testing Types:**
+- UI/Browser automation
+- API testing (REST — GET, POST, PUT, DELETE)
+- Security testing (SQL injection, XSS, buffer overflow)
+- Data-driven testing
+- Regression testing
+- Negative/edge case testing
 
-Key Features:
+**CI/CD:**
+- GitHub Actions — live pipeline configured and running
+- Newman CLI — headless test execution
+- npm scripts — automated workflows
 
-Multi-page navigation with "More" link clicking
-Timestamp extraction and parsing (.split() for format correction)
-Date comparison and validation logic
-Professional test reporting with metrics
-Complete QA Wolf technical assignment
+---
 
+## KEY ACHIEVEMENTS
 
-Advanced Playwright Form Automation | GitHub
-Playwright, Smart Waiting, Performance Optimization
+✅ Built complete TypeScript/Playwright framework from scratch including
+Page Object Model, data-driven testing, API tests, and live GitHub Actions
+CI/CD pipeline — 14 tests passing automatically in the cloud
 
-Automated all HTML form elements (inputs, checkboxes, radio, dropdowns, multi-select)
-Implemented smart waiting strategies achieving 40% performance improvement
-Compared dumb waits (fixed timeouts) vs smart waits (element states)
-Measured actual wait times proving efficiency gains (5s → 2.9s)
-Created custom HTML test pages for reliable automation
+✅ Configured live CI/CD pipeline with GitHub Actions — tests run
+automatically on every push to GitHub, with HTML reports saved as
+downloadable artifacts
 
-Technical Skills:
+✅ Implemented Page Object Model achieving 75% code reduction (12 lines
+→ 3 lines per test) using TypeScript class inheritance and DRY principles
 
-Form filling methods (.fill() vs .type())
-Element state management (visible, hidden, attached, detached)
-.waitFor() with state conditions instead of fixed timeouts
-Network activity waiting for API calls
-Label clicking for better reliability
+✅ Built full-stack test coverage with both UI and API tests inside a
+single professional framework — proving end-to-end quality assurance
 
+✅ Solved real company take-home assignment (QA Wolf) — automated
+validation of 100 articles across 4 pages with timestamp parsing and
+bug fix — 99/99 comparisons passing
 
-Data-Driven API Testing Framework | GitHub
-Newman CLI, Postman, JavaScript, CSV
+✅ Reduced test execution time by 99.92% (30 minutes → 1.4 seconds)
+using data-driven framework with CSV files and Newman CLI
 
-Built data-driven framework reducing test execution from 30 minutes to 1.4 seconds
-Implemented CSV-based test data management for 10 user scenarios
-Created 30 automated tests with 100% pass rate
-Generated professional HTML reports with newman-reporter-htmlextra
-Configured npm scripts for CI/CD integration
+✅ Implemented security testing suite covering SQL injection, XSS attacks,
+and buffer overflow across 7 attack vectors using OWASP principles
 
-Results:
+✅ Built custom JavaScript test framework from scratch — assertion library,
+test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
-99.92% time savings through automation
-Professional reporting suitable for stakeholders
-CI/CD ready with command-line execution
-Scalable architecture for additional test scenarios
+✅ Achieved 40% performance improvement through smart waiting strategies
+(element states vs fixed timeouts) in Playwright automation
 
+---
 
-Security Testing Suite | GitHub
-API Security, OWASP, Postman
+## PROJECTS
 
-Implemented 15 security tests covering SQL injection, XSS, and buffer overflow
-Validated input sanitization and authentication workflows
-Tested 10K character payloads for buffer overflow scenarios
-Created negative testing patterns for edge cases
-Documented OWASP-compliant testing methodologies
+### Week 6 QA Framework | TypeScript/Playwright | GitHub
+*Complete professional framework built from scratch*
 
-Security Coverage:
+- Built professional folder structure from blank folder in 4 days
+- Implemented Page Object Model (LoginPage, InventoryPage)
+- Data-driven testing looping through centralized users.json
+- API tests using Playwright's built-in request context
+- Environment variables via dotenv configuration
+- Live CI/CD pipeline running 14 tests automatically on every push
+- **14 tests | 100% pass rate | TypeScript | GitHub Actions**
 
-SQL injection prevention testing
-Cross-site scripting (XSS) validation
-Input validation and sanitization
-Authentication security workflows
-Error handling and edge cases
+---
 
+### Hacker News Sorting Validator | Playwright/JavaScript | GitHub
+*Real company take-home assignment (QA Wolf)*
 
-Custom JavaScript Test Framework | GitHub
-JavaScript, Test Framework Design, OOP
+- Automated validation of 100 articles across 4 pages
+- Found and fixed real timestamp parsing bug in production data
+- Implemented pagination handling with "More" link clicking
+- **99/99 comparisons passing | 100% pass rate**
 
-Built complete test framework from scratch (750+ lines)
-Created fluent assertion library with expect() interface
-Implemented test runners with beforeEach/afterEach hooks
-Built data generators for test scenarios
-Achieved 9/9 tests passing with professional reporting
+---
 
-Framework Features:
+### API Security Testing Suite | Postman/Newman | GitHub
+*Security-focused automation covering 7 attack vectors*
 
-Multiple assertion types (toBe, toContain, toBeGreaterThan)
-API-specific assertions (status codes, response times)
-Test organization with suite structure
-Skip functionality for test management
-Beautiful formatted output with pass/fail indicators
+- SQL injection, XSS, buffer overflow testing
+- OWASP-compliant test design
+- Professional HTML reporting
+- **15/15 tests passing | 100% pass rate**
 
+---
 
-EDUCATION & CERTIFICATIONS
-Structured QA Automation Training | March 2026
+### Data-Driven Testing Framework | Newman CLI | GitHub
+*Replaced 30 minutes of manual testing with 1.4 seconds*
 
-18 consecutive days of intensive hands-on learning
-64+ hours of practical test automation experience
-5,620+ lines of production-quality code written
-100% test pass rate across all projects
+- CSV-based data-driven testing (10 user scenarios)
+- Newman CLI headless execution
+- npm scripts for automated workflows
+- **30 assertions | 99.92% time savings | 100% pass rate**
 
-Key Curriculum:
+---
 
-Week 1: Manual QA Fundamentals
-Week 2: API Testing with Postman
-Week 3: Test Automation & Newman CLI
-Week 4: JavaScript for Test Automation
-Week 5: Playwright & Page Object Model
+### Custom JavaScript Test Framework | JavaScript | GitHub
+*Built from scratch without external libraries*
 
+- Custom expect() assertion library
+- Test runner with beforeEach/afterEach hooks
+- Random data generators
+- **750+ lines | 9/9 tests passing**
 
-ADDITIONAL INFORMATION
-Portfolio:
+---
 
-Professional GitHub repository with comprehensive documentation
-18 days of consecutive commits demonstrating consistency
-Detailed notes for each learning module
-Production-ready code examples
+## TRAINING & EDUCATION
 
-Professional Attributes:
+**Self-Directed QA Automation Engineering Program**
+*25 Consecutive Days | March–April 2026*
 
-Self-directed learner with proven consistency (18 consecutive days)
-Strong problem-solving skills (debugged production timestamp issues)
-Excellent documentation skills (comprehensive notes for all projects)
-Passionate about quality and test automation
-Quick learner (mastered POM, Playwright, JavaScript in 18 days)
+- 90+ hours of hands-on practical training
+- 7,500+ lines of production-quality code
+- 114+ automated tests with 100% pass rate
+- Daily GitHub commits demonstrating consistency
 
-Interests:
+**Curriculum:**
+- Week 1: Manual QA Foundations
+- Week 2: API Testing Fundamentals
+- Week 3: Postman & Newman Automation
+- Week 4: JavaScript for Test Automation
+- Week 5: Playwright Browser Automation
+- Week 6: Full Framework Build & CI/CD Pipeline
 
-Test automation frameworks and design patterns
-Performance optimization
-Clean code and maintainability
-Continuous learning and skill development
+---
 
+## PROFESSIONAL ATTRIBUTES
 
-REFERENCES
-Available upon request
+- **Self-directed:** 25 consecutive days of structured learning
+- **Results-focused:** 100% pass rate across all projects
+- **Problem-solver:** Debugged CI/CD pipeline failures, fixed production bugs
+- **Professional:** Comprehensive documentation for every project
+- **Team-ready:** Code organized for maintainability and collaboration
 
-Last Updated: March 18, 2026
+---
 
-KEY DIFFERENCES FROM PREVIOUS VERSION:
-NEW ADDITIONS:
-✅ Page Object Model featured prominently (Professional Summary, Skills, Achievements)
-✅ Design Patterns & Architecture section (shows advanced knowledge)
-✅ 75% code reduction achievement (quantifiable result)
-✅ Class inheritance and OOP (technical depth)
-✅ New POM project section (dedicated showcase)
-✅ Updated professional summary (emphasizes patterns)
-✅ Enhanced technical skills (adds design patterns)
+*References available upon request*
 
-STRENGTHENED AREAS:
-✅ Professional Summary - Now leads with scalability and design patterns
-✅ Key Achievements - POM achievement listed FIRST (most impressive)
-✅ Projects - POM project added at TOP (most important)
-✅ Technical Skills - New "Design Patterns" category
-
-THIS RESUME NOW SHOWS:
-✅ Mid-Level Skills (not just entry-level anymore!)
-✅ Industry-Standard Patterns (POM is what pros use)
-✅ Scalable Architecture (can work on large projects)
-✅ Professional Code Organization (team-ready)
-✅ Advanced JavaScript (classes, inheritance, OOP)
+**Last Updated:** April 3, 2026
+**Status:** Actively seeking QA Automation Engineer opportunities
+**Availability:** Available immediately

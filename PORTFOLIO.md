@@ -1,242 +1,223 @@
 # QA Automation Portfolio - Cole Brown
 
-**Professional QA Engineer** | API Testing Specialist | Automation Framework Developer
+**QA Automation Engineer** | TypeScript/Playwright | CI/CD | API Testing
 
 ---
 
 ## 👨‍💻 About Me
 
-Aspiring QA Automation Engineer with hands-on experience building comprehensive test automation frameworks. Proficient in API testing, data-driven testing methodologies, and CI/CD integration. Demonstrated ability to design and execute test strategies that ensure software quality and reliability.
+QA Automation Engineer in training based in Sugar Hill, GA. I build
+production-ready test automation frameworks from scratch, debug real
+problems, and document everything like a professional engineer.
 
-**Current Focus:** Transitioning from manual QA to full-stack automation engineering  
-**Learning Path:** Structured 12-week intensive program  
-**Portfolio Status:** 9 days completed, 72+ automated tests, 100% pass rates
+In 25 consecutive days I've gone from zero to building a complete
+TypeScript/Playwright framework with Page Object Model, data-driven
+testing, API tests, and a live CI/CD pipeline on GitHub Actions.
+
+- 📧 cole.brown272@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
+- 🐙 [GitHub](https://github.com/Kingcole006/qa-learning-portfolio)
 
 ---
 
-## 🚀 Key Projects
+## 🚀 Featured Projects
 
-### 1. API Negative Testing Suite
-**Security-focused test automation framework**
+### 1. Week 6 Framework — TypeScript/Playwright
+**Complete professional QA framework built from scratch**
 
-**Technologies:** Postman, JavaScript, JSONPlaceholder API  
-**Focus:** Security vulnerability testing and edge case validation
+**Technologies:** TypeScript, Playwright, GitHub Actions, dotenv
+**Repository:** [week6-framework](week6-framework/)
 
-**Features:**
-- 7 security attack vectors tested (SQL injection, XSS, buffer overflow)
-- Input validation testing (null values, type mismatches, malformed data)
-- 15/15 tests passing with comprehensive assertions
-- Professional logging and error documentation
+**What I Built:**
+- Professional folder structure from a blank folder
+- Page Object Model (LoginPage + InventoryPage)
+- Data-driven testing looping through users.json
+- API tests using Playwright's built-in request context
+- Environment variables via .env and dotenv
+- Live CI/CD pipeline running tests automatically on every push
+
+**Results:**
+- 14 tests passing (UI + API)
+- 100% pass rate
+- Pipeline runs in ~2 minutes on GitHub's servers
+- Tests run automatically on every push
 
 **Skills Demonstrated:**
-- OWASP security testing principles
-- Negative testing strategies
-- Input sanitization validation
-- Edge case discovery
-
-**Business Impact:** Identifies security vulnerabilities before production deployment
+- Framework architecture from scratch
+- TypeScript
+- Page Object Model
+- Data-driven testing
+- API testing inside a UI framework
+- CI/CD with GitHub Actions
 
 ---
 
-### 2. Data-Driven Testing Framework
-**Scalable test automation with CSV data management**
+### 2. Hacker News Sorting Validator — QA Wolf Assignment
+**Real company take-home assignment, solved completely**
 
-**Technologies:** Newman CLI, Postman, npm, Node.js  
-**Focus:** Automated test execution at scale
+**Technologies:** Playwright, JavaScript, Node.js
 
-**Features:**
-- CSV-based test data (10 user scenarios)
-- Command-line execution with Newman
-- Professional HTML reporting
-- npm scripts for automated workflows
-- CI/CD integration ready
+**What I Built:**
+- Automated validation of 100 articles across 4 pages
+- Timestamp parsing and sorting verification
+- Found and fixed a real timestamp parsing bug
+- Professional test reporting
 
-**Metrics:**
-- 30 automated assertions
-- 10 test iterations in 1.4 seconds
+**Results:**
+- 99/99 comparisons passing
 - 100% pass rate
-- 99.92% time savings vs manual testing
+- Bug found and fixed in production data
+
+**Skills Demonstrated:**
+- Real-world browser automation
+- Data extraction and validation
+- Debugging production issues
+- Pagination handling
+
+---
+
+### 3. API Security Testing Suite — Postman/Newman
+**Security-focused automation covering 7 real attack vectors**
+
+**Technologies:** Postman, Newman CLI, JavaScript
+
+**What I Built:**
+- SQL injection prevention testing
+- XSS attack validation
+- Buffer overflow testing (10K characters)
+- OWASP-based test design
+- Professional HTML reporting
+
+**Results:**
+- 15/15 tests passing
+- 7 attack vectors covered
+- 100% pass rate
+
+**Skills Demonstrated:**
+- Security testing principles
+- OWASP methodology
+- Negative testing strategies
+- Newman CLI automation
+
+---
+
+### 4. Data-Driven Testing Framework — Newman CLI
+**Replaced 30 minutes of manual testing with 1.4 seconds**
+
+**Technologies:** Newman CLI, Postman, CSV, Node.js
+
+**What I Built:**
+- CSV-based data-driven testing (10 scenarios)
+- Newman CLI for headless automation
+- Professional HTML reports
+- npm scripts for automated workflows
+
+**Results:**
+- 30 automated assertions
+- 1.4 second execution
+- 99.92% time savings
+- 100% pass rate
 
 **Skills Demonstrated:**
 - Data-driven testing methodology
-- CLI automation proficiency
+- CLI automation
 - Professional reporting
-- Package management (npm/package.json)
-
-**Business Impact:** 10 test scenarios automated = 30 minutes → 1.4 seconds
+- CI/CD integration patterns
 
 ---
 
-### 3. Advanced Postman Automation Suite
-**Complex API validation with dynamic data**
+### 5. Custom JavaScript Test Framework — Built from Scratch
+**No libraries. No tutorials. Every piece built from zero.**
 
-**Technologies:** Postman, JavaScript  
-**Focus:** Advanced test assertions and workflow automation
+**Technologies:** JavaScript, Node.js
 
-**Features:**
-- Pre-request scripts for dynamic data generation
-- Built-in random variable usage
-- Array and collection validation
-- Business logic testing (uniqueness, ordering)
-- Response time performance checks
+**What I Built:**
+- Custom expect() assertion library
+- Test runner with beforeEach/afterEach hooks
+- Random data generators
+- Skip functionality
+- Professional formatted output
 
-**Test Coverage:**
-- 11 advanced assertions
-- Array iteration validation
-- Conditional testing logic
-- Type safety enforcement
-
-**Skills Demonstrated:**
-- JavaScript scripting proficiency
-- Advanced API testing patterns
-- Performance validation
-- Complex data structure testing
-
----
-
-### 4. Complete CRUD Workflow Collection
-**End-to-end API lifecycle testing**
-
-**Technologies:** Postman, JSONPlaceholder API  
-**Focus:** Request chaining and environment management
-
-**Features:**
-- Environment variable management
-- Dynamic request chaining
-- Complete CRUD operations (Create, Read, Update, Delete)
-- Automated workflow validation
-
-**Test Coverage:**
+**Results:**
+- 750+ lines of code
 - 9/9 tests passing
-- Full lifecycle validation
-- Data persistence verification
+- 100% pass rate
 
 **Skills Demonstrated:**
-- Environment variable mastery
-- Request dependency management
-- Workflow orchestration
+- Deep JavaScript knowledge
+- Framework architecture
+- Assertion library design
+- Test runner implementation
 
 ---
 
 ## 📊 Portfolio Statistics
 
-| Metric | Count |
+| Metric | Value |
 |--------|-------|
-| **Days of Learning** | 9 |
-| **Total Automated Tests** | 72 |
-| **Test Collections Built** | 4 |
-| **Security Tests** | 7 |
-| **Data-Driven Tests** | 30 |
+| **Consecutive Days** | 25 |
+| **Total Automated Tests** | 114+ |
 | **Pass Rate** | 100% |
-| **Newman Reports Generated** | ✅ |
-| **CI/CD Integration** | Ready |
-| **GitHub Commits** | 26+ |
+| **Lines of Code** | 7,500+ |
+| **Frameworks Built** | 2 |
+| **CI/CD** | Live on GitHub Actions |
+| **Languages** | TypeScript, JavaScript |
+| **GitHub Commits** | 70+ |
 
 ---
 
 ## 🛠️ Technical Skills
 
-### Testing & Automation
-- **API Testing:** Postman, Newman CLI, REST APIs
-- **Test Automation:** JavaScript, Pre-request scripts, Test scripts
-- **Data-Driven Testing:** CSV files, `pm.iterationData` API
-- **Security Testing:** SQL injection, XSS, input validation
-- **Negative Testing:** Edge cases, error handling, boundary testing
+### Automation & Testing
+- **Browser Automation:** Playwright (TypeScript)
+- **API Testing:** Postman, Newman CLI, Playwright request
+- **Framework Design:** Page Object Model, Data-Driven Testing
+- **Security Testing:** SQL injection, XSS, buffer overflow
+- **CI/CD:** GitHub Actions (live pipeline)
 
-### Tools & Technologies
-- **Version Control:** Git, GitHub
-- **CI/CD Ready:** GitHub Actions, Jenkins, GitLab CI
-- **Package Management:** npm, package.json
-- **Reporting:** newman-reporter-htmlextra, professional dashboards
-- **Command Line:** Newman CLI, bash/PowerShell automation
+### Programming
+- **TypeScript** — Page Objects, test configuration
+- **JavaScript** — async/await, classes, array methods
+- **Node.js** — runtime, npm, package management
 
-### Methodologies
-- Data-driven testing
-- Negative testing strategies
-- Security vulnerability testing
-- Request chaining and workflows
-- Environment management
-- Test organization and documentation
-
----
-
-## 🎯 Key Achievements
-
-### Security Testing Expertise
-- Implemented SQL injection prevention testing
-- Validated XSS attack mitigation
-- Tested buffer overflow handling (10,000 character inputs)
-- Documented security vulnerabilities with professional recommendations
-
-### Automation Efficiency
-- **Manual execution:** 30 minutes (10 users × 3 min each)
-- **Automated execution:** 1.4 seconds
-- **Time savings:** 99.92%
-
-### Professional Standards
-- 100% test pass rates across all collections
-- Comprehensive documentation for every project
-- CI/CD integration capabilities
-- Professional HTML reports suitable for stakeholders
+### Professional Practices
+- Git version control (daily commits)
+- Professional documentation
+- HTML test reports with screenshots
+- Environment variable management
+- Inline code comments
 
 ---
 
 ## 💬 What I Can Do For Your Team
 
-**Immediate Contributions:**
-- Build comprehensive API test automation suites
-- Implement data-driven testing frameworks
-- Conduct security vulnerability testing
-- Generate professional test reports
-- Integrate tests into CI/CD pipelines
+**Immediately:**
+- Build UI automation with Playwright and Page Object Model
+- Write API tests covering happy path and negative scenarios
+- Set up CI/CD pipelines with GitHub Actions
+- Generate professional HTML reports with screenshot capture
+- Implement data-driven testing from JSON or CSV
 
 **Within 30 Days:**
 - Establish automated regression testing
-- Create reusable test frameworks
-- Document testing strategies
-- Train team on automation best practices
-
-**Within 90 Days:**
-- Expand to UI automation (Playwright/Selenium)
-- Implement advanced CI/CD workflows
-- Build custom testing tools and utilities
-- Contribute to testing strategy and planning
+- Create reusable framework components
+- Document testing strategies and standards
 
 ---
 
-## 📈 Learning Trajectory
+## 📈 Learning Path
 
-**Week 1-3 (Current):** API Testing & Postman Automation  
-**Week 4-5 (Next):** JavaScript Fundamentals & Code-Based Testing  
-**Week 6-7 (Future):** Playwright/Selenium UI Automation  
-**Week 8-9:** Advanced Frameworks & Integration  
-**Week 10-12:** Job Preparation & Applications
-
-**Approach:** Hands-on project-based learning with professional documentation
-
----
-
-## 🔗 Links
-
-- **GitHub:** [github.com/Kingcole006/qa-learning-portfolio](https://github.com/Kingcole006/qa-learning-portfolio)
-- **LinkedIn:** [https://www.linkedin.com/in/cole-brown-4aba86243/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BH3A14yNWRRuWm4ayRkbt%2BA%3D%3D]
-- **Email:** [Cole.Brown72@gmail.com]
+- ✅ **Week 1:** Manual QA Foundations
+- ✅ **Week 2:** API Testing Fundamentals
+- ✅ **Week 3:** Postman & Newman Automation
+- ✅ **Week 4:** JavaScript for Test Automation
+- ✅ **Week 5:** Playwright Browser Automation
+- ✅ **Week 6:** Full Framework + CI/CD
+- 🔄 **Weeks 7-8:** Advanced patterns
+- 📋 **Weeks 9+:** Job applications
 
 ---
 
-## 📄 Resume Bullet Points
-
-**Ready-to-use for job applications:**
-
-- Developed comprehensive API test automation framework with 72+ automated tests achieving 100% pass rates
-- Implemented security testing suite covering SQL injection, XSS attacks, and input validation vulnerabilities
-- Built data-driven testing framework reducing test execution time from 30 minutes to 1.4 seconds (99.92% efficiency gain)
-- Created CI/CD-ready test suites with Newman CLI and npm scripts for automated execution
-- Generated professional HTML test reports suitable for stakeholder review and compliance documentation
-- Demonstrated proficiency in JavaScript, Postman, Newman CLI, Git, and test automation best practices
-
----
-
-**Last Updated:** February 20, 2026  
-**Status:** Actively Learning & Building Portfolio  
-**Availability:** Seeking QA Automation Engineer opportunities
+**Last Updated:** April 3, 2026
+**Status:** Actively seeking QA Automation Engineer opportunities
+**Availability:** Available immediately

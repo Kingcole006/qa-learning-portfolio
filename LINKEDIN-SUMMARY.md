@@ -1,51 +1,95 @@
-# LinkedIn Profile Summary
+# LinkedIn Profile
 
 ## Headline
-QA Automation Engineer | API Testing Specialist | Building Secure, Scalable Test Frameworks
-
-## About Section
-
-Transitioning into QA Automation Engineering with hands-on experience building production-ready test automation frameworks. Passionate about software quality, security testing, and creating efficient automated workflows that catch bugs before they reach production.
-
-🔧 **Technical Skills:**
-- API Testing: Postman, Newman CLI, REST APIs
-- Test Automation: JavaScript, Data-Driven Testing, CI/CD Integration
-- Security Testing: SQL Injection, XSS, Input Validation
-- Tools: Git, npm, newman-reporter-htmlextra
-
-📊 **Recent Achievements:**
-- Built comprehensive API test suite with 72+ automated tests (100% pass rate)
-- Implemented security testing framework covering 7 attack vectors
-- Created data-driven testing solution achieving 99.92% time savings
-- Developed CI/CD-ready automation with Newman CLI and professional reporting
-
-🎯 **Currently Learning:**
-Week 3 of 12-week intensive QA automation program
-Focus: Advanced API testing → JavaScript → UI automation (Playwright/Selenium)
-
-💼 **Looking For:**
-QA Automation Engineer opportunities where I can contribute immediately with API testing expertise while growing into full-stack automation roles.
-
-View my portfolio: github.com/Kingcole006/qa-learning-portfolio
+QA Automation Engineer | TypeScript/Playwright | CI/CD | API Testing
 
 ---
 
-## Experience Section to Add
+## About Section
 
-**QA Automation Engineer** (Portfolio Project)  
-*Self-Directed Learning Program*  
-*January 2026 - Present*
+QA Automation Engineer in training based in Sugar Hill, GA. I build
+production-ready test automation frameworks from scratch — not just
+follow tutorials.
 
-- Developed comprehensive API test automation framework with 72+ automated tests achieving 100% pass rates across 4 test collections
+In 25 consecutive days I've gone from writing my first test case to
+building a complete TypeScript/Playwright framework with Page Object
+Model, data-driven testing, API tests, and a live CI/CD pipeline on
+GitHub Actions.
 
-- Implemented security testing suite covering SQL injection, XSS attacks, and input validation vulnerabilities with professional documentation
+🔧 **Technical Skills:**
+- Browser Automation: Playwright (TypeScript)
+- API Testing: Postman, Newman CLI, Playwright request
+- CI/CD: GitHub Actions (live pipeline configured)
+- Languages: TypeScript, JavaScript (ES6+)
+- Design Patterns: Page Object Model, Data-Driven Testing
+- Security Testing: SQL injection, XSS, buffer overflow (OWASP)
+- Tools: Git, GitHub, Node.js, npm, dotenv
 
-- Built data-driven testing framework using CSV files and Newman CLI, reducing test execution time from 30 minutes to 1.4 seconds (99.92% efficiency gain)
+📊 **Key Achievements:**
+- Built complete TypeScript/Playwright framework from scratch with
+  live CI/CD pipeline — 14 tests running automatically in the cloud
+- Implemented Page Object Model achieving 75% code reduction
+- Solved real company take-home assignment (QA Wolf) — 100 articles
+  validated, timestamp bug found and fixed
+- Reduced test execution time by 99.92% (30 min → 1.4 seconds)
+- 114+ automated tests across all projects — 100% pass rate
+- Security testing suite covering 7 OWASP attack vectors
 
-- Created CI/CD-ready test suites with npm scripts and Newman CLI for automated execution in GitHub Actions, Jenkins, and GitLab CI pipelines
+🎯 **Currently:**
+Week 6 of 12-week intensive QA automation program — framework
+complete with CI/CD. Starting job applications soon.
 
-- Generated professional HTML test reports using newman-reporter-htmlextra suitable for stakeholder review and compliance documentation
+💼 **Looking For:**
+QA Automation Engineer opportunities where I can contribute
+immediately with Playwright, TypeScript, API testing, and CI/CD
+pipeline experience.
 
-- Demonstrated proficiency in JavaScript, Postman, Newman CLI, Git version control, and test automation best practices
+📁 Portfolio: github.com/Kingcole006/qa-learning-portfolio
 
-**Skills:** API Testing · Postman · Newman CLI · JavaScript · Test Automation · Security Testing · CI/CD · Git · npm · Data-Driven Testing
+---
+
+## Experience Section
+
+**QA Automation Engineer** (Training Portfolio)
+*Self-Directed Intensive Program*
+*March 2026 - Present*
+
+- Built complete TypeScript/Playwright automation framework from
+  scratch including Page Object Model, data-driven testing, API
+  tests, and live GitHub Actions CI/CD pipeline
+
+- Configured live CI/CD pipeline with GitHub Actions — 14 tests
+  run automatically in the cloud on every push with HTML reports
+  saved as downloadable artifacts
+
+- Implemented Page Object Model reducing test code by 75%
+  (12 lines → 3 lines per test) using TypeScript class inheritance
+
+- Solved real company take-home assignment (QA Wolf) — automated
+  validation of 100 articles with timestamp parsing and bug fix
+
+- Built data-driven testing framework reducing execution time by
+  99.92% (30 minutes → 1.4 seconds) using CSV files and Newman CLI
+
+- Implemented security testing suite covering SQL injection, XSS,
+  and buffer overflow across 7 attack vectors using OWASP principles
+
+- Built custom JavaScript test framework from scratch — assertion
+  library, test runner with hooks, data generators (750+ lines)
+
+**Skills:** Playwright · TypeScript · JavaScript · GitHub Actions ·
+CI/CD · Page Object Model · API Testing · Postman · Newman CLI ·
+Data-Driven Testing · Security Testing · Git · Node.js
+
+---
+
+## Featured Skills (Top 5 to highlight)
+1. Playwright
+2. TypeScript
+3. CI/CD (GitHub Actions)
+4. API Testing
+5. Page Object Model
+
+---
+
+**Last Updated:** April 3, 2026
