@@ -21,18 +21,26 @@ export default defineConfig({
   // Use 1 worker on CI, unlimited locally
   workers: process.env.CI ? 1 : undefined,
 
-  // Generate an HTML report after tests run
-  reporter: 'html',
+  // Multiple reporters for different purposes
+  reporter: [
+    // HTML report — beautiful visual report
+    ['html', { open: 'never' }],
+    // List reporter — shows results in terminal as tests run
+    ['list'],
+  ],
 
   use: {
     // Base URL from .env file - no more hardcoding URLs in tests!
     baseURL: process.env.BASE_URL,
 
-    // Save a trace file when a test fails (helps debugging)
-    trace: 'on-first-retry',
-
     // Take a screenshot automatically when a test fails
     screenshot: 'only-on-failure',
+
+    // Record video on failure for debugging
+    video: 'retain-on-failure',
+
+    // Save a trace file when a test fails (helps debugging)
+    trace: 'on-first-retry',
   },
 
   projects: [
