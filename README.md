@@ -1,13 +1,13 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 27 days.
+> From zero to building production-ready automation frameworks in 28 days.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
-[![Tests](https://img.shields.io/badge/Tests-117%20Passing-brightgreen)]()
+[![Tests](https://img.shields.io/badge/Tests-45%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-27%20Consecutive%20Days-orange)]()
+[![Days](https://img.shields.io/badge/Streak-28%20Consecutive%20Days-orange)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
 
 ---
@@ -16,7 +16,7 @@
 
 I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 27 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, API tests, custom fixtures, advanced reporting, and a live CI/CD pipeline.
+In 28 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, API tests, custom fixtures, advanced reporting, cross-browser testing, and a live CI/CD pipeline.
 
 - 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
@@ -28,10 +28,11 @@ In 27 consecutive days I've gone from writing my first test case to building a c
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 27 ✅ |
-| **Automated Tests** | 117+ |
+| **Consecutive Days** | 28 ✅ |
+| **Automated Tests** | 45 (cross-browser) |
+| **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
-| **Lines of Code** | 7,800+ |
+| **Lines of Code** | 8,000+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
 | **CI/CD** | ✅ Live on GitHub Actions |
 | **Weeks Complete** | 6 of 12 |
@@ -47,10 +48,11 @@ In 27 consecutive days I've gone from writing my first test case to building a c
 - ✅ Custom fixtures with automatic setup and teardown
 - ✅ Data-driven testing via centralized users.json
 - ✅ API + UI tests in one framework
+- ✅ Cross-browser testing (Chrome, Firefox, Safari)
 - ✅ Advanced reporting (HTML, video, trace on failure)
 - ✅ Environment variables with dotenv
 - ✅ Live CI/CD pipeline with GitHub Actions
-- ✅ **17 tests | 100% pass rate | TypeScript**
+- ✅ **45 tests | 3 browsers | 100% pass rate | TypeScript**
 
 ---
 
@@ -129,32 +131,27 @@ Understanding what we're automating before we automate it.
 - Blank folder → professional project structure in one session
 - TypeScript + Playwright configured with inline documentation
 - LoginPage.ts — first Page Object with full comments
-- GitHub Actions workflow scaffolded automatically
 - **5 tests | 100% pass rate**
 
 #### Day 22 — Data-Driven Testing & Config ✅
-- InventoryPage.ts — second Page Object working alongside first
+- InventoryPage.ts — second Page Object
 - Loop-based testing across 5 users from users.json
 - Environment variables loaded via dotenv
-- playwright.config.ts fully documented
 - **10 tests | 100% pass rate**
 
 #### Day 23 — API Testing Inside the Framework ✅
 - API tests using Playwright's built-in request context
 - GET all users, GET single user, GET 404, POST create user
-- Framework now tests both UI and API in one place
 - **14 tests | 100% pass rate**
 
 #### Day 24 — Live CI/CD with GitHub Actions ✅
 - GitHub Actions pipeline running automatically on every push
 - Tests run on GitHub's Ubuntu servers in the cloud
-- HTML report saved as downloadable artifact
-- **14 tests passing automatically in the cloud | 2 min pipeline**
+- **14 tests passing automatically in the cloud**
 
 #### Day 25 — Polish & Documentation ✅
 - PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md all updated
 - Week 6 Summary created
-- README overhauled to professional format
 
 ### 🔄 Week 7: Advanced Framework Patterns
 
@@ -171,8 +168,13 @@ Understanding what we're automating before we automate it.
 - Beautiful HTML report with visual evidence
 - **17 tests | 100% pass rate**
 
+#### Day 28 — Cross-Browser Testing ✅
+- Tests now run on Chrome, Firefox AND Safari simultaneously
+- Increased timeout to 60 seconds for slower browsers
+- Removed unreliable external test dependencies
+- **45 tests | 3 browsers | 100% pass rate**
+
 **Up next:**
-- 🔄 Day 28: Cross-browser testing
 - 🔄 Day 29: Test organization & tagging
 - 🔄 Day 30: Week 7 wrap up & job prep
 
@@ -184,6 +186,7 @@ Understanding what we're automating before we automate it.
 |----------|---------------|
 | **Automation** | Playwright, Newman CLI |
 | **Languages** | TypeScript, JavaScript |
+| **Browsers** | Chrome, Firefox, Safari |
 | **API Testing** | Postman, fetch(), Playwright request |
 | **Design Patterns** | Page Object Model, Data-Driven Testing, Fixtures |
 | **Reporting** | HTML reports, video, trace, screenshots |
@@ -214,23 +217,25 @@ Understanding what we're automating before we automate it.
 [Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md) | [Day 23: API Testing](Notes/Day23-API-Testing-Framework.md) | [Day 24: CI/CD GitHub Actions](Notes/Day24-CICD-GitHub-Actions.md) | [Week 6 Summary](Notes/Week6-Summary.md)
 
 **Week 7:**
-[Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md)
+[Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md) | [Day 28: Cross-Browser Testing](Notes/Day28-Cross-Browser-Testing.md)
 
 ---
 
 ## 💼 Resume-Ready Highlights
 
-✅ Built complete TypeScript/Playwright automation framework from scratch including Page Object Model, custom fixtures, data-driven testing, and live GitHub Actions CI/CD pipeline
+✅ Built complete TypeScript/Playwright framework from scratch — Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, and live GitHub Actions CI/CD pipeline
 
-✅ Implemented custom Playwright fixtures with automatic setup and teardown — eliminating repetitive code and ensuring consistent test state across entire suite
+✅ Implemented cross-browser testing running 45 tests simultaneously across Chrome, Firefox, and Safari — 100% pass rate across all browsers
+
+✅ Implemented custom Playwright fixtures with automatic setup and teardown — eliminating repetitive code and ensuring consistent test state
 
 ✅ Configured advanced reporting with HTML reports, automatic video recording on failure, and trace capture for deep debugging
 
-✅ Configured live CI/CD pipeline with GitHub Actions — 17 tests run automatically in the cloud on every push with HTML reports as downloadable artifacts
+✅ Configured live CI/CD pipeline with GitHub Actions — 45 tests run automatically in the cloud on every push
 
-✅ Implemented full-stack test coverage with both UI and API tests inside a single professional framework — 17 tests, 100% pass rate
+✅ Implemented full-stack test coverage with both UI and API tests inside a single professional framework
 
-✅ Implemented Page Object Model reducing test code by 75% (12 lines → 3 lines per test) through TypeScript class inheritance and DRY principles
+✅ Implemented Page Object Model reducing test code by 75% (12 lines → 3 lines per test) through TypeScript class inheritance
 
 ✅ Solved real company take-home assignment (QA Wolf) — automated validation of 100 articles across 4 pages with timestamp parsing and bug fix
 
@@ -242,7 +247,7 @@ Understanding what we're automating before we automate it.
 
 ## 🎯 What's Next
 
-- 🔄 **Week 7 (Now):** Cross-browser testing, test tagging, job prep
+- 🔄 **Week 7 (Now):** Test tagging, organization, job prep
 - 💼 **Week 8+:** Active job applications and interview prep
 
 ---
