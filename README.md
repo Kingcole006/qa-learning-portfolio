@@ -1,13 +1,13 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 24 days.
+> From zero to building production-ready automation frameworks in 27 days.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
-[![Tests](https://img.shields.io/badge/Tests-114%20Passing-brightgreen)]()
+[![Tests](https://img.shields.io/badge/Tests-117%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-24%20Consecutive%20Days-orange)]()
+[![Days](https://img.shields.io/badge/Streak-27%20Consecutive%20Days-orange)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
 
 ---
@@ -16,7 +16,7 @@
 
 I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 24 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, API tests, and a live CI/CD pipeline.
+In 27 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, API tests, custom fixtures, advanced reporting, and a live CI/CD pipeline.
 
 - 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
@@ -28,27 +28,29 @@ In 24 consecutive days I've gone from writing my first test case to building a c
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 24 ✅ |
-| **Automated Tests** | 114+ |
+| **Consecutive Days** | 27 ✅ |
+| **Automated Tests** | 117+ |
 | **Pass Rate** | 100% |
-| **Lines of Code** | 7,500+ |
+| **Lines of Code** | 7,800+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
 | **CI/CD** | ✅ Live on GitHub Actions |
-| **Weeks Complete** | 5 of 12 |
+| **Weeks Complete** | 6 of 12 |
 
 ---
 
 ## 🚀 Featured Projects
 
 ### [Week 6 Framework](week6-framework/) — TypeScript/Playwright 🆕
-> Built a complete professional QA framework from a blank folder in 4 days
+> Built a complete professional QA framework from a blank folder
 
 - ✅ Page Object Model (LoginPage + InventoryPage)
+- ✅ Custom fixtures with automatic setup and teardown
 - ✅ Data-driven testing via centralized users.json
 - ✅ API + UI tests in one framework
+- ✅ Advanced reporting (HTML, video, trace on failure)
 - ✅ Environment variables with dotenv
 - ✅ Live CI/CD pipeline with GitHub Actions
-- ✅ **14 tests | 100% pass rate | TypeScript**
+- ✅ **17 tests | 100% pass rate | TypeScript**
 
 ---
 
@@ -120,8 +122,8 @@ Understanding what we're automating before we automate it.
 - Page Object Model — 75% code reduction achieved
 - Automatic screenshot capture on test failure
 
-### 🔄 Week 6: Full Framework Build & CI/CD
-**Goal: Answer "yes" to "Can you build a framework from scratch?"**
+### ✅ Week 6: Full Framework Build & CI/CD
+**Result: 14 tests | Live CI/CD | Grade: A+**
 
 #### Day 21 — Framework Setup ✅
 - Blank folder → professional project structure in one session
@@ -133,7 +135,7 @@ Understanding what we're automating before we automate it.
 #### Day 22 — Data-Driven Testing & Config ✅
 - InventoryPage.ts — second Page Object working alongside first
 - Loop-based testing across 5 users from users.json
-- Environment variables loaded via dotenv (no more hardcoded URLs)
+- Environment variables loaded via dotenv
 - playwright.config.ts fully documented
 - **10 tests | 100% pass rate**
 
@@ -149,8 +151,30 @@ Understanding what we're automating before we automate it.
 - HTML report saved as downloadable artifact
 - **14 tests passing automatically in the cloud | 2 min pipeline**
 
+#### Day 25 — Polish & Documentation ✅
+- PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md all updated
+- Week 6 Summary created
+- README overhauled to professional format
+
+### 🔄 Week 7: Advanced Framework Patterns
+
+#### Day 26 — Custom Fixtures & Hooks ✅
+- Built custom Playwright fixtures (loginPage, inventoryPage, loggedInPage)
+- Automatic setup and teardown for every test
+- Tests now request pre-built objects instead of creating them manually
+- **17 tests | 100% pass rate**
+
+#### Day 27 — Advanced Reporting ✅
+- List reporter showing results in real time as tests run
+- Video recording automatically saved on test failure
+- Trace capture on retry for deep debugging
+- Beautiful HTML report with visual evidence
+- **17 tests | 100% pass rate**
+
 **Up next:**
-- 🔄 Day 25: Framework polish, documentation & portfolio update
+- 🔄 Day 28: Cross-browser testing
+- 🔄 Day 29: Test organization & tagging
+- 🔄 Day 30: Week 7 wrap up & job prep
 
 ---
 
@@ -161,8 +185,8 @@ Understanding what we're automating before we automate it.
 | **Automation** | Playwright, Newman CLI |
 | **Languages** | TypeScript, JavaScript |
 | **API Testing** | Postman, fetch(), Playwright request |
-| **Design Patterns** | Page Object Model, Data-Driven Testing |
-| **Reporting** | HTML reports, automatic screenshots |
+| **Design Patterns** | Page Object Model, Data-Driven Testing, Fixtures |
+| **Reporting** | HTML reports, video, trace, screenshots |
 | **CI/CD** | GitHub Actions ✅ Live |
 | **Version Control** | Git, GitHub (daily commits) |
 | **Runtime** | Node.js, npm |
@@ -187,40 +211,42 @@ Understanding what we're automating before we automate it.
 [Playwright Fundamentals](Notes/Day16-Playwright.md) | [Advanced Playwright](Notes/Day17-Advanced-Playwright.md) | [Page Object Model](Notes/Day18-Page-Object-Model.md) | [Screenshots & Visual Testing](Notes/Day19-Screenshots-Visual-Testing.md) | [Week 5 Summary](Notes/Week5-Summary.md)
 
 **Week 6:**
-[Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md) | [Day 23: API Testing](Notes/Day23-API-Testing-Framework.md) | [Day 24: CI/CD GitHub Actions](Notes/Day24-CICD-GitHub-Actions.md)
+[Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md) | [Day 23: API Testing](Notes/Day23-API-Testing-Framework.md) | [Day 24: CI/CD GitHub Actions](Notes/Day24-CICD-GitHub-Actions.md) | [Week 6 Summary](Notes/Week6-Summary.md)
+
+**Week 7:**
+[Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md)
 
 ---
 
 ## 💼 Resume-Ready Highlights
 
-✅ Built complete TypeScript/Playwright automation framework from scratch including Page Object Model architecture, data-driven testing, environment configuration, and live GitHub Actions CI/CD pipeline
+✅ Built complete TypeScript/Playwright automation framework from scratch including Page Object Model, custom fixtures, data-driven testing, and live GitHub Actions CI/CD pipeline
 
-✅ Configured live CI/CD pipeline with GitHub Actions — 14 tests run automatically in the cloud on every push, with HTML reports saved as downloadable artifacts
+✅ Implemented custom Playwright fixtures with automatic setup and teardown — eliminating repetitive code and ensuring consistent test state across entire suite
 
-✅ Implemented full-stack test coverage with both UI and API tests inside a single professional framework — 14 tests, 100% pass rate
+✅ Configured advanced reporting with HTML reports, automatic video recording on failure, and trace capture for deep debugging
 
-✅ Implemented Page Object Model design pattern reducing test code by 75% (12 lines → 3 lines per test) through JavaScript class inheritance and DRY principles
+✅ Configured live CI/CD pipeline with GitHub Actions — 17 tests run automatically in the cloud on every push with HTML reports as downloadable artifacts
+
+✅ Implemented full-stack test coverage with both UI and API tests inside a single professional framework — 17 tests, 100% pass rate
+
+✅ Implemented Page Object Model reducing test code by 75% (12 lines → 3 lines per test) through TypeScript class inheritance and DRY principles
 
 ✅ Solved real company take-home assignment (QA Wolf) — automated validation of 100 articles across 4 pages with timestamp parsing and bug fix
 
 ✅ Reduced manual test execution time by 99.92% (30 minutes → 1.4 seconds) using data-driven framework with CSV files and Newman CLI
 
-✅ Implemented security testing suite covering SQL injection, XSS attacks, and buffer overflow vulnerabilities across 7 attack vectors using OWASP principles
-
-✅ Built professional HTML test reports with automatic screenshot capture on failure, suitable for stakeholder review and developer debugging
-
-✅ Built custom JavaScript test framework from scratch — assertion library, test runner with hooks, and data generators — without external libraries
+✅ Implemented security testing suite covering SQL injection, XSS attacks, and buffer overflow across 7 attack vectors using OWASP principles
 
 ---
 
 ## 🎯 What's Next
 
-- 🔄 **Week 6 (Now):** Day 25 — Polish, documentation and full portfolio update
-- 📋 **Weeks 7-8:** Advanced automation patterns
-- 💼 **Week 9+:** Active job applications and interview prep
+- 🔄 **Week 7 (Now):** Cross-browser testing, test tagging, job prep
+- 💼 **Week 8+:** Active job applications and interview prep
 
 ---
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** April 2, 2026
+**Last Updated:** April 8, 2026
