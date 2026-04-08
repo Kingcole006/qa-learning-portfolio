@@ -9,6 +9,9 @@ export default defineConfig({
   // Where Playwright looks for test files
   testDir: './tests',
 
+  // How long each test can run before failing (60 seconds)
+  timeout: 60000,
+
   // Run all test files at the same time (faster)
   fullyParallel: true,
 
