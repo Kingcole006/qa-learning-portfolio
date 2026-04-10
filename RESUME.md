@@ -11,10 +11,11 @@
 QA Automation Engineer with hands-on experience building production-ready
 test automation frameworks from scratch. Proven ability to design and
 implement complete testing solutions including UI automation, API testing,
-data-driven frameworks, and live CI/CD pipelines. Achieved 100% test pass
-rates across 114+ automated tests. Proficient in TypeScript, JavaScript,
-Playwright, and GitHub Actions. Self-directed learner with 25 consecutive
-days of intensive hands-on training.
+cross-browser testing, data-driven frameworks, custom fixtures, test
+tagging, and live CI/CD pipelines. Achieved 100% test pass rates across
+45 automated tests running on Chrome, Firefox, and Safari. Proficient in
+TypeScript, JavaScript, Playwright, and GitHub Actions. Self-directed
+learner with 30 consecutive days of intensive hands-on training.
 
 ---
 
@@ -22,6 +23,9 @@ days of intensive hands-on training.
 
 **Automation & Frameworks:**
 - Playwright (TypeScript) — UI & API automation
+- Cross-browser testing — Chrome, Firefox, Safari
+- Custom fixtures with setup and teardown
+- Test tagging for selective execution
 - Postman / Newman CLI — API testing
 - GitHub Actions — CI/CD pipeline configuration
 - Custom JavaScript test framework (built from scratch)
@@ -35,15 +39,15 @@ days of intensive hands-on training.
 **Design Patterns:**
 - Page Object Model (POM) — 75% code reduction achieved
 - Data-Driven Testing (JSON + CSV)
-- Base page inheritance pattern
+- Custom fixtures and hooks
 - DRY principle implementation
 
 **Testing Types:**
-- UI/Browser automation
+- UI/Browser automation (cross-browser)
 - API testing (REST — GET, POST, PUT, DELETE)
 - Security testing (SQL injection, XSS, buffer overflow)
 - Data-driven testing
-- Regression testing
+- Smoke testing and regression testing
 - Negative/edge case testing
 
 **CI/CD:**
@@ -51,23 +55,39 @@ days of intensive hands-on training.
 - Newman CLI — headless test execution
 - npm scripts — automated workflows
 
+**Reporting:**
+- HTML reports with visual evidence
+- Automatic video recording on failure
+- Trace capture for deep debugging
+- Screenshot on failure
+
 ---
 
 ## KEY ACHIEVEMENTS
 
 ✅ Built complete TypeScript/Playwright framework from scratch including
-Page Object Model, data-driven testing, API tests, and live GitHub Actions
-CI/CD pipeline — 14 tests passing automatically in the cloud
+Page Object Model, custom fixtures, data-driven testing, cross-browser
+testing, test tagging, and live GitHub Actions CI/CD pipeline — 45 tests
+passing across Chrome, Firefox, and Safari
+
+✅ Implemented test tagging strategy (@smoke, @regression, @api, @ui)
+enabling selective execution — smoke suite completes in 9 seconds vs
+full suite in 30 seconds
+
+✅ Implemented cross-browser testing running 45 tests simultaneously
+across Chrome, Firefox, and Safari — 100% pass rate on all browsers
 
 ✅ Configured live CI/CD pipeline with GitHub Actions — tests run
-automatically on every push to GitHub, with HTML reports saved as
-downloadable artifacts
+automatically in the cloud on every push with HTML reports as artifacts
+
+✅ Built custom fixtures with automatic setup and teardown — eliminating
+repetitive code and ensuring consistent test state across entire suite
+
+✅ Configured advanced reporting with automatic video recording and trace
+capture on failure for fast debugging
 
 ✅ Implemented Page Object Model achieving 75% code reduction (12 lines
 → 3 lines per test) using TypeScript class inheritance and DRY principles
-
-✅ Built full-stack test coverage with both UI and API tests inside a
-single professional framework — proving end-to-end quality assurance
 
 ✅ Solved real company take-home assignment (QA Wolf) — automated
 validation of 100 articles across 4 pages with timestamp parsing and
@@ -89,16 +109,20 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 ## PROJECTS
 
-### Week 6 QA Framework | TypeScript/Playwright | GitHub
+### Week 6 & 7 QA Framework | TypeScript/Playwright | GitHub
 *Complete professional framework built from scratch*
 
-- Built professional folder structure from blank folder in 4 days
+- Built professional folder structure from blank folder in 5 days
 - Implemented Page Object Model (LoginPage, InventoryPage)
+- Built custom fixtures for automatic test setup and teardown
 - Data-driven testing looping through centralized users.json
 - API tests using Playwright's built-in request context
+- Cross-browser testing across Chrome, Firefox, and Safari
+- Test tagging system (@smoke, @regression, @api, @ui, @login)
+- Advanced reporting with video and trace on failure
 - Environment variables via dotenv configuration
-- Live CI/CD pipeline running 14 tests automatically on every push
-- **14 tests | 100% pass rate | TypeScript | GitHub Actions**
+- Live CI/CD pipeline running 45 tests automatically on every push
+- **45 tests | 3 browsers | 100% pass rate | TypeScript | GitHub Actions**
 
 ---
 
@@ -107,7 +131,6 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 - Automated validation of 100 articles across 4 pages
 - Found and fixed real timestamp parsing bug in production data
-- Implemented pagination handling with "More" link clicking
 - **99/99 comparisons passing | 100% pass rate**
 
 ---
@@ -117,7 +140,6 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 - SQL injection, XSS, buffer overflow testing
 - OWASP-compliant test design
-- Professional HTML reporting
 - **15/15 tests passing | 100% pass rate**
 
 ---
@@ -126,8 +148,6 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 *Replaced 30 minutes of manual testing with 1.4 seconds*
 
 - CSV-based data-driven testing (10 user scenarios)
-- Newman CLI headless execution
-- npm scripts for automated workflows
 - **30 assertions | 99.92% time savings | 100% pass rate**
 
 ---
@@ -137,7 +157,6 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 - Custom expect() assertion library
 - Test runner with beforeEach/afterEach hooks
-- Random data generators
 - **750+ lines | 9/9 tests passing**
 
 ---
@@ -145,11 +164,11 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 ## TRAINING & EDUCATION
 
 **Self-Directed QA Automation Engineering Program**
-*25 Consecutive Days | March–April 2026*
+*30 Consecutive Days | March–April 2026*
 
-- 90+ hours of hands-on practical training
-- 7,500+ lines of production-quality code
-- 114+ automated tests with 100% pass rate
+- 100+ hours of hands-on practical training
+- 8,200+ lines of production-quality code
+- 45 automated tests with 100% pass rate
 - Daily GitHub commits demonstrating consistency
 
 **Curriculum:**
@@ -159,14 +178,15 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 - Week 4: JavaScript for Test Automation
 - Week 5: Playwright Browser Automation
 - Week 6: Full Framework Build & CI/CD Pipeline
+- Week 7: Advanced Patterns (Fixtures, Cross-Browser, Tagging)
 
 ---
 
 ## PROFESSIONAL ATTRIBUTES
 
-- **Self-directed:** 25 consecutive days of structured learning
+- **Self-directed:** 30 consecutive days of structured learning
 - **Results-focused:** 100% pass rate across all projects
-- **Problem-solver:** Debugged CI/CD pipeline failures, fixed production bugs
+- **Problem-solver:** Debugged CI/CD failures, fixed production bugs
 - **Professional:** Comprehensive documentation for every project
 - **Team-ready:** Code organized for maintainability and collaboration
 
@@ -174,6 +194,6 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 *References available upon request*
 
-**Last Updated:** April 3, 2026
+**Last Updated:** April 10, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
