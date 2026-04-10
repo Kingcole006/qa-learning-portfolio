@@ -1,13 +1,13 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 28 days.
+> From zero to building production-ready automation frameworks in 29 days.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
 [![Tests](https://img.shields.io/badge/Tests-45%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-28%20Consecutive%20Days-orange)]()
+[![Days](https://img.shields.io/badge/Streak-29%20Consecutive%20Days-orange)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
 
 ---
@@ -16,7 +16,7 @@
 
 I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 28 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, API tests, custom fixtures, advanced reporting, cross-browser testing, and a live CI/CD pipeline.
+In 29 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, API tests, custom fixtures, advanced reporting, cross-browser testing, test tagging, and a live CI/CD pipeline.
 
 - 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
@@ -28,11 +28,11 @@ In 28 consecutive days I've gone from writing my first test case to building a c
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 28 ✅ |
+| **Consecutive Days** | 29 ✅ |
 | **Automated Tests** | 45 (cross-browser) |
 | **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
-| **Lines of Code** | 8,000+ |
+| **Lines of Code** | 8,200+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
 | **CI/CD** | ✅ Live on GitHub Actions |
 | **Weeks Complete** | 6 of 12 |
@@ -49,6 +49,7 @@ In 28 consecutive days I've gone from writing my first test case to building a c
 - ✅ Data-driven testing via centralized users.json
 - ✅ API + UI tests in one framework
 - ✅ Cross-browser testing (Chrome, Firefox, Safari)
+- ✅ Test tagging (@smoke, @regression, @api, @ui)
 - ✅ Advanced reporting (HTML, video, trace on failure)
 - ✅ Environment variables with dotenv
 - ✅ Live CI/CD pipeline with GitHub Actions
@@ -158,25 +159,28 @@ Understanding what we're automating before we automate it.
 #### Day 26 — Custom Fixtures & Hooks ✅
 - Built custom Playwright fixtures (loginPage, inventoryPage, loggedInPage)
 - Automatic setup and teardown for every test
-- Tests now request pre-built objects instead of creating them manually
 - **17 tests | 100% pass rate**
 
 #### Day 27 — Advanced Reporting ✅
-- List reporter showing results in real time as tests run
-- Video recording automatically saved on test failure
-- Trace capture on retry for deep debugging
+- List reporter, video on failure, trace capture
 - Beautiful HTML report with visual evidence
 - **17 tests | 100% pass rate**
 
 #### Day 28 — Cross-Browser Testing ✅
-- Tests now run on Chrome, Firefox AND Safari simultaneously
+- Tests run on Chrome, Firefox AND Safari simultaneously
 - Increased timeout to 60 seconds for slower browsers
-- Removed unreliable external test dependencies
 - **45 tests | 3 browsers | 100% pass rate**
 
+#### Day 29 — Test Organization & Tagging ✅
+- @smoke — 3 critical tests, runs in 9 seconds
+- @regression — full suite for thorough testing
+- @api — API tests only (3.6 seconds)
+- @ui — UI tests only
+- @login — login-specific tests
+- **15 tests | 100% pass rate | Selective execution**
+
 **Up next:**
-- 🔄 Day 29: Test organization & tagging
-- 🔄 Day 30: Week 7 wrap up & job prep
+- 🔄 Day 30: Week 7 wrap up & job prep begins
 
 ---
 
@@ -189,6 +193,7 @@ Understanding what we're automating before we automate it.
 | **Browsers** | Chrome, Firefox, Safari |
 | **API Testing** | Postman, fetch(), Playwright request |
 | **Design Patterns** | Page Object Model, Data-Driven Testing, Fixtures |
+| **Test Organization** | Tags (@smoke, @regression, @api, @ui) |
 | **Reporting** | HTML reports, video, trace, screenshots |
 | **CI/CD** | GitHub Actions ✅ Live |
 | **Version Control** | Git, GitHub (daily commits) |
@@ -217,13 +222,15 @@ Understanding what we're automating before we automate it.
 [Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md) | [Day 23: API Testing](Notes/Day23-API-Testing-Framework.md) | [Day 24: CI/CD GitHub Actions](Notes/Day24-CICD-GitHub-Actions.md) | [Week 6 Summary](Notes/Week6-Summary.md)
 
 **Week 7:**
-[Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md) | [Day 28: Cross-Browser Testing](Notes/Day28-Cross-Browser-Testing.md)
+[Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md) | [Day 28: Cross-Browser Testing](Notes/Day28-Cross-Browser-Testing.md) | [Day 29: Test Tagging](Notes/Day29-Test-Tagging.md)
 
 ---
 
 ## 💼 Resume-Ready Highlights
 
-✅ Built complete TypeScript/Playwright framework from scratch — Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, and live GitHub Actions CI/CD pipeline
+✅ Built complete TypeScript/Playwright framework from scratch — Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, and live GitHub Actions CI/CD pipeline
+
+✅ Implemented test tagging strategy (@smoke, @regression, @api, @ui) enabling selective test execution — smoke suite runs in 9 seconds vs full suite in 30 seconds
 
 ✅ Implemented cross-browser testing running 45 tests simultaneously across Chrome, Firefox, and Safari — 100% pass rate across all browsers
 
@@ -247,11 +254,11 @@ Understanding what we're automating before we automate it.
 
 ## 🎯 What's Next
 
-- 🔄 **Week 7 (Now):** Test tagging, organization, job prep
+- 🔄 **Day 30:** Week 7 wrap up & job prep begins
 - 💼 **Week 8+:** Active job applications and interview prep
 
 ---
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** April 8, 2026
+**Last Updated:** April 10, 2026
