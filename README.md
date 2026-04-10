@@ -1,13 +1,13 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 29 days.
+> From zero to building production-ready automation frameworks in 30 days.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
 [![Tests](https://img.shields.io/badge/Tests-45%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-29%20Consecutive%20Days-orange)]()
+[![Days](https://img.shields.io/badge/Streak-30%20Consecutive%20Days-orange)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
 
 ---
@@ -16,7 +16,7 @@
 
 I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 29 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, data-driven testing, API tests, custom fixtures, advanced reporting, cross-browser testing, test tagging, and a live CI/CD pipeline.
+In 30 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, and a live CI/CD pipeline.
 
 - 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
@@ -28,20 +28,20 @@ In 29 consecutive days I've gone from writing my first test case to building a c
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 29 ✅ |
+| **Consecutive Days** | 30 ✅ |
 | **Automated Tests** | 45 (cross-browser) |
 | **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
 | **Lines of Code** | 8,200+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
 | **CI/CD** | ✅ Live on GitHub Actions |
-| **Weeks Complete** | 6 of 12 |
+| **Weeks Complete** | 7 of 12 |
 
 ---
 
 ## 🚀 Featured Projects
 
-### [Week 6 Framework](week6-framework/) — TypeScript/Playwright 🆕
+### [Week 6 & 7 Framework](week6-framework/) — TypeScript/Playwright 🆕
 > Built a complete professional QA framework from a blank folder
 
 - ✅ Page Object Model (LoginPage + InventoryPage)
@@ -154,7 +154,8 @@ Understanding what we're automating before we automate it.
 - PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md all updated
 - Week 6 Summary created
 
-### 🔄 Week 7: Advanced Framework Patterns
+### ✅ Week 7: Advanced Framework Patterns
+**Result: 45 tests | 3 browsers | Grade: A+**
 
 #### Day 26 — Custom Fixtures & Hooks ✅
 - Built custom Playwright fixtures (loginPage, inventoryPage, loggedInPage)
@@ -179,8 +180,16 @@ Understanding what we're automating before we automate it.
 - @login — login-specific tests
 - **15 tests | 100% pass rate | Selective execution**
 
-**Up next:**
-- 🔄 Day 30: Week 7 wrap up & job prep begins
+#### Day 30 — Week 7 Wrap Up ✅
+- PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md updated
+- Week 7 Summary created
+- Ready to start job applications
+
+### 🔄 Week 8: Job Applications & Interview Prep
+- Active job applications
+- Interview question bank
+- Technical interview practice
+- Salary negotiation prep
 
 ---
 
@@ -222,7 +231,7 @@ Understanding what we're automating before we automate it.
 [Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md) | [Day 23: API Testing](Notes/Day23-API-Testing-Framework.md) | [Day 24: CI/CD GitHub Actions](Notes/Day24-CICD-GitHub-Actions.md) | [Week 6 Summary](Notes/Week6-Summary.md)
 
 **Week 7:**
-[Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md) | [Day 28: Cross-Browser Testing](Notes/Day28-Cross-Browser-Testing.md) | [Day 29: Test Tagging](Notes/Day29-Test-Tagging.md)
+[Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md) | [Day 28: Cross-Browser Testing](Notes/Day28-Cross-Browser-Testing.md) | [Day 29: Test Tagging](Notes/Day29-Test-Tagging.md) | [Week 7 Summary](Notes/Week7-Summary.md)
 
 ---
 
@@ -254,8 +263,8 @@ Understanding what we're automating before we automate it.
 
 ## 🎯 What's Next
 
-- 🔄 **Day 30:** Week 7 wrap up & job prep begins
-- 💼 **Week 8+:** Active job applications and interview prep
+- 🔄 **Week 8 (Now):** Active job applications and interview prep
+- 💼 **Goal:** Land QA Automation Engineer role
 
 ---
 
