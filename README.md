@@ -1,13 +1,13 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 30 days.
+> From zero to building production-ready automation frameworks in 31 days.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
 [![Tests](https://img.shields.io/badge/Tests-45%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-30%20Consecutive%20Days-orange)]()
+[![Days](https://img.shields.io/badge/Streak-31%20Consecutive%20Days-orange)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
 
 ---
@@ -16,7 +16,7 @@
 
 I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 30 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, and a live CI/CD pipeline.
+In 31 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, and a live CI/CD pipeline.
 
 - 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
@@ -28,7 +28,7 @@ In 30 consecutive days I've gone from writing my first test case to building a c
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 30 ✅ |
+| **Consecutive Days** | 31 ✅ |
 | **Automated Tests** | 45 (cross-browser) |
 | **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
@@ -185,11 +185,20 @@ Understanding what we're automating before we automate it.
 - Week 7 Summary created
 - Ready to start job applications
 
-### 🔄 Week 8: Job Applications & Interview Prep
-- Active job applications
-- Interview question bank
-- Technical interview practice
-- Salary negotiation prep
+### 🔄 Week 8: SQL for QA Engineers
+
+#### Day 31 — SQL Basics ✅
+- Created users table and inserted test data
+- SELECT — retrieving all or specific columns
+- WHERE — filtering rows with conditions
+- ORDER BY — sorting results ASC and DESC
+- Combined queries for real QA validation scenarios
+
+**Up next:**
+- 🔄 Day 32: SQL Joins
+- 🔄 Day 33: SQL Aggregations
+- 🔄 Day 34: SQL for QA data validation
+- 🔄 Day 35: SQL practice & interview questions
 
 ---
 
@@ -201,6 +210,7 @@ Understanding what we're automating before we automate it.
 | **Languages** | TypeScript, JavaScript |
 | **Browsers** | Chrome, Firefox, Safari |
 | **API Testing** | Postman, fetch(), Playwright request |
+| **Database** | SQL (SELECT, WHERE, ORDER BY, Joins) |
 | **Design Patterns** | Page Object Model, Data-Driven Testing, Fixtures |
 | **Test Organization** | Tags (@smoke, @regression, @api, @ui) |
 | **Reporting** | HTML reports, video, trace, screenshots |
@@ -233,6 +243,9 @@ Understanding what we're automating before we automate it.
 **Week 7:**
 [Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md) | [Day 28: Cross-Browser Testing](Notes/Day28-Cross-Browser-Testing.md) | [Day 29: Test Tagging](Notes/Day29-Test-Tagging.md) | [Week 7 Summary](Notes/Week7-Summary.md)
 
+**Week 8:**
+[Day 31: SQL Basics](Notes/Day31-SQL-Basics.md)
+
 ---
 
 ## 💼 Resume-Ready Highlights
@@ -263,11 +276,13 @@ Understanding what we're automating before we automate it.
 
 ## 🎯 What's Next
 
-- 🔄 **Week 8 (Now):** Active job applications and interview prep
-- 💼 **Goal:** Land QA Automation Engineer role
+- ✅ **Week 7:** Advanced Framework Patterns — Complete
+- 🔄 **Week 8 (Now):** SQL for QA Engineers
+- 🔄 **Week 9:** JIRA & Agile for QA
+- 💼 **Week 10+:** Active job applications and interview prep
 
 ---
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** April 10, 2026
+**Last Updated:** April 14, 2026
