@@ -1,13 +1,13 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 34 days.
+> From zero to building production-ready automation frameworks in 35 days.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
 [![Tests](https://img.shields.io/badge/Tests-45%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-34%20Consecutive%20Days-orange)]()
+[![Days](https://img.shields.io/badge/Streak-35%20Consecutive%20Days-orange)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
 
 ---
@@ -16,7 +16,7 @@
 
 I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 34 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, and a live CI/CD pipeline — and now validating databases with SQL like a professional QA engineer.
+In 35 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, a live CI/CD pipeline, and SQL database validation queries used by QA engineers on the job.
 
 - 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
@@ -28,14 +28,14 @@ In 34 consecutive days I've gone from writing my first test case to building a c
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 34 ✅ |
+| **Consecutive Days** | 35 ✅ |
 | **Automated Tests** | 45 (cross-browser) |
 | **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
 | **Lines of Code** | 8,200+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
 | **CI/CD** | ✅ Live on GitHub Actions |
-| **Weeks Complete** | 7.5 of 12 |
+| **Weeks Complete** | 8 of 12 |
 
 ---
 
@@ -185,7 +185,8 @@ Understanding what we're automating before we automate it.
 - Week 7 Summary created
 - Ready to start job applications
 
-### 🔄 Week 8: SQL for QA Engineers
+### ✅ Week 8: SQL for QA Engineers
+**Result: 5 interview questions answered | Real defects caught | Grade: A+**
 
 #### Day 31 — SQL Basics ✅
 - Created users table and inserted test data
@@ -207,13 +208,17 @@ Understanding what we're automating before we automate it.
 - Combined aggregations with JOINs for real QA scenarios
 
 #### Day 34 — SQL for QA Data Validation ✅
-- Duplicate detection — GROUP BY + HAVING to catch non-unique data
-- Orphaned records — LEFT JOIN + IS NULL to catch broken relationships
-- Invalid enum values — WHERE NOT IN to catch constraint violations
+- Duplicate detection — GROUP BY + HAVING caught duplicate@test.com
+- Orphaned records — LEFT JOIN + IS NULL caught Ghost Order (user_id 999)
+- Invalid enum values — WHERE NOT IN for constraint validation
 - Business rule validation — caught locked_user placing an order (real defect!)
 
-**Up next:**
-- 🔄 Day 35: SQL practice & interview questions
+#### Day 35 — SQL Interview Questions ✅
+- Q1: Find users with no orders — LEFT JOIN + IS NULL
+- Q2: Find top spender — SUM + ORDER BY DESC + LIMIT 1
+- Q3: Count orders by status — GROUP BY + COUNT
+- Q4: Filter by multiple conditions — JOIN + WHERE with AND
+- Q5: Verify test data snapshot — subqueries returning full DB state in one row
 
 ---
 
@@ -259,7 +264,7 @@ Understanding what we're automating before we automate it.
 [Day 26: Custom Fixtures](Notes/Day26-Custom-Fixtures.md) | [Day 27: Advanced Reporting](Notes/Day27-Advanced-Reporting.md) | [Day 28: Cross-Browser Testing](Notes/Day28-Cross-Browser-Testing.md) | [Day 29: Test Tagging](Notes/Day29-Test-Tagging.md) | [Week 7 Summary](Notes/Week7-Summary.md)
 
 **Week 8:**
-[Day 31: SQL Basics](Notes/Day31-SQL-Basics.md) | [Day 32: SQL Joins](Notes/Day32-SQL-Joins.md) | [Day 33: SQL Aggregations](Notes/Day33-SQL-Aggregations.md) | [Day 34: SQL QA Validation](Notes/Day34-SQL-QA-Validation.md)
+[Day 31: SQL Basics](Notes/Day31-SQL-Basics.md) | [Day 32: SQL Joins](Notes/Day32-SQL-Joins.md) | [Day 33: SQL Aggregations](Notes/Day33-SQL-Aggregations.md) | [Day 34: SQL QA Validation](Notes/Day34-SQL-QA-Validation.md) | [Day 35: SQL Interview Questions](Notes/Day35-SQL-Interview-Questions.md)
 
 ---
 
@@ -293,8 +298,7 @@ Understanding what we're automating before we automate it.
 
 ## 🎯 What's Next
 
-- ✅ **Week 7:** Advanced Framework Patterns — Complete
-- 🔄 **Week 8 (Now):** SQL for QA Engineers
+- ✅ **Week 8:** SQL for QA Engineers — Complete
 - 🔄 **Week 9:** JIRA & Agile for QA
 - 💼 **Week 10+:** Active job applications and interview prep
 
@@ -302,4 +306,4 @@ Understanding what we're automating before we automate it.
 
 **⭐ Star this repo if you find it helpful!**
 
-**Last Updated:** April 16, 2026
+**Last Updated:** April 17, 2026
