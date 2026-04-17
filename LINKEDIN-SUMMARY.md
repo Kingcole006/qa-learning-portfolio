@@ -1,7 +1,7 @@
 # LinkedIn Profile
 
 ## Headline
-QA Automation Engineer | TypeScript/Playwright | Cross-Browser | CI/CD | GitHub Actions
+QA Automation Engineer | TypeScript/Playwright | SQL | Cross-Browser | CI/CD | GitHub Actions
 
 ---
 
@@ -11,10 +11,11 @@ QA Automation Engineer in training based in Sugar Hill, GA. I build
 production-ready test automation frameworks from scratch — not just
 follow tutorials.
 
-In 30 consecutive days I've gone from writing my first test case to
+In 35 consecutive days I've gone from writing my first test case to
 building a complete TypeScript/Playwright framework with Page Object
-Model, custom fixtures, cross-browser testing, test tagging, and a
-live CI/CD pipeline on GitHub Actions.
+Model, custom fixtures, cross-browser testing, test tagging, a live
+CI/CD pipeline on GitHub Actions, and SQL database validation queries
+used by QA engineers on the job.
 
 🔧 **Technical Skills:**
 - Browser Automation: Playwright (TypeScript)
@@ -22,6 +23,7 @@ live CI/CD pipeline on GitHub Actions.
 - API Testing: Postman, Newman CLI, Playwright request
 - CI/CD: GitHub Actions (live pipeline configured)
 - Languages: TypeScript, JavaScript (ES6+)
+- Database: SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation)
 - Design Patterns: Page Object Model, Data-Driven Testing, Fixtures
 - Test Organization: Tags (@smoke, @regression, @api, @ui)
 - Security Testing: SQL injection, XSS, buffer overflow (OWASP)
@@ -39,15 +41,17 @@ live CI/CD pipeline on GitHub Actions.
 - Reduced test execution time by 99.92% (30 min → 1.4 seconds)
 - 45 automated tests across Chrome, Firefox, Safari — 100% pass rate
 - Security testing suite covering 7 OWASP attack vectors
+- Wrote SQL validation queries catching duplicate records, orphaned
+  data, invalid enum values, and business rule violations
 
 🎯 **Currently:**
-Week 7 of 12-week intensive QA automation program — advanced
-framework patterns complete. Starting job applications now.
+Week 8 of 12-week intensive QA automation program — SQL for QA
+complete. Starting job applications now.
 
 💼 **Looking For:**
 QA Automation Engineer opportunities where I can contribute
 immediately with Playwright, TypeScript, cross-browser testing,
-API testing, and CI/CD pipeline experience.
+API testing, SQL validation, and CI/CD pipeline experience.
 
 📁 Portfolio: github.com/Kingcole006/qa-learning-portfolio
 
@@ -92,10 +96,14 @@ API testing, and CI/CD pipeline experience.
 - Implemented security testing suite covering SQL injection, XSS,
   and buffer overflow across 7 attack vectors using OWASP principles
 
+- Wrote SQL validation queries to catch duplicate records, orphaned
+  data, invalid enum values, and business rule violations against
+  a live test database
+
 **Skills:** Playwright · TypeScript · JavaScript · GitHub Actions ·
 CI/CD · Cross-Browser Testing · Page Object Model · Custom Fixtures ·
 Test Tagging · API Testing · Postman · Newman CLI · Data-Driven
-Testing · Security Testing · Git · Node.js
+Testing · Security Testing · SQL · Git · Node.js
 
 ---
 
@@ -104,8 +112,8 @@ Testing · Security Testing · Git · Node.js
 2. TypeScript
 3. CI/CD (GitHub Actions)
 4. Cross-Browser Testing
-5. Page Object Model
+5. SQL for QA
 
 ---
 
-**Last Updated:** April 10, 2026
+**Last Updated:** April 17, 2026

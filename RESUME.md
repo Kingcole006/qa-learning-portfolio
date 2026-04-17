@@ -11,11 +11,12 @@
 QA Automation Engineer with hands-on experience building production-ready
 test automation frameworks from scratch. Proven ability to design and
 implement complete testing solutions including UI automation, API testing,
-cross-browser testing, data-driven frameworks, custom fixtures, test
-tagging, and live CI/CD pipelines. Achieved 100% test pass rates across
-45 automated tests running on Chrome, Firefox, and Safari. Proficient in
-TypeScript, JavaScript, Playwright, and GitHub Actions. Self-directed
-learner with 30 consecutive days of intensive hands-on training.
+cross-browser testing, SQL database validation, data-driven frameworks,
+custom fixtures, test tagging, and live CI/CD pipelines. Achieved 100%
+test pass rates across 45 automated tests running on Chrome, Firefox,
+and Safari. Proficient in TypeScript, JavaScript, Playwright, SQL, and
+GitHub Actions. Self-directed learner with 35 consecutive days of
+intensive hands-on training.
 
 ---
 
@@ -32,6 +33,7 @@ learner with 30 consecutive days of intensive hands-on training.
 
 **Languages & Tools:**
 - TypeScript, JavaScript (ES6+)
+- SQL (SELECT, WHERE, JOINs, Aggregations, Subqueries)
 - Node.js, npm
 - Git, GitHub (daily commits)
 - dotenv, environment variable management
@@ -46,6 +48,7 @@ learner with 30 consecutive days of intensive hands-on training.
 - UI/Browser automation (cross-browser)
 - API testing (REST — GET, POST, PUT, DELETE)
 - Security testing (SQL injection, XSS, buffer overflow)
+- Database validation (SQL — duplicates, orphans, enum checks)
 - Data-driven testing
 - Smoke testing and regression testing
 - Negative/edge case testing
@@ -99,6 +102,10 @@ using data-driven framework with CSV files and Newman CLI
 ✅ Implemented security testing suite covering SQL injection, XSS attacks,
 and buffer overflow across 7 attack vectors using OWASP principles
 
+✅ Wrote SQL validation queries catching duplicate records, orphaned data,
+invalid enum values, and business rule violations against a live test
+database — caught locked user placing an order as a real defect
+
 ✅ Built custom JavaScript test framework from scratch — assertion library,
 test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
@@ -112,7 +119,7 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 ### Week 6 & 7 QA Framework | TypeScript/Playwright | GitHub
 *Complete professional framework built from scratch*
 
-- Built professional folder structure from blank folder in 5 days
+- Built professional folder structure from blank folder
 - Implemented Page Object Model (LoginPage, InventoryPage)
 - Built custom fixtures for automatic test setup and teardown
 - Data-driven testing looping through centralized users.json
@@ -123,6 +130,17 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 - Environment variables via dotenv configuration
 - Live CI/CD pipeline running 45 tests automatically on every push
 - **45 tests | 3 browsers | 100% pass rate | TypeScript | GitHub Actions**
+
+---
+
+### SQL QA Validation Suite | SQL/SQLite
+*Database validation patterns used by QA engineers on the job*
+
+- Duplicate detection catching non-unique email records
+- Orphaned record detection catching broken foreign key relationships
+- Invalid enum validation catching constraint violations
+- Business rule validation — caught locked user placing an order
+- **4 defect patterns | 5 interview questions answered**
 
 ---
 
@@ -164,7 +182,7 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 ## TRAINING & EDUCATION
 
 **Self-Directed QA Automation Engineering Program**
-*30 Consecutive Days | March–April 2026*
+*35 Consecutive Days | March–April 2026*
 
 - 100+ hours of hands-on practical training
 - 8,200+ lines of production-quality code
@@ -179,14 +197,15 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 - Week 5: Playwright Browser Automation
 - Week 6: Full Framework Build & CI/CD Pipeline
 - Week 7: Advanced Patterns (Fixtures, Cross-Browser, Tagging)
+- Week 8: SQL for QA Engineers
 
 ---
 
 ## PROFESSIONAL ATTRIBUTES
 
-- **Self-directed:** 30 consecutive days of structured learning
+- **Self-directed:** 35 consecutive days of structured learning
 - **Results-focused:** 100% pass rate across all projects
-- **Problem-solver:** Debugged CI/CD failures, fixed production bugs
+- **Problem-solver:** Debugged CI/CD failures, caught real defects
 - **Professional:** Comprehensive documentation for every project
 - **Team-ready:** Code organized for maintainability and collaboration
 
@@ -194,6 +213,6 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 *References available upon request*
 
-**Last Updated:** April 10, 2026
+**Last Updated:** April 17, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately

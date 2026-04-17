@@ -1,6 +1,6 @@
 # QA Automation Portfolio - Cole Brown
 
-**QA Automation Engineer** | TypeScript/Playwright | CI/CD | Cross-Browser Testing
+**QA Automation Engineer** | TypeScript/Playwright | SQL | CI/CD | Cross-Browser Testing
 
 ---
 
@@ -10,10 +10,11 @@ QA Automation Engineer in training based in Sugar Hill, GA. I build
 production-ready test automation frameworks from scratch, debug real
 problems, and document everything like a professional engineer.
 
-In 30 consecutive days I've gone from zero to building a complete
+In 35 consecutive days I've gone from zero to building a complete
 TypeScript/Playwright framework with Page Object Model, custom fixtures,
 data-driven testing, API tests, cross-browser testing, test tagging,
-and a live CI/CD pipeline on GitHub Actions.
+a live CI/CD pipeline on GitHub Actions, and SQL database validation
+queries used by QA engineers on the job.
 
 - 📧 cole.brown272@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
@@ -23,7 +24,7 @@ and a live CI/CD pipeline on GitHub Actions.
 
 ## 🚀 Featured Projects
 
-### 1. Week 6 Framework — TypeScript/Playwright
+### 1. Week 6 & 7 Framework — TypeScript/Playwright
 **Complete professional QA framework built from scratch**
 
 **Technologies:** TypeScript, Playwright, GitHub Actions, dotenv
@@ -122,11 +123,32 @@ and a live CI/CD pipeline on GitHub Actions.
 
 ---
 
+### 6. SQL QA Validation Suite
+**Real database validation queries used by QA engineers on the job**
+
+**Technologies:** SQL, SQLite
+
+**What I Built:**
+- Duplicate detection — GROUP BY + HAVING catching non-unique data
+- Orphaned record detection — LEFT JOIN + IS NULL catching broken
+  foreign key relationships
+- Invalid enum validation — WHERE NOT IN catching constraint violations
+- Business rule validation — caught locked user placing an order
+- Interview-ready query patterns: top spender, order status counts,
+  multi-condition filters, full database state snapshot
+
+**Results:**
+- 4 real defect patterns identified and caught
+- 5 interview questions answered with working queries
+- Database validation patterns ready for production use
+
+---
+
 ## 📊 Portfolio Statistics
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 30 |
+| **Consecutive Days** | 35 |
 | **Total Automated Tests** | 45 (cross-browser) |
 | **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
@@ -134,7 +156,7 @@ and a live CI/CD pipeline on GitHub Actions.
 | **Frameworks Built** | 2 |
 | **CI/CD** | Live on GitHub Actions |
 | **Languages** | TypeScript, JavaScript |
-| **GitHub Commits** | 80+ |
+| **GitHub Commits** | 90+ |
 
 ---
 
@@ -148,6 +170,7 @@ and a live CI/CD pipeline on GitHub Actions.
 - **Test Organization:** Tags (@smoke, @regression, @api, @ui)
 - **Security Testing:** SQL injection, XSS, buffer overflow
 - **CI/CD:** GitHub Actions (live pipeline)
+- **Database:** SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation)
 
 ### Reporting & Debugging
 - HTML reports with visual evidence
@@ -159,6 +182,7 @@ and a live CI/CD pipeline on GitHub Actions.
 ### Programming
 - **TypeScript** — Page Objects, fixtures, test configuration
 - **JavaScript** — async/await, classes, array methods
+- **SQL** — JOINs, aggregations, subqueries, data validation
 - **Node.js** — runtime, npm, package management
 
 ---
@@ -173,6 +197,7 @@ and a live CI/CD pipeline on GitHub Actions.
 - Generate professional HTML reports with video/screenshot capture
 - Implement data-driven testing from JSON or CSV
 - Organize tests with tags for selective execution
+- Write SQL queries to validate database state after test actions
 
 ---
 
@@ -185,10 +210,12 @@ and a live CI/CD pipeline on GitHub Actions.
 - ✅ **Week 5:** Playwright Browser Automation
 - ✅ **Week 6:** Full Framework + CI/CD
 - ✅ **Week 7:** Advanced Framework Patterns
-- 🔄 **Week 8+:** Job Applications & Interview Prep
+- ✅ **Week 8:** SQL for QA Engineers
+- 🔄 **Week 9:** JIRA & Agile for QA
+- 💼 **Week 10+:** Active Job Applications
 
 ---
 
-**Last Updated:** April 10, 2026
+**Last Updated:** April 17, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
