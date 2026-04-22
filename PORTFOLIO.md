@@ -220,4 +220,4 @@ queries used by QA engineers on the job.
 **Last Updated:** April 22, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
-**Portfolio:** https://kingcole006.github.io/Portfolio
+**Portfolio:** kingcole006.github.io/qa-learning-portfolio

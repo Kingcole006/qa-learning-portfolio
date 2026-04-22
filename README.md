@@ -308,4 +308,4 @@ Wrote SQL validation queries to catch duplicate records, orphaned data, invalid 
 **Star this repo if you find it helpful!**
 
 **Last Updated:** April 22, 2026
-**Portfolio:** https://kingcole006.github.io/Portfolio
+**Portfolio:** kingcole006.github.io/qa-learning-portfolio

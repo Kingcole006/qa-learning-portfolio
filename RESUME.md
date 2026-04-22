@@ -216,4 +216,4 @@ Achieved 40% performance improvement through smart waiting strategies
 **Last Updated:** April 22, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
-**Portfolio:** kingcole006.github.io/Portfolio
+**Portfolio:** kingcole006.github.io/qa-learning-portfolio
