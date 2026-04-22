@@ -8,16 +8,16 @@ QA Automation Engineer | TypeScript/Playwright | SQL | Cross-Browser | CI/CD | G
 ## About Section
 
 QA Automation Engineer in training based in Sugar Hill, GA. I build
-production-ready test automation frameworks from scratch — not just
+production-ready test automation frameworks from scratch, not just
 follow tutorials.
 
-In 35 consecutive days I've gone from writing my first test case to
+Over the past 2 months I have gone from writing my first test case to
 building a complete TypeScript/Playwright framework with Page Object
 Model, custom fixtures, cross-browser testing, test tagging, a live
 CI/CD pipeline on GitHub Actions, and SQL database validation queries
 used by QA engineers on the job.
 
-🔧 **Technical Skills:**
+Technical Skills:
 - Browser Automation: Playwright (TypeScript)
 - Cross-Browser: Chrome, Firefox, Safari
 - API Testing: Postman, Newman CLI, Playwright request
@@ -30,45 +30,46 @@ used by QA engineers on the job.
 - Reporting: HTML reports, video on failure, trace capture
 - Tools: Git, GitHub, Node.js, npm, dotenv
 
-📊 **Key Achievements:**
+Key Achievements:
 - Built complete TypeScript/Playwright framework with live CI/CD
-  pipeline — 45 tests running automatically across 3 browsers
+  pipeline — 110+ tests running automatically across 3 browsers
 - Implemented test tagging enabling smoke suite to run in 9 seconds
 - Custom fixtures eliminating repetitive setup code across all tests
 - Implemented Page Object Model achieving 75% code reduction
 - Solved real company take-home assignment (QA Wolf) — 100 articles
   validated, timestamp bug found and fixed
-- Reduced test execution time by 99.92% (30 min → 1.4 seconds)
-- 45 automated tests across Chrome, Firefox, Safari — 100% pass rate
+- Reduced test execution time by 99.92% (30 min to 1.4 seconds)
+- 110+ automated tests across Chrome, Firefox, Safari — 100% pass rate
 - Security testing suite covering 7 OWASP attack vectors
 - Wrote SQL validation queries catching duplicate records, orphaned
   data, invalid enum values, and business rule violations
 
-🎯 **Currently:**
-Week 8 of 12-week intensive QA automation program — SQL for QA
-complete. Starting job applications now.
+Currently:
+Week 9 of 12-week intensive QA automation program. Actively applying
+for QA Automation Engineer roles now.
 
-💼 **Looking For:**
+Looking For:
 QA Automation Engineer opportunities where I can contribute
 immediately with Playwright, TypeScript, cross-browser testing,
 API testing, SQL validation, and CI/CD pipeline experience.
 
-📁 Portfolio: github.com/Kingcole006/qa-learning-portfolio
+Portfolio: kingcole006.github.io/Portfolio
+GitHub: github.com/Kingcole006/qa-learning-portfolio
 
 ---
 
 ## Experience Section
 
 **QA Automation Engineer** (Training Portfolio)
-*Self-Directed Intensive Program*
-*March 2026 - Present*
+Self-Directed Intensive Program
+February 2026 - Present
 
 - Built complete TypeScript/Playwright automation framework from
   scratch including Page Object Model, custom fixtures, data-driven
   testing, cross-browser testing, test tagging, and live GitHub
   Actions CI/CD pipeline
 
-- Implemented cross-browser testing running 45 tests simultaneously
+- Implemented cross-browser testing running 110+ tests simultaneously
   across Chrome, Firefox, and Safari — 100% pass rate on all browsers
 
 - Implemented test tagging strategy (@smoke, @regression, @api, @ui)
@@ -81,17 +82,17 @@ API testing, SQL validation, and CI/CD pipeline experience.
 - Configured advanced reporting with automatic video recording and
   trace capture on failure for fast debugging
 
-- Configured live CI/CD pipeline with GitHub Actions — 45 tests
-  run automatically in the cloud on every push
+- Configured live CI/CD pipeline with GitHub Actions — tests run
+  automatically in the cloud on every push
 
 - Implemented Page Object Model reducing test code by 75%
-  (12 lines → 3 lines per test) using TypeScript class inheritance
+  (12 lines to 3 lines per test) using TypeScript class inheritance
 
 - Solved real company take-home assignment (QA Wolf) — automated
   validation of 100 articles with timestamp parsing and bug fix
 
 - Built data-driven testing framework reducing execution time by
-  99.92% (30 minutes → 1.4 seconds) using CSV files and Newman CLI
+  99.92% (30 minutes to 1.4 seconds) using CSV files and Newman CLI
 
 - Implemented security testing suite covering SQL injection, XSS,
   and buffer overflow across 7 attack vectors using OWASP principles
@@ -100,7 +101,7 @@ API testing, SQL validation, and CI/CD pipeline experience.
   data, invalid enum values, and business rule violations against
   a live test database
 
-**Skills:** Playwright · TypeScript · JavaScript · GitHub Actions ·
+Skills: Playwright · TypeScript · JavaScript · GitHub Actions ·
 CI/CD · Cross-Browser Testing · Page Object Model · Custom Fixtures ·
 Test Tagging · API Testing · Postman · Newman CLI · Data-Driven
 Testing · Security Testing · SQL · Git · Node.js
@@ -116,4 +117,4 @@ Testing · Security Testing · SQL · Git · Node.js
 
 ---
 
-**Last Updated:** April 17, 2026
+**Last Updated:** April 22, 2026

@@ -1,178 +1,179 @@
 # Cole Brown | QA Automation Engineer
 
-> From zero to building production-ready automation frameworks in 35 days.
+> From zero to building production-ready automation frameworks in 2+ months.
 > Transitioning into QA Automation Engineering through intensive, hands-on self-directed training.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kingcole006-blue)](https://github.com/Kingcole006/qa-learning-portfolio)
-[![Status](https://img.shields.io/badge/Status-Active%20Learning-green)]()
-[![Tests](https://img.shields.io/badge/Tests-45%20Passing-brightgreen)]()
+[![Status](https://img.shields.io/badge/Status-Actively%20Applying-green)]()
+[![Tests](https://img.shields.io/badge/Tests-110%2B%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
-[![Days](https://img.shields.io/badge/Streak-35%20Consecutive%20Days-orange)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blueviolet)](https://kingcole006.github.io/Portfolio)
 
 ---
 
-## 👋 Who I Am
+## Who I Am
 
-I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real projects, debug real problems, and document everything like a professional engineer would.
+I am **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I do not just follow tutorials. I build real projects, debug real problems, and document everything like a professional engineer would.
 
-In 35 consecutive days I've gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, a live CI/CD pipeline, and SQL database validation queries used by QA engineers on the job.
+Over the past 2 months I have gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, a live CI/CD pipeline, and SQL database validation queries used by QA engineers on the job.
 
-- 📧 cole.brown272@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
-- 🐙 [GitHub](https://github.com/Kingcole006)
+- Email: cole.brown272@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
+- [GitHub](https://github.com/Kingcole006)
+- [Portfolio Website](https://kingcole006.github.io/Portfolio)
 
 ---
 
-## 📊 Portfolio at a Glance
+## Portfolio at a Glance
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 35 ✅ |
-| **Automated Tests** | 45 (cross-browser) |
+| **Training Duration** | 2+ months |
+| **Automated Tests** | 110+ (cross-browser) |
 | **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
 | **Lines of Code** | 8,200+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
-| **CI/CD** | ✅ Live on GitHub Actions |
+| **CI/CD** | Live on GitHub Actions |
 | **Weeks Complete** | 8 of 12 |
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### [Week 6 & 7 Framework](week6-framework/) — TypeScript/Playwright 🆕
+### [Week 6 and 7 Framework](week6-framework/) — TypeScript/Playwright
 > Built a complete professional QA framework from a blank folder
 
-- ✅ Page Object Model (LoginPage + InventoryPage)
-- ✅ Custom fixtures with automatic setup and teardown
-- ✅ Data-driven testing via centralized users.json
-- ✅ API + UI tests in one framework
-- ✅ Cross-browser testing (Chrome, Firefox, Safari)
-- ✅ Test tagging (@smoke, @regression, @api, @ui)
-- ✅ Advanced reporting (HTML, video, trace on failure)
-- ✅ Environment variables with dotenv
-- ✅ Live CI/CD pipeline with GitHub Actions
-- ✅ **45 tests | 3 browsers | 100% pass rate | TypeScript**
+- Page Object Model (LoginPage + InventoryPage)
+- Custom fixtures with automatic setup and teardown
+- Data-driven testing via centralized users.json
+- API + UI tests in one framework
+- Cross-browser testing (Chrome, Firefox, Safari)
+- Test tagging (@smoke, @regression, @api, @ui)
+- Advanced reporting (HTML, video, trace on failure)
+- Environment variables with dotenv
+- Live CI/CD pipeline with GitHub Actions
+- **45 tests | 3 browsers | 100% pass rate | TypeScript**
 
 ---
 
-### [Hacker News Validator](Notes/Day16-Playwright.md) — QA Wolf Assignment 🎭
+### [Hacker News Validator](Notes/Day16-Playwright.md) — QA Wolf Assignment
 > Real company take-home assignment. Solved it completely.
 
-- ✅ 100 articles validated across 4 pages
-- ✅ Found and fixed a timestamp parsing bug
-- ✅ **99/99 comparisons passing | 100% pass rate**
+- 100 articles validated across 4 pages
+- Found and fixed a timestamp parsing bug
+- **99/99 comparisons passing | 100% pass rate**
 
 ---
 
-### [API Security Suite](Notes/Day08-Advanced-Postman.md) — Postman/Newman ⭐
+### [API Security Suite](Notes/Day08-Advanced-Postman.md) — Postman/Newman
 > Security-focused automation covering 7 real attack vectors
 
-- ✅ SQL injection, XSS, buffer overflow testing
-- ✅ OWASP-based test design
-- ✅ **15/15 tests passing | Professional documentation**
+- SQL injection, XSS, buffer overflow testing
+- OWASP-based test design
+- **15/15 tests passing | Professional documentation**
 
 ---
 
-### [Data-Driven Framework](Notes/Day09-Newman-CLI.md) — Newman CLI 📊
+### [Data-Driven Framework](Notes/Day09-Newman-CLI.md) — Newman CLI
 > Replaced 30 minutes of manual testing with 1.4 seconds of automation
 
-- ✅ CSV-based data-driven testing (10 scenarios)
-- ✅ Newman CLI with HTML reporting
-- ✅ **99.92% time savings | CI/CD ready**
+- CSV-based data-driven testing (10 scenarios)
+- Newman CLI with HTML reporting
+- **99.92% time savings | CI/CD ready**
 
 ---
 
-### [Custom JS Test Framework](Notes/Day14-Test-Utilities.md) — Built from Scratch 🛠️
+### [Custom JS Test Framework](Notes/Day14-Test-Utilities.md) — Built from Scratch
 > No libraries. No tutorials. Built every piece from zero.
 
-- ✅ Custom expect() assertion library
-- ✅ Test runner with beforeEach/afterEach hooks
-- ✅ **750+ lines | 9/9 tests passing**
+- Custom expect() assertion library
+- Test runner with beforeEach/afterEach hooks
+- **750+ lines | 9/9 tests passing**
 
 ---
 
-## 📚 Learning Path
+## Learning Path
 
-### ✅ Week 1: Manual QA Foundations
+### Week 1: Manual QA Foundations — Complete
 Core QA skills every automation engineer needs to know first.
 - Test case design, bug reporting, SDLC fundamentals
 - Edge cases, boundary testing, documentation
 
-### ✅ Week 2: API Testing Fundamentals
-Understanding what we're automating before we automate it.
+### Week 2: API Testing Fundamentals — Complete
+Understanding what we are automating before we automate it.
 - REST APIs (GET, POST, PUT, DELETE)
 - HTTP status codes, JSON validation, response handling
 
-### ✅ Week 3: Postman Automation
+### Week 3: Postman Automation — Complete
 **Result: 72 automated tests | 100% pass rate | Grade: A+**
 - Request chaining and environment variables
 - Data-driven testing with CSV (30 tests, 1.4s execution)
 - Newman CLI for headless automation
 - Security testing (SQL injection, XSS, buffer overflow)
 
-### ✅ Week 4: JavaScript for Test Automation
+### Week 4: JavaScript for Test Automation — Complete
 **Result: 750+ lines/day | Custom framework built | Grade: A+**
 - Variables, functions, objects, arrays, async/await
 - Built custom assertion library and test runner from scratch
 - Code-based API testing with real endpoints
 
-### ✅ Week 5: Browser Automation with Playwright
+### Week 5: Browser Automation with Playwright — Complete
 **Result: 3,900+ lines | QA Wolf assignment solved | Grade: A+**
 - Playwright fundamentals and advanced element selection
 - Form automation and smart waiting strategies (40% faster)
 - Page Object Model — 75% code reduction achieved
 - Automatic screenshot capture on test failure
 
-### ✅ Week 6: Full Framework Build & CI/CD
+### Week 6: Full Framework Build and CI/CD — Complete
 **Result: 14 tests | Live CI/CD | Grade: A+**
 
-#### Day 21 — Framework Setup ✅
-- Blank folder → professional project structure in one session
+#### Day 21 — Framework Setup
+- Blank folder to professional project structure in one session
 - TypeScript + Playwright configured with inline documentation
 - LoginPage.ts — first Page Object with full comments
 - **5 tests | 100% pass rate**
 
-#### Day 22 — Data-Driven Testing & Config ✅
+#### Day 22 — Data-Driven Testing and Config
 - InventoryPage.ts — second Page Object
 - Loop-based testing across 5 users from users.json
 - Environment variables loaded via dotenv
 - **10 tests | 100% pass rate**
 
-#### Day 23 — API Testing Inside the Framework ✅
+#### Day 23 — API Testing Inside the Framework
 - API tests using Playwright's built-in request context
 - GET all users, GET single user, GET 404, POST create user
 - **14 tests | 100% pass rate**
 
-#### Day 24 — Live CI/CD with GitHub Actions ✅
+#### Day 24 — Live CI/CD with GitHub Actions
 - GitHub Actions pipeline running automatically on every push
 - Tests run on GitHub's Ubuntu servers in the cloud
 - **14 tests passing automatically in the cloud**
 
-#### Day 25 — Polish & Documentation ✅
+#### Day 25 — Polish and Documentation
 - PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md all updated
 - Week 6 Summary created
 
-### ✅ Week 7: Advanced Framework Patterns
+### Week 7: Advanced Framework Patterns — Complete
 **Result: 45 tests | 3 browsers | Grade: A+**
 
-#### Day 26 — Custom Fixtures & Hooks ✅
+#### Day 26 — Custom Fixtures and Hooks
 - Built custom Playwright fixtures (loginPage, inventoryPage, loggedInPage)
 - Automatic setup and teardown for every test
 - **17 tests | 100% pass rate**
 
-#### Day 27 — Advanced Reporting ✅
+#### Day 27 — Advanced Reporting
 - List reporter, video on failure, trace capture
-- Beautiful HTML report with visual evidence
+- HTML report with visual evidence
 - **17 tests | 100% pass rate**
 
-#### Day 28 — Cross-Browser Testing ✅
-- Tests run on Chrome, Firefox AND Safari simultaneously
+#### Day 28 — Cross-Browser Testing
+- Tests run on Chrome, Firefox, and Safari simultaneously
 - Increased timeout to 60 seconds for slower browsers
 - **45 tests | 3 browsers | 100% pass rate**
 
-#### Day 29 — Test Organization & Tagging ✅
+#### Day 29 — Test Organization and Tagging
 - @smoke — 3 critical tests, runs in 9 seconds
 - @regression — full suite for thorough testing
 - @api — API tests only (3.6 seconds)
@@ -180,40 +181,40 @@ Understanding what we're automating before we automate it.
 - @login — login-specific tests
 - **15 tests | 100% pass rate | Selective execution**
 
-#### Day 30 — Week 7 Wrap Up ✅
+#### Day 30 — Week 7 Wrap Up
 - PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md updated
 - Week 7 Summary created
 - Ready to start job applications
 
-### ✅ Week 8: SQL for QA Engineers
+### Week 8: SQL for QA Engineers — Complete
 **Result: 5 interview questions answered | Real defects caught | Grade: A+**
 
-#### Day 31 — SQL Basics ✅
+#### Day 31 — SQL Basics
 - Created users table and inserted test data
 - SELECT — retrieving all or specific columns
 - WHERE — filtering rows with conditions
 - ORDER BY — sorting results ASC and DESC
 - Combined queries for real QA validation scenarios
 
-#### Day 32 — SQL Joins ✅
+#### Day 32 — SQL Joins
 - INNER JOIN — returns only matching rows from both tables
 - LEFT JOIN — returns all rows from left table plus matches
 - IS NULL — finding users with missing related data
 - Real QA scenario: finding users with no orders
 
-#### Day 33 — SQL Aggregations ✅
+#### Day 33 — SQL Aggregations
 - COUNT, SUM, AVG, MAX, MIN
 - GROUP BY — grouping results by category
 - HAVING — filtering groups (like WHERE but for aggregations)
 - Combined aggregations with JOINs for real QA scenarios
 
-#### Day 34 — SQL for QA Data Validation ✅
+#### Day 34 — SQL for QA Data Validation
 - Duplicate detection — GROUP BY + HAVING caught duplicate@test.com
 - Orphaned records — LEFT JOIN + IS NULL caught Ghost Order (user_id 999)
 - Invalid enum values — WHERE NOT IN for constraint validation
-- Business rule validation — caught locked_user placing an order (real defect!)
+- Business rule validation — caught locked_user placing an order (real defect)
 
-#### Day 35 — SQL Interview Questions ✅
+#### Day 35 — SQL Interview Questions
 - Q1: Find users with no orders — LEFT JOIN + IS NULL
 - Q2: Find top spender — SUM + ORDER BY DESC + LIMIT 1
 - Q3: Count orders by status — GROUP BY + COUNT
@@ -222,25 +223,25 @@ Understanding what we're automating before we automate it.
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
-| Category | Tools & Skills |
-|----------|---------------|
+| Category | Tools and Skills |
+|----------|-----------------|
 | **Automation** | Playwright, Newman CLI |
-| **Languages** | TypeScript, JavaScript |
+| **Languages** | TypeScript, JavaScript, SQL |
 | **Browsers** | Chrome, Firefox, Safari |
 | **API Testing** | Postman, fetch(), Playwright request |
 | **Database** | SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation) |
 | **Design Patterns** | Page Object Model, Data-Driven Testing, Fixtures |
 | **Test Organization** | Tags (@smoke, @regression, @api, @ui) |
 | **Reporting** | HTML reports, video, trace, screenshots |
-| **CI/CD** | GitHub Actions ✅ Live |
+| **CI/CD** | GitHub Actions — Live |
 | **Version Control** | Git, GitHub (daily commits) |
 | **Runtime** | Node.js, npm |
 
 ---
 
-## 📝 Full Documentation
+## Full Documentation
 
 **Week 1:**
 [QA Basics](Notes/Day01-QA-Basics.md) | [QA Concepts](Notes/Day02-QA-Concepts.md) | [Edge Cases](Notes/Day03-Edge-Cases.md) | [Week 1 Reflection](Notes/Week1-Reflection.md)
@@ -252,10 +253,10 @@ Understanding what we're automating before we automate it.
 [Postman Automation](Notes/Day06-Postman-Automation.md) | [Environment Variables](Notes/Day07-Postman-Automation.md) | [Advanced Postman](Notes/Day08-Advanced-Postman.md) | [Newman CLI](Notes/Day09-Newman-CLI.md) | [Week 3 Wrap-Up](Notes/Day10-Week3-Wrap.md) | [Week 3 Retrospective](Notes/Week3-Retrospective.md)
 
 **Week 4:**
-[JavaScript Basics](Notes/Day11-JavaScript-Basics.md) | [Arrays & Objects](Notes/Day12-Arrays-Objects.md) | [Async/Await](Notes/Day13-Async-Await.md) | [Test Utilities](Notes/Day14-Test-Utilities.md) | [API Testing](Notes/Day15-API-Testing.md)
+[JavaScript Basics](Notes/Day11-JavaScript-Basics.md) | [Arrays and Objects](Notes/Day12-Arrays-Objects.md) | [Async/Await](Notes/Day13-Async-Await.md) | [Test Utilities](Notes/Day14-Test-Utilities.md) | [API Testing](Notes/Day15-API-Testing.md)
 
 **Week 5:**
-[Playwright Fundamentals](Notes/Day16-Playwright.md) | [Advanced Playwright](Notes/Day17-Advanced-Playwright.md) | [Page Object Model](Notes/Day18-Page-Object-Model.md) | [Screenshots & Visual Testing](Notes/Day19-Screenshots-Visual-Testing.md) | [Week 5 Summary](Notes/Week5-Summary.md)
+[Playwright Fundamentals](Notes/Day16-Playwright.md) | [Advanced Playwright](Notes/Day17-Advanced-Playwright.md) | [Page Object Model](Notes/Day18-Page-Object-Model.md) | [Screenshots and Visual Testing](Notes/Day19-Screenshots-Visual-Testing.md) | [Week 5 Summary](Notes/Week5-Summary.md)
 
 **Week 6:**
 [Day 21: Framework Setup](Notes/Day21-Framework-Setup.md) | [Day 22: Data-Driven Testing](Notes/Day22-Data-Driven-Testing.md) | [Day 23: API Testing](Notes/Day23-API-Testing-Framework.md) | [Day 24: CI/CD GitHub Actions](Notes/Day24-CICD-GitHub-Actions.md) | [Week 6 Summary](Notes/Week6-Summary.md)
@@ -268,42 +269,43 @@ Understanding what we're automating before we automate it.
 
 ---
 
-## 💼 Resume-Ready Highlights
+## Resume-Ready Highlights
 
-✅ Built complete TypeScript/Playwright framework from scratch — Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, and live GitHub Actions CI/CD pipeline
+Built complete TypeScript/Playwright framework from scratch — Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, and live GitHub Actions CI/CD pipeline
 
-✅ Implemented test tagging strategy (@smoke, @regression, @api, @ui) enabling selective test execution — smoke suite runs in 9 seconds vs full suite in 30 seconds
+Implemented test tagging strategy (@smoke, @regression, @api, @ui) enabling selective test execution — smoke suite runs in 9 seconds vs full suite in 30 seconds
 
-✅ Implemented cross-browser testing running 45 tests simultaneously across Chrome, Firefox, and Safari — 100% pass rate across all browsers
+Implemented cross-browser testing running 110+ tests simultaneously across Chrome, Firefox, and Safari — 100% pass rate across all browsers
 
-✅ Implemented custom Playwright fixtures with automatic setup and teardown — eliminating repetitive code and ensuring consistent test state
+Implemented custom Playwright fixtures with automatic setup and teardown — eliminating repetitive code and ensuring consistent test state
 
-✅ Configured advanced reporting with HTML reports, automatic video recording on failure, and trace capture for deep debugging
+Configured advanced reporting with HTML reports, automatic video recording on failure, and trace capture for deep debugging
 
-✅ Configured live CI/CD pipeline with GitHub Actions — 45 tests run automatically in the cloud on every push
+Configured live CI/CD pipeline with GitHub Actions — tests run automatically in the cloud on every push
 
-✅ Implemented full-stack test coverage with both UI and API tests inside a single professional framework
+Implemented full-stack test coverage with both UI and API tests inside a single professional framework
 
-✅ Implemented Page Object Model reducing test code by 75% (12 lines → 3 lines per test) through TypeScript class inheritance
+Implemented Page Object Model reducing test code by 75% (12 lines to 3 lines per test) through TypeScript class inheritance
 
-✅ Solved real company take-home assignment (QA Wolf) — automated validation of 100 articles across 4 pages with timestamp parsing and bug fix
+Solved real company take-home assignment (QA Wolf) — automated validation of 100 articles across 4 pages with timestamp parsing and bug fix
 
-✅ Reduced manual test execution time by 99.92% (30 minutes → 1.4 seconds) using data-driven framework with CSV files and Newman CLI
+Reduced manual test execution time by 99.92% (30 minutes to 1.4 seconds) using data-driven framework with CSV files and Newman CLI
 
-✅ Implemented security testing suite covering SQL injection, XSS attacks, and buffer overflow across 7 attack vectors using OWASP principles
+Implemented security testing suite covering SQL injection, XSS attacks, and buffer overflow across 7 attack vectors using OWASP principles
 
-✅ Wrote SQL validation queries to catch duplicate records, orphaned data, invalid enum values, and business rule violations against a live test database
-
----
-
-## 🎯 What's Next
-
-- ✅ **Week 8:** SQL for QA Engineers — Complete
-- 🔄 **Week 9:** JIRA & Agile for QA
-- 💼 **Week 10+:** Active job applications and interview prep
+Wrote SQL validation queries to catch duplicate records, orphaned data, invalid enum values, and business rule violations against a live test database
 
 ---
 
-**⭐ Star this repo if you find it helpful!**
+## What's Next
 
-**Last Updated:** April 17, 2026
+- Week 8: SQL for QA Engineers — Complete
+- Week 9: JIRA and Agile for QA — In Progress
+- Week 10+: Active job applications and interview prep
+
+---
+
+**Star this repo if you find it helpful!**
+
+**Last Updated:** April 22, 2026
+**Portfolio:** https://kingcole006.github.io/Portfolio

@@ -2,7 +2,7 @@
 ## QA Automation Engineer
 
 📍 Sugar Hill, GA | 📧 cole.brown272@gmail.com
-💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/) | 🐙 [GitHub](https://github.com/Kingcole006)
+💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/) | 🐙 [GitHub](https://github.com/Kingcole006) | 🌐 [Portfolio](https://kingcole006.github.io/Portfolio)
 
 ---
 
@@ -13,10 +13,10 @@ test automation frameworks from scratch. Proven ability to design and
 implement complete testing solutions including UI automation, API testing,
 cross-browser testing, SQL database validation, data-driven frameworks,
 custom fixtures, test tagging, and live CI/CD pipelines. Achieved 100%
-test pass rates across 45 automated tests running on Chrome, Firefox,
+test pass rates across 110+ automated tests running on Chrome, Firefox,
 and Safari. Proficient in TypeScript, JavaScript, Playwright, SQL, and
-GitHub Actions. Self-directed learner with 35 consecutive days of
-intensive hands-on training.
+GitHub Actions. Self-directed learner with 2+ months of intensive
+hands-on training.
 
 ---
 
@@ -68,48 +68,48 @@ intensive hands-on training.
 
 ## KEY ACHIEVEMENTS
 
-✅ Built complete TypeScript/Playwright framework from scratch including
+Built complete TypeScript/Playwright framework from scratch including
 Page Object Model, custom fixtures, data-driven testing, cross-browser
-testing, test tagging, and live GitHub Actions CI/CD pipeline — 45 tests
-passing across Chrome, Firefox, and Safari
+testing, test tagging, and live GitHub Actions CI/CD pipeline — 110+
+tests passing across Chrome, Firefox, and Safari
 
-✅ Implemented test tagging strategy (@smoke, @regression, @api, @ui)
+Implemented test tagging strategy (@smoke, @regression, @api, @ui)
 enabling selective execution — smoke suite completes in 9 seconds vs
 full suite in 30 seconds
 
-✅ Implemented cross-browser testing running 45 tests simultaneously
+Implemented cross-browser testing running 45 tests simultaneously
 across Chrome, Firefox, and Safari — 100% pass rate on all browsers
 
-✅ Configured live CI/CD pipeline with GitHub Actions — tests run
+Configured live CI/CD pipeline with GitHub Actions — tests run
 automatically in the cloud on every push with HTML reports as artifacts
 
-✅ Built custom fixtures with automatic setup and teardown — eliminating
+Built custom fixtures with automatic setup and teardown — eliminating
 repetitive code and ensuring consistent test state across entire suite
 
-✅ Configured advanced reporting with automatic video recording and trace
+Configured advanced reporting with automatic video recording and trace
 capture on failure for fast debugging
 
-✅ Implemented Page Object Model achieving 75% code reduction (12 lines
-→ 3 lines per test) using TypeScript class inheritance and DRY principles
+Implemented Page Object Model achieving 75% code reduction (12 lines
+to 3 lines per test) using TypeScript class inheritance and DRY principles
 
-✅ Solved real company take-home assignment (QA Wolf) — automated
+Solved real company take-home assignment (QA Wolf) — automated
 validation of 100 articles across 4 pages with timestamp parsing and
 bug fix — 99/99 comparisons passing
 
-✅ Reduced test execution time by 99.92% (30 minutes → 1.4 seconds)
+Reduced test execution time by 99.92% (30 minutes to 1.4 seconds)
 using data-driven framework with CSV files and Newman CLI
 
-✅ Implemented security testing suite covering SQL injection, XSS attacks,
+Implemented security testing suite covering SQL injection, XSS attacks,
 and buffer overflow across 7 attack vectors using OWASP principles
 
-✅ Wrote SQL validation queries catching duplicate records, orphaned data,
+Wrote SQL validation queries catching duplicate records, orphaned data,
 invalid enum values, and business rule violations against a live test
 database — caught locked user placing an order as a real defect
 
-✅ Built custom JavaScript test framework from scratch — assertion library,
+Built custom JavaScript test framework from scratch — assertion library,
 test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
-✅ Achieved 40% performance improvement through smart waiting strategies
+Achieved 40% performance improvement through smart waiting strategies
 (element states vs fixed timeouts) in Playwright automation
 
 ---
@@ -182,11 +182,11 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 ## TRAINING & EDUCATION
 
 **Self-Directed QA Automation Engineering Program**
-*35 Consecutive Days | March–April 2026*
+*February 2026 - Present*
 
 - 100+ hours of hands-on practical training
 - 8,200+ lines of production-quality code
-- 45 automated tests with 100% pass rate
+- 110+ automated tests with 100% pass rate
 - Daily GitHub commits demonstrating consistency
 
 **Curriculum:**
@@ -203,7 +203,7 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 ## PROFESSIONAL ATTRIBUTES
 
-- **Self-directed:** 35 consecutive days of structured learning
+- **Self-directed:** 2+ months of structured daily learning
 - **Results-focused:** 100% pass rate across all projects
 - **Problem-solver:** Debugged CI/CD failures, caught real defects
 - **Professional:** Comprehensive documentation for every project
@@ -213,6 +213,7 @@ test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
 *References available upon request*
 
-**Last Updated:** April 17, 2026
+**Last Updated:** April 22, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
+**Portfolio:** kingcole006.github.io/Portfolio

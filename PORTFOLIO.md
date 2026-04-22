@@ -4,27 +4,28 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 QA Automation Engineer in training based in Sugar Hill, GA. I build
 production-ready test automation frameworks from scratch, debug real
 problems, and document everything like a professional engineer.
 
-In 35 consecutive days I've gone from zero to building a complete
+Over the past 2 months I have gone from zero to building a complete
 TypeScript/Playwright framework with Page Object Model, custom fixtures,
 data-driven testing, API tests, cross-browser testing, test tagging,
 a live CI/CD pipeline on GitHub Actions, and SQL database validation
 queries used by QA engineers on the job.
 
-- 📧 cole.brown272@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
-- 🐙 [GitHub](https://github.com/Kingcole006/qa-learning-portfolio)
+- Email: cole.brown272@gmail.com
+- LinkedIn: https://www.linkedin.com/in/cole-brown-4aba86243/
+- GitHub: https://github.com/Kingcole006/qa-learning-portfolio
+- Portfolio: https://kingcole006.github.io/Portfolio
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 1. Week 6 & 7 Framework — TypeScript/Playwright
+### 1. Week 6 and 7 Framework — TypeScript/Playwright
 **Complete professional QA framework built from scratch**
 
 **Technologies:** TypeScript, Playwright, GitHub Actions, dotenv
@@ -46,7 +47,7 @@ queries used by QA engineers on the job.
 - 45 tests passing across 3 browsers
 - 100% pass rate
 - Smoke suite runs in 9 seconds
-- Pipeline runs in ~2 minutes on GitHub's servers
+- Pipeline runs in approximately 2 minutes on GitHub's servers
 
 **Skills Demonstrated:**
 - Framework architecture from scratch
@@ -129,10 +130,10 @@ queries used by QA engineers on the job.
 **Technologies:** SQL, SQLite
 
 **What I Built:**
-- Duplicate detection — GROUP BY + HAVING catching non-unique data
-- Orphaned record detection — LEFT JOIN + IS NULL catching broken
+- Duplicate detection using GROUP BY + HAVING to catch non-unique data
+- Orphaned record detection using LEFT JOIN + IS NULL to catch broken
   foreign key relationships
-- Invalid enum validation — WHERE NOT IN catching constraint violations
+- Invalid enum validation using WHERE NOT IN to catch constraint violations
 - Business rule validation — caught locked user placing an order
 - Interview-ready query patterns: top spender, order status counts,
   multi-condition filters, full database state snapshot
@@ -144,35 +145,35 @@ queries used by QA engineers on the job.
 
 ---
 
-## 📊 Portfolio Statistics
+## Portfolio Statistics
 
 | Metric | Value |
 |--------|-------|
-| **Consecutive Days** | 35 |
-| **Total Automated Tests** | 45 (cross-browser) |
+| **Training Duration** | 2+ months |
+| **Total Automated Tests** | 110+ (cross-browser) |
 | **Browsers** | Chrome, Firefox, Safari |
 | **Pass Rate** | 100% |
 | **Lines of Code** | 8,200+ |
 | **Frameworks Built** | 2 |
 | **CI/CD** | Live on GitHub Actions |
-| **Languages** | TypeScript, JavaScript |
+| **Languages** | TypeScript, JavaScript, SQL |
 | **GitHub Commits** | 90+ |
 
 ---
 
-## 🛠️ Technical Skills
+## Technical Skills
 
-### Automation & Testing
-- **Browser Automation:** Playwright (TypeScript)
-- **API Testing:** Postman, Newman CLI, Playwright request
-- **Cross-Browser:** Chrome, Firefox, Safari
-- **Framework Design:** Page Object Model, Data-Driven, Fixtures
-- **Test Organization:** Tags (@smoke, @regression, @api, @ui)
-- **Security Testing:** SQL injection, XSS, buffer overflow
-- **CI/CD:** GitHub Actions (live pipeline)
-- **Database:** SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation)
+### Automation and Testing
+- Browser Automation: Playwright (TypeScript)
+- API Testing: Postman, Newman CLI, Playwright request
+- Cross-Browser: Chrome, Firefox, Safari
+- Framework Design: Page Object Model, Data-Driven, Fixtures
+- Test Organization: Tags (@smoke, @regression, @api, @ui)
+- Security Testing: SQL injection, XSS, buffer overflow
+- CI/CD: GitHub Actions (live pipeline)
+- Database: SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation)
 
-### Reporting & Debugging
+### Reporting and Debugging
 - HTML reports with visual evidence
 - Automatic video recording on failure
 - Trace capture for deep debugging
@@ -180,42 +181,43 @@ queries used by QA engineers on the job.
 - Professional documentation
 
 ### Programming
-- **TypeScript** — Page Objects, fixtures, test configuration
-- **JavaScript** — async/await, classes, array methods
-- **SQL** — JOINs, aggregations, subqueries, data validation
-- **Node.js** — runtime, npm, package management
+- TypeScript — Page Objects, fixtures, test configuration
+- JavaScript — async/await, classes, array methods
+- SQL — JOINs, aggregations, subqueries, data validation
+- Node.js — runtime, npm, package management
 
 ---
 
-## 💬 What I Can Do For Your Team
+## What I Can Do For Your Team
 
 **Immediately:**
 - Build UI automation with Playwright and Page Object Model
 - Write API tests covering happy path and negative scenarios
 - Set up CI/CD pipelines with GitHub Actions
 - Implement cross-browser testing across Chrome, Firefox, Safari
-- Generate professional HTML reports with video/screenshot capture
+- Generate professional HTML reports with video and screenshot capture
 - Implement data-driven testing from JSON or CSV
 - Organize tests with tags for selective execution
 - Write SQL queries to validate database state after test actions
 
 ---
 
-## 📈 Learning Path
+## Learning Path
 
-- ✅ **Week 1:** Manual QA Foundations
-- ✅ **Week 2:** API Testing Fundamentals
-- ✅ **Week 3:** Postman & Newman Automation
-- ✅ **Week 4:** JavaScript for Test Automation
-- ✅ **Week 5:** Playwright Browser Automation
-- ✅ **Week 6:** Full Framework + CI/CD
-- ✅ **Week 7:** Advanced Framework Patterns
-- ✅ **Week 8:** SQL for QA Engineers
-- 🔄 **Week 9:** JIRA & Agile for QA
-- 💼 **Week 10+:** Active Job Applications
+- Week 1: Manual QA Foundations — Complete
+- Week 2: API Testing Fundamentals — Complete
+- Week 3: Postman and Newman Automation — Complete
+- Week 4: JavaScript for Test Automation — Complete
+- Week 5: Playwright Browser Automation — Complete
+- Week 6: Full Framework + CI/CD — Complete
+- Week 7: Advanced Framework Patterns — Complete
+- Week 8: SQL for QA Engineers — Complete
+- Week 9: JIRA and Agile for QA — In Progress
+- Week 10+: Active Job Applications
 
 ---
 
-**Last Updated:** April 17, 2026
+**Last Updated:** April 22, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
+**Portfolio:** https://kingcole006.github.io/Portfolio
