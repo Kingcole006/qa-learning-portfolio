@@ -18,6 +18,8 @@ I am **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, G
 
 Over the past 2 months I have gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, a live CI/CD pipeline, and SQL database validation queries used by QA engineers on the job.
 
+Beyond QA, I build things. I designed and deployed a fully functional personal AI agent called **Anisa** — complete with a custom UI, voice input/output, web search, and a live serverless backend. Because I do not just learn tools. I use them to create.
+
 - Email: cole.brown272@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
 - [GitHub](https://github.com/Kingcole006)
@@ -36,6 +38,7 @@ Over the past 2 months I have gone from writing my first test case to building a
 | **Lines of Code** | 8,200+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
 | **CI/CD** | Live on GitHub Actions |
+| **AI Projects** | 1 (Anisa — live personal AI agent) |
 | **Weeks Complete** | 8 of 12 |
 
 ---
@@ -55,6 +58,26 @@ Over the past 2 months I have gone from writing my first test case to building a
 - Environment variables with dotenv
 - Live CI/CD pipeline with GitHub Actions
 - **45 tests | 3 browsers | 100% pass rate | TypeScript**
+
+---
+
+### Anisa — Personal AI Agent (Live) 🤖
+> Designed and built a fully functional personal AI agent from scratch — no template, no tutorial
+
+**Live:** https://anisa-ai-00.netlify.app
+
+- Custom UI built from scratch — warm futuristic aesthetic with animated orb, aurora color palette, and fluid micro-interactions
+- Streaming responses for near-instant feel — words appear as the AI thinks, feels alive
+- Voice input — speak to Anisa using the Web Speech API
+- Voice output — Anisa speaks back with a natural voice
+- Web search — real-time information lookup toggle
+- Progressive Web App — installed on desktop and mobile like a native app
+- Netlify serverless function handles all API calls securely — API key never exposed to the client
+- Deployed via GitHub → Netlify CI/CD pipeline with automatic redeploys on every push
+- Anisa knows who I am — custom system prompt with full personal context baked in
+
+**Technologies:** HTML, CSS, JavaScript, Claude API, Netlify Functions, PWA  
+**Skills demonstrated:** Frontend design, API integration, secure key management, serverless architecture, PWA deployment, CI/CD, real-world debugging across CORS, model compatibility, and deployment layers
 
 ---
 
@@ -228,15 +251,16 @@ Understanding what we are automating before we automate it.
 | Category | Tools and Skills |
 |----------|-----------------|
 | **Automation** | Playwright, Newman CLI |
-| **Languages** | TypeScript, JavaScript, SQL |
+| **Languages** | TypeScript, JavaScript, SQL, HTML, CSS |
 | **Browsers** | Chrome, Firefox, Safari |
 | **API Testing** | Postman, fetch(), Playwright request |
 | **Database** | SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation) |
 | **Design Patterns** | Page Object Model, Data-Driven Testing, Fixtures |
 | **Test Organization** | Tags (@smoke, @regression, @api, @ui) |
 | **Reporting** | HTML reports, video, trace, screenshots |
-| **CI/CD** | GitHub Actions — Live |
+| **CI/CD** | GitHub Actions — Live, Netlify — Live |
 | **Version Control** | Git, GitHub (daily commits) |
+| **AI / APIs** | Claude API, Netlify Serverless Functions, PWA |
 | **Runtime** | Node.js, npm |
 
 ---
@@ -294,6 +318,8 @@ Reduced manual test execution time by 99.92% (30 minutes to 1.4 seconds) using d
 Implemented security testing suite covering SQL injection, XSS attacks, and buffer overflow across 7 attack vectors using OWASP principles
 
 Wrote SQL validation queries to catch duplicate records, orphaned data, invalid enum values, and business rule violations against a live test database
+
+Designed and deployed a fully functional personal AI agent (Anisa) — custom UI, voice I/O, streaming responses, web search, PWA, and secure serverless backend on Netlify
 
 ---
 
