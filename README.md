@@ -8,7 +8,7 @@
 [![Tests](https://img.shields.io/badge/Tests-110%2B%20Passing-brightgreen)]()
 [![Pass Rate](https://img.shields.io/badge/Pass%20Rate-100%25-success)]()
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)]()
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blueviolet)](https://kingcole006.github.io/Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blueviolet)](https://kingcole006.github.io/qa-learning-portfolio)
 
 ---
 
@@ -16,14 +16,12 @@
 
 I am **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I do not just follow tutorials. I build real projects, debug real problems, and document everything like a professional engineer would.
 
-Over the past 2 months I have gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, a live CI/CD pipeline, and SQL database validation queries used by QA engineers on the job.
-
-Beyond QA, I build things. I designed and deployed a fully functional personal AI agent called **Anisa** — complete with a custom UI, voice input/output, web search, and a live serverless backend. Because I do not just learn tools. I use them to create.
+Over the past 2 months I have gone from writing my first test case to building a complete TypeScript/Playwright framework with Page Object Model, custom fixtures, data-driven testing, API tests, cross-browser testing, test tagging, a live CI/CD pipeline, SQL database validation queries, and hands-on JIRA and Agile experience.
 
 - Email: cole.brown272@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/)
 - [GitHub](https://github.com/Kingcole006)
-- [Portfolio Website](https://kingcole006.github.io/Portfolio)
+- [Portfolio Website](https://kingcole006.github.io/qa-learning-portfolio)
 
 ---
 
@@ -38,8 +36,7 @@ Beyond QA, I build things. I designed and deployed a fully functional personal A
 | **Lines of Code** | 8,200+ |
 | **Frameworks Built** | 2 (custom JS + TypeScript/Playwright) |
 | **CI/CD** | Live on GitHub Actions |
-| **AI Projects** | 1 (Anisa — live personal AI agent) |
-| **Weeks Complete** | 8 of 12 |
+| **Weeks Complete** | 9 of 10 |
 
 ---
 
@@ -58,26 +55,6 @@ Beyond QA, I build things. I designed and deployed a fully functional personal A
 - Environment variables with dotenv
 - Live CI/CD pipeline with GitHub Actions
 - **45 tests | 3 browsers | 100% pass rate | TypeScript**
-
----
-
-### Anisa — Personal AI Agent (Live) 🤖
-> Designed and built a fully functional personal AI agent from scratch — no template, no tutorial
-
-**Live:** https://anisa-ai-00.netlify.app
-
-- Custom UI built from scratch — warm futuristic aesthetic with animated orb, aurora color palette, and fluid micro-interactions
-- Streaming responses for near-instant feel — words appear as the AI thinks, feels alive
-- Voice input — speak to Anisa using the Web Speech API
-- Voice output — Anisa speaks back with a natural voice
-- Web search — real-time information lookup toggle
-- Progressive Web App — installed on desktop and mobile like a native app
-- Netlify serverless function handles all API calls securely — API key never exposed to the client
-- Deployed via GitHub → Netlify CI/CD pipeline with automatic redeploys on every push
-- Anisa knows who I am — custom system prompt with full personal context baked in
-
-**Technologies:** HTML, CSS, JavaScript, Claude API, Netlify Functions, PWA  
-**Skills demonstrated:** Frontend design, API integration, secure key management, serverless architecture, PWA deployment, CI/CD, real-world debugging across CORS, model compatibility, and deployment layers
 
 ---
 
@@ -120,12 +97,10 @@ Beyond QA, I build things. I designed and deployed a fully functional personal A
 ## Learning Path
 
 ### Week 1: Manual QA Foundations — Complete
-Core QA skills every automation engineer needs to know first.
 - Test case design, bug reporting, SDLC fundamentals
 - Edge cases, boundary testing, documentation
 
 ### Week 2: API Testing Fundamentals — Complete
-Understanding what we are automating before we automate it.
 - REST APIs (GET, POST, PUT, DELETE)
 - HTTP status codes, JSON validation, response handling
 
@@ -155,94 +130,92 @@ Understanding what we are automating before we automate it.
 #### Day 21 — Framework Setup
 - Blank folder to professional project structure in one session
 - TypeScript + Playwright configured with inline documentation
-- LoginPage.ts — first Page Object with full comments
 - **5 tests | 100% pass rate**
 
 #### Day 22 — Data-Driven Testing and Config
 - InventoryPage.ts — second Page Object
 - Loop-based testing across 5 users from users.json
-- Environment variables loaded via dotenv
 - **10 tests | 100% pass rate**
 
 #### Day 23 — API Testing Inside the Framework
 - API tests using Playwright's built-in request context
-- GET all users, GET single user, GET 404, POST create user
 - **14 tests | 100% pass rate**
 
 #### Day 24 — Live CI/CD with GitHub Actions
 - GitHub Actions pipeline running automatically on every push
-- Tests run on GitHub's Ubuntu servers in the cloud
 - **14 tests passing automatically in the cloud**
 
 #### Day 25 — Polish and Documentation
 - PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md all updated
-- Week 6 Summary created
 
 ### Week 7: Advanced Framework Patterns — Complete
 **Result: 45 tests | 3 browsers | Grade: A+**
 
 #### Day 26 — Custom Fixtures and Hooks
 - Built custom Playwright fixtures (loginPage, inventoryPage, loggedInPage)
-- Automatic setup and teardown for every test
 - **17 tests | 100% pass rate**
 
 #### Day 27 — Advanced Reporting
 - List reporter, video on failure, trace capture
-- HTML report with visual evidence
 - **17 tests | 100% pass rate**
 
 #### Day 28 — Cross-Browser Testing
 - Tests run on Chrome, Firefox, and Safari simultaneously
-- Increased timeout to 60 seconds for slower browsers
 - **45 tests | 3 browsers | 100% pass rate**
 
 #### Day 29 — Test Organization and Tagging
-- @smoke — 3 critical tests, runs in 9 seconds
-- @regression — full suite for thorough testing
-- @api — API tests only (3.6 seconds)
-- @ui — UI tests only
-- @login — login-specific tests
+- @smoke, @regression, @api, @ui, @login
 - **15 tests | 100% pass rate | Selective execution**
 
 #### Day 30 — Week 7 Wrap Up
-- PORTFOLIO.md, RESUME.md, LINKEDIN-SUMMARY.md updated
-- Week 7 Summary created
-- Ready to start job applications
+- Documentation updated, ready for job applications
 
 ### Week 8: SQL for QA Engineers — Complete
 **Result: 5 interview questions answered | Real defects caught | Grade: A+**
 
 #### Day 31 — SQL Basics
-- Created users table and inserted test data
-- SELECT — retrieving all or specific columns
-- WHERE — filtering rows with conditions
-- ORDER BY — sorting results ASC and DESC
-- Combined queries for real QA validation scenarios
+- SELECT, WHERE, ORDER BY for real QA validation scenarios
 
 #### Day 32 — SQL Joins
-- INNER JOIN — returns only matching rows from both tables
-- LEFT JOIN — returns all rows from left table plus matches
-- IS NULL — finding users with missing related data
-- Real QA scenario: finding users with no orders
+- INNER JOIN, LEFT JOIN, IS NULL for missing data detection
 
 #### Day 33 — SQL Aggregations
-- COUNT, SUM, AVG, MAX, MIN
-- GROUP BY — grouping results by category
-- HAVING — filtering groups (like WHERE but for aggregations)
-- Combined aggregations with JOINs for real QA scenarios
+- COUNT, SUM, AVG, GROUP BY, HAVING with JOINs
 
 #### Day 34 — SQL for QA Data Validation
-- Duplicate detection — GROUP BY + HAVING caught duplicate@test.com
-- Orphaned records — LEFT JOIN + IS NULL caught Ghost Order (user_id 999)
-- Invalid enum values — WHERE NOT IN for constraint validation
-- Business rule validation — caught locked_user placing an order (real defect)
+- Duplicate detection, orphaned records, enum validation, business rules
 
 #### Day 35 — SQL Interview Questions
-- Q1: Find users with no orders — LEFT JOIN + IS NULL
-- Q2: Find top spender — SUM + ORDER BY DESC + LIMIT 1
-- Q3: Count orders by status — GROUP BY + COUNT
-- Q4: Filter by multiple conditions — JOIN + WHERE with AND
-- Q5: Verify test data snapshot — subqueries returning full DB state in one row
+- 5 real interview questions answered with working queries
+
+### Week 9: JIRA and Agile for QA — Complete
+**Result: Live JIRA board | 4 bug reports filed | Full sprint simulated | Grade: A+**
+
+#### Day 36 — Agile Fundamentals
+- Sprint cycle, user stories, acceptance criteria, definition of done
+- Standups, sprint reviews, retrospectives
+- QA role in every Agile ceremony
+
+#### Day 37 — JIRA Basics
+- Set up live JIRA board at colebrownqa.atlassian.net
+- Created QA Practice Board with 5 columns: To Do, In Progress, In Review, Testing, Done
+- Created first user story (SCRUM-5) with acceptance criteria
+- Created first bug report (SCRUM-6) with full reproduction steps
+
+#### Day 38 — Writing Bug Reports in JIRA
+- Filed 3 professional bug reports (SCRUM-8, SCRUM-9, SCRUM-10)
+- Practiced priority decision making using severity and user impact
+- Applied the 5 golden rules of bug reporting
+
+#### Day 39 — Agile Ceremonies and QA Role
+- Added QA comments to SCRUM-9 documenting findings
+- Moved tickets through the board workflow
+- Simulated real sprint standup answers
+
+#### Day 40 — Interview Prep and Week 9 Wrap Up
+- Answered 6 real Agile and JIRA interview questions
+- Documented priority vs severity distinction
+- Week 9 complete
 
 ---
 
@@ -251,16 +224,16 @@ Understanding what we are automating before we automate it.
 | Category | Tools and Skills |
 |----------|-----------------|
 | **Automation** | Playwright, Newman CLI |
-| **Languages** | TypeScript, JavaScript, SQL, HTML, CSS |
+| **Languages** | TypeScript, JavaScript, SQL |
 | **Browsers** | Chrome, Firefox, Safari |
 | **API Testing** | Postman, fetch(), Playwright request |
 | **Database** | SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation) |
 | **Design Patterns** | Page Object Model, Data-Driven Testing, Fixtures |
 | **Test Organization** | Tags (@smoke, @regression, @api, @ui) |
 | **Reporting** | HTML reports, video, trace, screenshots |
-| **CI/CD** | GitHub Actions — Live, Netlify — Live |
+| **CI/CD** | GitHub Actions — Live |
+| **Project Management** | JIRA, Agile, Scrum |
 | **Version Control** | Git, GitHub (daily commits) |
-| **AI / APIs** | Claude API, Netlify Serverless Functions, PWA |
 | **Runtime** | Node.js, npm |
 
 ---
@@ -291,6 +264,9 @@ Understanding what we are automating before we automate it.
 **Week 8:**
 [Day 31: SQL Basics](Notes/Day31-SQL-Basics.md) | [Day 32: SQL Joins](Notes/Day32-SQL-Joins.md) | [Day 33: SQL Aggregations](Notes/Day33-SQL-Aggregations.md) | [Day 34: SQL QA Validation](Notes/Day34-SQL-QA-Validation.md) | [Day 35: SQL Interview Questions](Notes/Day35-SQL-Interview-Questions.md)
 
+**Week 9:**
+[Day 36: Agile Fundamentals](Notes/Day36-Agile-Fundamentals.md) | [Day 37: JIRA Basics](Notes/Day37-JIRA-Basics.md) | [Day 38: Bug Reports](Notes/Day38-Bug-Reports.md) | [Day 39: Agile Ceremonies](Notes/Day39-Agile-Ceremonies.md) | [Day 40: Interview Prep](Notes/Day40-Interview-Prep.md)
+
 ---
 
 ## Resume-Ready Highlights
@@ -301,13 +277,7 @@ Implemented test tagging strategy (@smoke, @regression, @api, @ui) enabling sele
 
 Implemented cross-browser testing running 110+ tests simultaneously across Chrome, Firefox, and Safari — 100% pass rate across all browsers
 
-Implemented custom Playwright fixtures with automatic setup and teardown — eliminating repetitive code and ensuring consistent test state
-
-Configured advanced reporting with HTML reports, automatic video recording on failure, and trace capture for deep debugging
-
 Configured live CI/CD pipeline with GitHub Actions — tests run automatically in the cloud on every push
-
-Implemented full-stack test coverage with both UI and API tests inside a single professional framework
 
 Implemented Page Object Model reducing test code by 75% (12 lines to 3 lines per test) through TypeScript class inheritance
 
@@ -319,19 +289,20 @@ Implemented security testing suite covering SQL injection, XSS attacks, and buff
 
 Wrote SQL validation queries to catch duplicate records, orphaned data, invalid enum values, and business rule violations against a live test database
 
-Designed and deployed a fully functional personal AI agent (Anisa) — custom UI, voice I/O, streaming responses, web search, PWA, and secure serverless backend on Netlify
+Set up a live JIRA board and filed professional bug reports with steps to reproduce, expected vs actual results, priority levels, and QA comments documenting findings
+
+Practiced full Agile sprint workflow including sprint planning, daily standups, sprint review, and retrospective as a QA engineer
 
 ---
 
 ## What's Next
 
-- Week 8: SQL for QA Engineers — Complete
-- Week 9: JIRA and Agile for QA — In Progress
-- Week 10+: Active job applications and interview prep
+- Week 9: JIRA and Agile for QA — Complete
+- Week 10: Interview Prep and Job Applications — In Progress
 
 ---
 
 **Star this repo if you find it helpful!**
 
-**Last Updated:** April 22, 2026
+**Last Updated:** May 1, 2026
 **Portfolio:** kingcole006.github.io/qa-learning-portfolio

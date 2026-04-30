@@ -1,6 +1,6 @@
 # QA Automation Portfolio - Cole Brown
 
-**QA Automation Engineer** | TypeScript/Playwright | SQL | CI/CD | Cross-Browser Testing
+**QA Automation Engineer** | TypeScript/Playwright | SQL | JIRA | CI/CD | Cross-Browser Testing
 
 ---
 
@@ -13,13 +13,13 @@ problems, and document everything like a professional engineer.
 Over the past 2 months I have gone from zero to building a complete
 TypeScript/Playwright framework with Page Object Model, custom fixtures,
 data-driven testing, API tests, cross-browser testing, test tagging,
-a live CI/CD pipeline on GitHub Actions, and SQL database validation
-queries used by QA engineers on the job.
+a live CI/CD pipeline, SQL database validation queries, and hands-on
+JIRA and Agile experience.
 
 - Email: cole.brown272@gmail.com
 - LinkedIn: https://www.linkedin.com/in/cole-brown-4aba86243/
 - GitHub: https://github.com/Kingcole006/qa-learning-portfolio
-- Portfolio: https://kingcole006.github.io/Portfolio
+- Portfolio: https://kingcole006.github.io/qa-learning-portfolio
 
 ---
 
@@ -49,29 +49,12 @@ queries used by QA engineers on the job.
 - Smoke suite runs in 9 seconds
 - Pipeline runs in approximately 2 minutes on GitHub's servers
 
-**Skills Demonstrated:**
-- Framework architecture from scratch
-- TypeScript
-- Page Object Model
-- Custom fixtures and hooks
-- Data-driven testing
-- API testing inside a UI framework
-- Cross-browser testing
-- Test organization and tagging
-- CI/CD with GitHub Actions
-
 ---
 
 ### 2. Hacker News Sorting Validator — QA Wolf Assignment
 **Real company take-home assignment, solved completely**
 
 **Technologies:** Playwright, JavaScript, Node.js
-
-**What I Built:**
-- Automated validation of 100 articles across 4 pages
-- Timestamp parsing and sorting verification
-- Found and fixed a real timestamp parsing bug
-- Professional test reporting
 
 **Results:**
 - 99/99 comparisons passing
@@ -84,13 +67,6 @@ queries used by QA engineers on the job.
 **Security-focused automation covering 7 real attack vectors**
 
 **Technologies:** Postman, Newman CLI, JavaScript
-
-**What I Built:**
-- SQL injection prevention testing
-- XSS attack validation
-- Buffer overflow testing (10K characters)
-- OWASP-based test design
-- Professional HTML reporting
 
 **Results:**
 - 15/15 tests passing
@@ -129,19 +105,32 @@ queries used by QA engineers on the job.
 
 **Technologies:** SQL, SQLite
 
-**What I Built:**
-- Duplicate detection using GROUP BY + HAVING to catch non-unique data
-- Orphaned record detection using LEFT JOIN + IS NULL to catch broken
-  foreign key relationships
-- Invalid enum validation using WHERE NOT IN to catch constraint violations
-- Business rule validation — caught locked user placing an order
-- Interview-ready query patterns: top spender, order status counts,
-  multi-condition filters, full database state snapshot
-
 **Results:**
 - 4 real defect patterns identified and caught
 - 5 interview questions answered with working queries
 - Database validation patterns ready for production use
+
+---
+
+### 7. JIRA QA Practice Board
+**Live JIRA board simulating a real Agile QA workflow**
+
+**Tool:** JIRA (colebrownqa.atlassian.net)
+
+**What I Built:**
+- QA Practice Board with 5 columns: To Do, In Progress, In Review, Testing, Done
+- User story with full acceptance criteria (SCRUM-5)
+- 4 professional bug reports with steps to reproduce, expected vs actual
+  results, priority levels, and environment details
+- QA comments documenting findings on active tickets
+- Moved tickets through the full sprint workflow
+
+**Skills Demonstrated:**
+- JIRA ticket creation and management
+- Priority vs severity decision making
+- Professional bug report writing
+- Agile sprint workflow simulation
+- QA role in all 4 ceremonies: planning, standup, review, retrospective
 
 ---
 
@@ -157,7 +146,7 @@ queries used by QA engineers on the job.
 | **Frameworks Built** | 2 |
 | **CI/CD** | Live on GitHub Actions |
 | **Languages** | TypeScript, JavaScript, SQL |
-| **GitHub Commits** | 90+ |
+| **GitHub Commits** | 100+ |
 
 ---
 
@@ -172,6 +161,11 @@ queries used by QA engineers on the job.
 - Security Testing: SQL injection, XSS, buffer overflow
 - CI/CD: GitHub Actions (live pipeline)
 - Database: SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation)
+
+### Project Management
+- JIRA: Ticket creation, bug reports, board management
+- Agile: Sprint planning, standups, reviews, retrospectives
+- Scrum: User stories, acceptance criteria, sprint workflow
 
 ### Reporting and Debugging
 - HTML reports with visual evidence
@@ -197,8 +191,9 @@ queries used by QA engineers on the job.
 - Implement cross-browser testing across Chrome, Firefox, Safari
 - Generate professional HTML reports with video and screenshot capture
 - Implement data-driven testing from JSON or CSV
-- Organize tests with tags for selective execution
 - Write SQL queries to validate database state after test actions
+- File professional bug reports in JIRA with clear reproduction steps
+- Participate in Agile ceremonies as a contributing QA engineer
 
 ---
 
@@ -212,12 +207,12 @@ queries used by QA engineers on the job.
 - Week 6: Full Framework + CI/CD — Complete
 - Week 7: Advanced Framework Patterns — Complete
 - Week 8: SQL for QA Engineers — Complete
-- Week 9: JIRA and Agile for QA — In Progress
-- Week 10+: Active Job Applications
+- Week 9: JIRA and Agile for QA — Complete
+- Week 10: Interview Prep and Job Applications — In Progress
 
 ---
 
-**Last Updated:** April 22, 2026
+**Last Updated:** May 1, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
 **Portfolio:** kingcole006.github.io/qa-learning-portfolio

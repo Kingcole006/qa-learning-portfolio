@@ -1,7 +1,7 @@
 # LinkedIn Profile
 
 ## Headline
-QA Automation Engineer | TypeScript/Playwright | SQL | Cross-Browser | CI/CD | GitHub Actions
+QA Automation Engineer | TypeScript/Playwright | SQL | JIRA | Agile | CI/CD | GitHub Actions
 
 ---
 
@@ -14,19 +14,20 @@ follow tutorials.
 Over the past 2 months I have gone from writing my first test case to
 building a complete TypeScript/Playwright framework with Page Object
 Model, custom fixtures, cross-browser testing, test tagging, a live
-CI/CD pipeline on GitHub Actions, and SQL database validation queries
-used by QA engineers on the job.
+CI/CD pipeline, SQL database validation queries, and hands-on JIRA
+and Agile experience.
 
 Technical Skills:
 - Browser Automation: Playwright (TypeScript)
 - Cross-Browser: Chrome, Firefox, Safari
 - API Testing: Postman, Newman CLI, Playwright request
 - CI/CD: GitHub Actions (live pipeline configured)
-- Languages: TypeScript, JavaScript (ES6+)
+- Languages: TypeScript, JavaScript (ES6+), SQL
 - Database: SQL (SELECT, WHERE, JOINs, Aggregations, QA Validation)
 - Design Patterns: Page Object Model, Data-Driven Testing, Fixtures
 - Test Organization: Tags (@smoke, @regression, @api, @ui)
 - Security Testing: SQL injection, XSS, buffer overflow (OWASP)
+- Project Management: JIRA, Agile, Scrum
 - Reporting: HTML reports, video on failure, trace capture
 - Tools: Git, GitHub, Node.js, npm, dotenv
 
@@ -43,17 +44,20 @@ Key Achievements:
 - Security testing suite covering 7 OWASP attack vectors
 - Wrote SQL validation queries catching duplicate records, orphaned
   data, invalid enum values, and business rule violations
+- Set up live JIRA board and filed professional bug reports with full
+  reproduction steps, priority levels, and QA comments
+- Practiced full Agile sprint workflow as a QA engineer
 
 Currently:
-Week 9 of 12-week intensive QA automation program. Actively applying
-for QA Automation Engineer roles now.
+Completed 9 weeks of intensive QA automation training. Actively
+applying for QA Automation Engineer roles now.
 
 Looking For:
 QA Automation Engineer opportunities where I can contribute
 immediately with Playwright, TypeScript, cross-browser testing,
-API testing, SQL validation, and CI/CD pipeline experience.
+API testing, SQL validation, JIRA, and CI/CD pipeline experience.
 
-Portfolio: kingcole006.github.io/Portfolio
+Portfolio: kingcole006.github.io/qa-learning-portfolio
 GitHub: github.com/Kingcole006/qa-learning-portfolio
 
 ---
@@ -79,9 +83,6 @@ February 2026 - Present
 - Built custom Playwright fixtures with automatic setup and teardown
   eliminating repetitive code across entire test suite
 
-- Configured advanced reporting with automatic video recording and
-  trace capture on failure for fast debugging
-
 - Configured live CI/CD pipeline with GitHub Actions — tests run
   automatically in the cloud on every push
 
@@ -101,10 +102,17 @@ February 2026 - Present
   data, invalid enum values, and business rule violations against
   a live test database
 
-Skills: Playwright · TypeScript · JavaScript · GitHub Actions ·
+- Set up a live JIRA board and filed professional bug reports with
+  clear steps to reproduce, expected vs actual results, priority
+  levels, and QA comments documenting findings
+
+- Practiced full Agile sprint workflow including sprint planning,
+  daily standups, sprint reviews, and retrospectives as a QA engineer
+
+Skills: Playwright · TypeScript · JavaScript · SQL · GitHub Actions ·
 CI/CD · Cross-Browser Testing · Page Object Model · Custom Fixtures ·
 Test Tagging · API Testing · Postman · Newman CLI · Data-Driven
-Testing · Security Testing · SQL · Git · Node.js
+Testing · Security Testing · JIRA · Agile · Scrum · Git · Node.js
 
 ---
 
@@ -112,9 +120,9 @@ Testing · Security Testing · SQL · Git · Node.js
 1. Playwright
 2. TypeScript
 3. CI/CD (GitHub Actions)
-4. Cross-Browser Testing
+4. JIRA and Agile
 5. SQL for QA
 
 ---
 
-**Last Updated:** April 22, 2026
+**Last Updated:** May 1, 2026

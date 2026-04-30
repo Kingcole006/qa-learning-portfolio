@@ -2,7 +2,7 @@
 ## QA Automation Engineer
 
 📍 Sugar Hill, GA | 📧 cole.brown272@gmail.com
-💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/) | 🐙 [GitHub](https://github.com/Kingcole006) | 🌐 [Portfolio](https://kingcole006.github.io/Portfolio)
+💼 [LinkedIn](https://www.linkedin.com/in/cole-brown-4aba86243/) | 🐙 [GitHub](https://github.com/Kingcole006) | 🌐 [Portfolio](https://kingcole006.github.io/qa-learning-portfolio)
 
 ---
 
@@ -12,18 +12,19 @@ QA Automation Engineer with hands-on experience building production-ready
 test automation frameworks from scratch. Proven ability to design and
 implement complete testing solutions including UI automation, API testing,
 cross-browser testing, SQL database validation, data-driven frameworks,
-custom fixtures, test tagging, and live CI/CD pipelines. Achieved 100%
-test pass rates across 110+ automated tests running on Chrome, Firefox,
-and Safari. Proficient in TypeScript, JavaScript, Playwright, SQL, and
-GitHub Actions. Self-directed learner with 2+ months of intensive
-hands-on training.
+custom fixtures, test tagging, live CI/CD pipelines, and professional
+bug reporting in JIRA within an Agile workflow. Achieved 100% test pass
+rates across 110+ automated tests running on Chrome, Firefox, and Safari.
+Proficient in TypeScript, JavaScript, Playwright, SQL, JIRA, and GitHub
+Actions. Self-directed learner with 2+ months of intensive hands-on
+training.
 
 ---
 
 ## TECHNICAL SKILLS
 
-**Automation & Frameworks:**
-- Playwright (TypeScript) — UI & API automation
+**Automation and Frameworks:**
+- Playwright (TypeScript) — UI and API automation
 - Cross-browser testing — Chrome, Firefox, Safari
 - Custom fixtures with setup and teardown
 - Test tagging for selective execution
@@ -31,12 +32,17 @@ hands-on training.
 - GitHub Actions — CI/CD pipeline configuration
 - Custom JavaScript test framework (built from scratch)
 
-**Languages & Tools:**
+**Languages and Tools:**
 - TypeScript, JavaScript (ES6+)
 - SQL (SELECT, WHERE, JOINs, Aggregations, Subqueries)
 - Node.js, npm
 - Git, GitHub (daily commits)
 - dotenv, environment variable management
+
+**Project Management:**
+- JIRA — ticket creation, bug reports, board management
+- Agile/Scrum — sprint planning, standups, reviews, retrospectives
+- User stories, acceptance criteria, priority vs severity
 
 **Design Patterns:**
 - Page Object Model (POM) — 75% code reduction achieved
@@ -77,7 +83,7 @@ Implemented test tagging strategy (@smoke, @regression, @api, @ui)
 enabling selective execution — smoke suite completes in 9 seconds vs
 full suite in 30 seconds
 
-Implemented cross-browser testing running 45 tests simultaneously
+Implemented cross-browser testing running 110+ tests simultaneously
 across Chrome, Firefox, and Safari — 100% pass rate on all browsers
 
 Configured live CI/CD pipeline with GitHub Actions — tests run
@@ -85,9 +91,6 @@ automatically in the cloud on every push with HTML reports as artifacts
 
 Built custom fixtures with automatic setup and teardown — eliminating
 repetitive code and ensuring consistent test state across entire suite
-
-Configured advanced reporting with automatic video recording and trace
-capture on failure for fast debugging
 
 Implemented Page Object Model achieving 75% code reduction (12 lines
 to 3 lines per test) using TypeScript class inheritance and DRY principles
@@ -106,6 +109,10 @@ Wrote SQL validation queries catching duplicate records, orphaned data,
 invalid enum values, and business rule violations against a live test
 database — caught locked user placing an order as a real defect
 
+Set up live JIRA board and filed professional bug reports with clear
+steps to reproduce, expected vs actual results, priority levels, and
+QA comments — practiced full Agile sprint workflow as a QA engineer
+
 Built custom JavaScript test framework from scratch — assertion library,
 test runner with hooks, data generators — 750+ lines, 9/9 tests passing
 
@@ -116,7 +123,7 @@ Achieved 40% performance improvement through smart waiting strategies
 
 ## PROJECTS
 
-### Week 6 & 7 QA Framework | TypeScript/Playwright | GitHub
+### Week 6 and 7 QA Framework | TypeScript/Playwright | GitHub
 *Complete professional framework built from scratch*
 
 - Built professional folder structure from blank folder
@@ -127,9 +134,20 @@ Achieved 40% performance improvement through smart waiting strategies
 - Cross-browser testing across Chrome, Firefox, and Safari
 - Test tagging system (@smoke, @regression, @api, @ui, @login)
 - Advanced reporting with video and trace on failure
-- Environment variables via dotenv configuration
 - Live CI/CD pipeline running 45 tests automatically on every push
 - **45 tests | 3 browsers | 100% pass rate | TypeScript | GitHub Actions**
+
+---
+
+### JIRA QA Practice Board | JIRA/Agile
+*Live board simulating a real Agile QA workflow*
+
+- Set up Scrum board with 5 columns including dedicated Testing column
+- Filed 4 professional bug reports with full reproduction steps
+- Practiced priority vs severity decision making
+- Added QA comments documenting findings on active tickets
+- Simulated full sprint workflow from planning through retrospective
+- **4 bug reports | Full sprint simulated | Live at colebrownqa.atlassian.net**
 
 ---
 
@@ -162,14 +180,6 @@ Achieved 40% performance improvement through smart waiting strategies
 
 ---
 
-### Data-Driven Testing Framework | Newman CLI | GitHub
-*Replaced 30 minutes of manual testing with 1.4 seconds*
-
-- CSV-based data-driven testing (10 user scenarios)
-- **30 assertions | 99.92% time savings | 100% pass rate**
-
----
-
 ### Custom JavaScript Test Framework | JavaScript | GitHub
 *Built from scratch without external libraries*
 
@@ -179,7 +189,7 @@ Achieved 40% performance improvement through smart waiting strategies
 
 ---
 
-## TRAINING & EDUCATION
+## TRAINING AND EDUCATION
 
 **Self-Directed QA Automation Engineering Program**
 *February 2026 - Present*
@@ -192,12 +202,13 @@ Achieved 40% performance improvement through smart waiting strategies
 **Curriculum:**
 - Week 1: Manual QA Foundations
 - Week 2: API Testing Fundamentals
-- Week 3: Postman & Newman Automation
+- Week 3: Postman and Newman Automation
 - Week 4: JavaScript for Test Automation
 - Week 5: Playwright Browser Automation
-- Week 6: Full Framework Build & CI/CD Pipeline
+- Week 6: Full Framework Build and CI/CD Pipeline
 - Week 7: Advanced Patterns (Fixtures, Cross-Browser, Tagging)
 - Week 8: SQL for QA Engineers
+- Week 9: JIRA and Agile for QA
 
 ---
 
@@ -213,7 +224,7 @@ Achieved 40% performance improvement through smart waiting strategies
 
 *References available upon request*
 
-**Last Updated:** April 22, 2026
+**Last Updated:** May 1, 2026
 **Status:** Actively seeking QA Automation Engineer opportunities
 **Availability:** Available immediately
 **Portfolio:** kingcole006.github.io/qa-learning-portfolio
