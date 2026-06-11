@@ -13,7 +13,7 @@
 
 ## Who I Am
 
-I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real things and ship them. In the past 2+ months I've gone from zero automation experience to building production-grade test frameworks and deploying a fully operational AI agent with Google integrations, a live dashboard, and write capabilities.
+I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA. I don't just follow tutorials — I build real things and ship them. In the past 2+ months I've gone from zero automation experience to building production-grade test frameworks and deploying a fully operational personal AI agent with Google integrations, a live dashboard, notifications, and file system access.
 
 **Background:** Claims Adjuster (Allstate, State Farm) → Client Care Advisor (Decisely) → QA Automation Engineering
 
@@ -33,7 +33,7 @@ I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA
 | Backend | Node.js, Netlify Serverless Functions |
 | Frontend | HTML, CSS, JavaScript, PWA |
 | Tools | Git, GitHub, JIRA, Agile/Scrum |
-| Integrations | Google Calendar API, Gmail API, GitHub API, Anthropic API |
+| Integrations | Google Calendar API, Gmail API, Google Drive API, GitHub API, Anthropic API |
 
 ---
 
@@ -68,47 +68,79 @@ I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA
 
 ### 2. Anisa — Personal AI Agent (Live Project)
 
-**A fully operational personal AI assistant built from scratch and deployed as a PWA**
+**A fully operational personal AI assistant built across 5 development phases and deployed as a PWA**
 
 **Live:** https://anisa-ai-00.netlify.app
 **Repo:** https://github.com/Kingcole006/anisa
 
-**Technologies:** HTML, CSS, JavaScript, Anthropic API (Claude), Netlify Serverless Functions, Supabase, Google Cloud (Calendar API, Gmail API), GitHub API, PWA
+**Technologies:** HTML, CSS, JavaScript, Anthropic API (Claude), Netlify Serverless Functions, Supabase, Google Cloud (Calendar API, Gmail API, Drive API), GitHub API, Web Notifications API, PWA
 
-**What I Built:**
+---
 
-*Core AI*
-- Custom UI with animated breathing orb, Cormorant Garamond typography, and aurora color palette
-- Netlify serverless function as a secure API proxy — API key never exposed to client
-- Persistent memory across sessions via Supabase database (conversations + knowledge tables)
-- Streaming-style responses, voice input (Web Speech API), and voice output (Speech Synthesis)
-- Web search capability for real-time information
+**Phase 1 — Core AI + Google Read/Write**
 
-*Google Integrations (Read + Write)*
-- Google OAuth flow with token management via secure cookies
-- Read Google Calendar — fetches upcoming events and injects them into AI context
-- **Write to Google Calendar** — creates events with a structured JSON confirmation system
-- Read Gmail — fetches unread emails with sender, subject, and preview
-- **Send emails via Gmail** — full send capability with confirmation card UI before executing
+- Custom UI with animated breathing orb, Cormorant Garamond typography, aurora color palette
+- Netlify serverless function as secure API proxy — API key never exposed to client
+- Persistent memory via Supabase (conversations + knowledge tables)
+- Voice input (Web Speech API) and voice output (Speech Synthesis)
+- Google OAuth with secure cookie-based token management
+- Read Google Calendar and Gmail — events and emails injected into AI context automatically
+- Write to Google Calendar — structured JSON ACTION_BLOCK system triggers confirmation cards before executing
+- Send emails via Gmail — full send capability with preview and confirm UI
 
-*Phase 2 Features*
-- Daily briefing banner on startup — time-aware greeting, today's events, unread email count, GitHub activity
+*Architecture highlight: instead of fragile string matching, Anisa returns a typed JSON ACTION_BLOCK when write actions are requested. The front-end detects, strips, and renders a confirmation card — zero ambiguity, zero false triggers. Server-side write intent detection in `chat.js` enforces the pattern even if the model tries to skip it.*
+
+---
+
+**Phase 2 — GitHub Integration + Slash Commands + Daily Briefing**
+
+- Daily briefing banner on startup — time-aware greeting, today's calendar, unread email count, GitHub activity
 - 9 slash commands: `/brief`, `/calendar`, `/email`, `/github`, `/resume`, `/test`, `/focus`, `/jobs`, `/dashboard`
-- GitHub integration — live repo list and recent commit activity from GitHub public API
+- Slash command autocomplete popup — type `/` to see all commands with descriptions
+- GitHub integration via public API — live repo list and recent push events, no auth required
 
-*Phase 3 Features*
+---
+
+**Phase 3 — Dashboard + File Upload + Job Search Mode**
+
 - Responsive dashboard panel — slide-in sidebar on desktop, full overlay on mobile
-- Career stats, upcoming events, unread emails, GitHub repos, and quick action buttons
-- File upload (📎 button + drag and drop) — attach .txt, .md, .js, .ts, .json, .csv, .py files
-- Job Search Mode — paste any job posting, get tailored resume bullets, a cover letter draft, and a skills gap analysis automatically
+- Dashboard shows career stats, upcoming events, unread emails, GitHub repos, quick action buttons
+- File upload via 📎 button or drag and drop onto chat — supports .txt, .md, .js, .ts, .json, .csv, .py
+- Job Search Mode — paste any job posting, automatically receive tailored resume bullets, a cover letter draft, and a skills gap analysis in one response
 
-**Architecture Highlights:**
-- ACTION_BLOCK JSON system: AI returns structured JSON for write actions; front-end detects, strips, and renders confirmation cards — no fragile string matching
-- Server-side write intent detection in `chat.js` with enforcement injection — guarantees AI includes action blocks for calendar/email requests
-- Supabase memory enrichment on every API call — Anisa gets smarter over time
-- Service worker with versioned cache for reliable PWA updates
+---
 
-**Installed as a desktop PWA on Windows**
+**Phase 4 — Notifications + Reminders**
+
+- Browser notification system using Web Notifications API
+- Meeting alerts — fires 30 minutes and 5 minutes before any Google Calendar event
+- Daily briefing reminder at 9am if Anisa hasn't been opened
+- GitHub streak reminder at 6pm — checks if you've pushed today via GitHub API, only fires if you haven't
+- Job application follow-up reminder at 10am (toggleable)
+- Settings panel with toggle switches — preferences persist via localStorage
+- Smart deduplication — never fires the same alert twice per session
+
+---
+
+**Phase 5 — Google Drive Integration**
+
+- `/drive` slash command opens a search prompt — returns a file picker with Open and Read buttons
+- Read Google Docs and text files directly into chat — Anisa reviews the content and responds
+- Auto-context injection — mentions of "resume", "cover letter", or "my notes" automatically search Drive and surface matching files
+- Dashboard includes a Recent Drive Files section
+- Supports Google Docs, Sheets, PDFs, and plain text files
+
+---
+
+**Netlify Functions (backend):**
+- `chat.js` — Anthropic API proxy with Supabase memory enrichment and write intent enforcement
+- `google-auth.js` — OAuth initiation
+- `google-callback.js` — OAuth token exchange and cookie setting
+- `google-calendar.js` — Calendar read
+- `google-calendar-write.js` — Calendar event create/delete
+- `google-gmail.js` — Gmail unread fetch
+- `google-gmail-send.js` — Gmail draft and send
+- `google-drive.js` — Drive search, file read, recent files
 
 ---
 
@@ -132,6 +164,9 @@ I'm **Cole Brown**, a QA Automation Engineer in training based in Sugar Hill, GA
 | Lines of Code | 7,200+ |
 | CI/CD Pipelines | Active |
 | Live Projects Deployed | 2 |
+| Anisa Development Phases | 5 complete |
+| Netlify Functions Built | 8 |
+| Google APIs Integrated | 3 (Calendar, Gmail, Drive) |
 
 ---
 
